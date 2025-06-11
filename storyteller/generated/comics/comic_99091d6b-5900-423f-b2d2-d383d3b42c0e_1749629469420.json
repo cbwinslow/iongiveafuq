@@ -1,0 +1,95 @@
+{
+  "id": "99091d6b-5900-423f-b2d2-d383d3b42c0e",
+  "title": "Addiction and Other Hobbies",
+  "timestamp": "2025-06-11T08:11:09.419Z",
+  "format": "three_panel",
+  "style": "gritty urban realism",
+  "primary_mascot": "buzz",
+  "supporting_characters": [
+    "villain_dr_needham"
+  ],
+  "theme": "Rock bottom isn't the bottom",
+  "type": "vice_addiction",
+  "setup": "Buzz's relationship with prescription medication leads to expensive mistakes",
+  "panels": [
+    {
+      "panel_number": 1,
+      "composition": "wide establishing shot",
+      "description": "Opening panel establishing Buzz in their typical environment: dive bars, liquor stores, park benches, AA meetings. The scene shows Buzz's relationship with prescription medication leads to expensive mistakes. Buzz displays their characteristic friendly drunk demeanor.",
+      "dialogue": {
+        "speaker": "Buzz",
+        "line": "I'm too drunk for this, but not drunk enough.",
+        "tone": "slurred, rambling, inappropriate oversharing",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "environmental details that reinforce mood",
+      "mood": "weary acceptance",
+      "image_prompt": "Comic book panel 1: wide establishing shot, showing Buzz Opening panel establishing Buzz in their typical environment: dive bars, liquor stores, park benches, AA meetings. The scene shows Buzz's relationship with prescription medication leads to expensive mistakes. Buzz displays their characteristic friendly drunk demeanor.. environmental details that reinforce mood. Character says: \"I'm too drunk for this, but not drunk enough.\". Art style: gritty urban realism, cyberpunk neon on dark backgrounds. Mood: weary acceptance. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 2,
+      "composition": "reaction shot",
+      "description": "The situation escalates as Buzz encounters the reality of their circumstances",
+      "dialogue": {
+        "speaker": "Buzz",
+        "line": "Dolores was right about everything, wasn't she?",
+        "tone": "slurred, rambling, inappropriate oversharing",
+        "balloon_type": "question"
+      },
+      "visual_focus": "environmental details that reinforce mood",
+      "mood": "existential dread",
+      "image_prompt": "Comic book panel 2: reaction shot, showing Buzz The situation escalates as Buzz encounters the reality of their circumstances. environmental details that reinforce mood. Character says: \"Dolores was right about everything, wasn't she?\". Art style: gritty urban realism, cyberpunk neon on dark backgrounds. Mood: existential dread. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 3,
+      "composition": "wide shot showing aftermath",
+      "description": "Final panel delivering the punchline: This is why I drink.. Buzz's expression perfectly captures their alcoholic nature as they deliver their trademark cynical wisdom.",
+      "dialogue": {
+        "speaker": "Buzz",
+        "line": "I'm gonna need something stronger than beer.",
+        "tone": "slurred, rambling, inappropriate oversharing",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "contrast between character and setting",
+      "mood": "chemical numbness",
+      "image_prompt": "Comic book panel 3: wide shot showing aftermath, showing Buzz Final panel delivering the punchline: This is why I drink.. Buzz's expression perfectly captures their alcoholic nature as they deliver their trademark cynical wisdom.. contrast between character and setting. Character says: \"I'm gonna need something stronger than beer.\". Art style: gritty urban realism, cyberpunk neon on dark backgrounds. Mood: chemical numbness. Professional comic book illustration with consistent character design."
+    }
+  ],
+  "punchline": "This is why I drink.",
+  "visual_notes": {
+    "art_style": "gritty urban realism",
+    "color_palette": "cyberpunk neon on dark backgrounds",
+    "typography": "mixed digital and hand-drawn text",
+    "panel_borders": "clean panel separation with consistent spacing",
+    "background_treatment": "selective focus with blurred backgrounds",
+    "character_consistency": {
+      "character_models": "Maintain consistent character proportions and features across panels",
+      "expressions": "Exaggerate facial expressions for comic effect while staying true to character",
+      "clothing": "Keep signature clothing items and accessories consistent",
+      "body_language": "Reflect character personalities through posture and gestures",
+      "environmental_consistency": "Maintain lighting and perspective consistency within scenes"
+    }
+  },
+  "image_prompts": [
+    {
+      "type": "full_comic_layout",
+      "prompt": "Complete three_panel comic strip titled \"Addiction and Other Hobbies\". Classic three-panel format, setup-development-punchline. Art style: gritty urban realism. Color palette: cyberpunk neon on dark backgrounds. Shows Buzz story about Rock bottom isn't the bottom. Professional comic book quality with consistent character design throughout all panels."
+    },
+    {
+      "type": "panel_1",
+      "prompt": "Comic book panel 1: wide establishing shot, showing Buzz Opening panel establishing Buzz in their typical environment: dive bars, liquor stores, park benches, AA meetings. The scene shows Buzz's relationship with prescription medication leads to expensive mistakes. Buzz displays their characteristic friendly drunk demeanor.. environmental details that reinforce mood. Character says: \"I'm too drunk for this, but not drunk enough.\". Art style: gritty urban realism, cyberpunk neon on dark backgrounds. Mood: weary acceptance. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_2",
+      "prompt": "Comic book panel 2: reaction shot, showing Buzz The situation escalates as Buzz encounters the reality of their circumstances. environmental details that reinforce mood. Character says: \"Dolores was right about everything, wasn't she?\". Art style: gritty urban realism, cyberpunk neon on dark backgrounds. Mood: existential dread. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_3",
+      "prompt": "Comic book panel 3: wide shot showing aftermath, showing Buzz Final panel delivering the punchline: This is why I drink.. Buzz's expression perfectly captures their alcoholic nature as they deliver their trademark cynical wisdom.. contrast between character and setting. Character says: \"I'm gonna need something stronger than beer.\". Art style: gritty urban realism, cyberpunk neon on dark backgrounds. Mood: chemical numbness. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "character_reference",
+      "prompt": "Character reference sheet for Buzz: multiple views and expressions, cross-eyed, swaying stance, permanent five o'clock shadow, beer bottle collection, stained tank top, flip-flops. Art style: gritty urban realism. For use in comic book illustration. Professional character design sheet."
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "id": "cb21dac1-6573-4229-bc6e-5bf03d3963df",
+  "title": "When Hearts Break and Wallets Empty",
+  "timestamp": "2025-06-11T08:10:14.513Z",
+  "primary_mascot": "patty",
+  "theme": "Misery loves company",
+  "type": "relationship_drama",
+  "characters": [
+    "patty",
+    "dumbo",
+    "npc_psychic_madame_zelda",
+    "npc_pawn_shop_eddie"
+  ],
+  "setting": "24-Hour Laundromat",
+  "plot_outline": "Patty LaHam's carefully constructed solitude is disrupted when they're forced to interact with another mascot having a breakdown. As authority figure abuses power, both characters must confront their issues with trust, intimacy, and the fact that misery loves company.",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "Rock Bottom Has a Basement",
+      "location": "24-Hour Laundromat",
+      "characters_present": [
+        "patty",
+        "dumbo",
+        "npc_psychic_madame_zelda"
+      ],
+      "time_of_day": "afternoon",
+      "mood": "resigned cynicism",
+      "action": "Patty LaHam begins their day with the usual routine of avoiding responsibility and managing expectations. The catalyst for today's adventure presents itself in the form of an overdue bill. Despite every instinct screaming \"don't get involved,\" circumstances and poor judgment combine to draw Patty LaHam into the situation.",
+      "dialogue": [
+        {
+          "speaker": "Patty LaHam",
+          "line": "I have a bad feeling about this.",
+          "tone": "theatrical drama covering genuine vulnerability",
+          "subtext": "protecting themselves from further disappointment"
+        },
+        {
+          "speaker": "Patty LaHam",
+          "line": "This is not what I signed up for.",
+          "tone": "theatrical drama covering genuine vulnerability",
+          "subtext": "terrified of being vulnerable again"
+        },
+        {
+          "speaker": "Dumbo",
+          "line": "Why do I let myself get talked into these things?",
+          "tone": "defeated resignation with occasional flashes of frustrated energy",
+          "subtext": "terrified of being vulnerable again"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Patty LaHam": "undefined, rhinestone tiara, fake eyelashes, flask of gin, showing signs of financial stress",
+          "Eddie the Pawn Shop Owner": "Tired, worn down, but still clinging to whatever dignity remains",
+          "Dumbo": "droopy, bloodshot, crusty pizza slice, stained remote control, empty beer cans, showing signs of recent poor decisions"
+        },
+        "environmental_details": "Spinning cycles of futility, industrial detergent, and late-night confessions",
+        "mood_lighting": "The kind of lighting that makes everyone look like they've made poor life choices",
+        "props_and_objects": [
+          "lucky charms that aren't working",
+          "cellular phones with cracked screens",
+          "worn photographs",
+          "empty bottles"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of 24-Hour Laundromat during afternoon, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Patty LaHam and Dumbo and Madame Zelda in 24-Hour Laundromat, showing their relationship dynamics, detailed character expressions, resigned cynicism atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Patty LaHam showing resigned cynicism, detailed facial expression, dramatic lighting, capturing the emotional weight of Misery loves company, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Patty LaHam in 24-Hour Laundromat, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Patty LaHam",
+            "line": "I have a bad feeling about this.",
+            "tone": "theatrical drama covering genuine vulnerability",
+            "subtext": "protecting themselves from further disappointment"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on Patty LaHam begins their day with the usual routine of avoiding responsibility and managing expectat...",
+          "dialogue": {
+            "speaker": "Patty LaHam",
+            "line": "This is not what I signed up for.",
+            "tone": "theatrical drama covering genuine vulnerability",
+            "subtext": "terrified of being vulnerable again"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Action panel showing character interaction and plot development, focusing on Patty LaHam begins their day with the usual routine of avoiding responsibility and managing expectat...",
+          "dialogue": {
+            "speaker": "Dumbo",
+            "line": "Why do I let myself get talked into these things?",
+            "tone": "defeated resignation with occasional flashes of frustrated energy",
+            "subtext": "terrified of being vulnerable again"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 4,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Narrator",
+            "line": "...",
+            "tone": "omniscient cynicism"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "dramatic angle emphasizing conflict",
+          "image_prompt": "Comic book panel 4: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 2,
+      "title": "When Bad Gets Worse",
+      "location": "Unemployment Office",
+      "characters_present": [
+        "patty",
+        "npc_psychic_madame_zelda",
+        "npc_pawn_shop_eddie"
+      ],
+      "time_of_day": "evening",
+      "mood": "existential dread",
+      "action": "The situation escalates when a misunderstanding escalates out of control. What seemed like a manageable problem reveals itself to be connected to larger issues involving medical malpractice. Patty LaHam realizes they're in deeper than anticipated and that their usual strategy of \"ignore it and hope it goes away\" won't work this time.",
+      "dialogue": [
+        {
+          "speaker": "Patty LaHam",
+          "line": "I have a bad feeling about this.",
+          "tone": "theatrical drama covering genuine vulnerability",
+          "subtext": "revealing more about their pain than intended"
+        },
+        {
+          "speaker": "Eddie the Pawn Shop Owner",
+          "line": "Things just keep getting worse.",
+          "tone": "weary sarcasm",
+          "subtext": "terrified of being vulnerable again"
+        },
+        {
+          "speaker": "Eddie the Pawn Shop Owner",
+          "line": "That went about as well as expected.",
+          "tone": "weary sarcasm",
+          "subtext": "testing whether this person can be trusted"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Patty LaHam": "undefined, rhinestone tiara, fake eyelashes, flask of gin, showing signs of financial stress",
+          "Eddie the Pawn Shop Owner": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "Unforgiving daylight exposing every flaw and failure",
+        "props_and_objects": [
+          "lucky charms that aren't working",
+          "overdue notices"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of Unemployment Office during evening, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Patty LaHam and Madame Zelda and Eddie the Pawn Shop Owner in Unemployment Office, showing their relationship dynamics, detailed character expressions, existential dread atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Patty LaHam showing existential dread, detailed facial expression, dramatic lighting, capturing the emotional weight of Misery loves company, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Patty LaHam in Unemployment Office, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Patty LaHam",
+            "line": "I have a bad feeling about this.",
+            "tone": "theatrical drama covering genuine vulnerability",
+            "subtext": "revealing more about their pain than intended"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when a misunderstanding escalates out of control. What seemed like a managea...",
+          "dialogue": {
+            "speaker": "Eddie the Pawn Shop Owner",
+            "line": "Things just keep getting worse.",
+            "tone": "weary sarcasm",
+            "subtext": "terrified of being vulnerable again"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Eddie the Pawn Shop Owner",
+            "line": "That went about as well as expected.",
+            "tone": "weary sarcasm",
+            "subtext": "testing whether this person can be trusted"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 3,
+      "title": "Same Shit, Different Day",
+      "location": "The Broken Dreams Apartment Complex",
+      "characters_present": [
+        "patty",
+        "dumbo",
+        "npc_psychic_madame_zelda",
+        "npc_pawn_shop_eddie"
+      ],
+      "time_of_day": "late night",
+      "mood": "resigned cynicism",
+      "action": "The episode concludes with Patty LaHam having learned nothing from their experience but somehow finding themselves in a slightly different variation of the same situation they started in. Victory is redefined as \"not making things significantly worse,\" and the audience is reminded that some problems don't get solved—they just get replaced with new problems.",
+      "dialogue": [
+        {
+          "speaker": "Patty LaHam",
+          "line": "I have a bad feeling about this.",
+          "tone": "theatrical drama covering genuine vulnerability",
+          "subtext": "testing whether this person can be trusted"
+        },
+        {
+          "speaker": "Eddie the Pawn Shop Owner",
+          "line": "Things just keep getting worse.",
+          "tone": "weary sarcasm",
+          "subtext": "revealing more about their pain than intended"
+        },
+        {
+          "speaker": "Dumbo",
+          "line": "Can we solve this with minimal effort on my part?",
+          "tone": "defeated resignation with occasional flashes of frustrated energy",
+          "subtext": "protecting themselves from further disappointment"
+        },
+        {
+          "speaker": "Patty LaHam",
+          "line": "Things just keep getting worse.",
+          "tone": "theatrical drama covering genuine vulnerability",
+          "subtext": "protecting themselves from further disappointment"
+        },
+        {
+          "speaker": "Madame Zelda",
+          "line": "Some lessons are learned the hard way.",
+          "tone": "weary sarcasm",
+          "subtext": "revealing more about their pain than intended"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Patty LaHam": "undefined, rhinestone tiara, fake eyelashes, flask of gin, showing signs of chemical enhancement",
+          "Dumbo": "droopy, bloodshot, crusty pizza slice, stained remote control, empty beer cans, showing signs of physical deterioration"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "The kind of lighting that makes everyone look like they've made poor life choices",
+        "props_and_objects": [
+          "cellular phones with cracked screens",
+          "worn photographs",
+          "lottery tickets"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of The Broken Dreams Apartment Complex during late night, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Patty LaHam and Dumbo and Madame Zelda and Eddie the Pawn Shop Owner in The Broken Dreams Apartment Complex, showing their relationship dynamics, detailed character expressions, resigned cynicism atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Patty LaHam showing resigned cynicism, detailed facial expression, dramatic lighting, capturing the emotional weight of Misery loves company, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Patty LaHam in The Broken Dreams Apartment Complex, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Patty LaHam",
+            "line": "I have a bad feeling about this.",
+            "tone": "theatrical drama covering genuine vulnerability",
+            "subtext": "testing whether this person can be trusted"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Patty LaHam having learned nothing from their experience but somehow find...",
+          "dialogue": {
+            "speaker": "Eddie the Pawn Shop Owner",
+            "line": "Things just keep getting worse.",
+            "tone": "weary sarcasm",
+            "subtext": "revealing more about their pain than intended"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Dumbo",
+            "line": "Can we solve this with minimal effort on my part?",
+            "tone": "defeated resignation with occasional flashes of frustrated energy",
+            "subtext": "protecting themselves from further disappointment"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    }
+  ],
+  "moral": "Life's a bitch, and then you die. But first, you pay taxes.",
+  "image_prompts": [
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of 24-Hour Laundromat during afternoon, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Patty LaHam and Dumbo and Madame Zelda in 24-Hour Laundromat, showing their relationship dynamics, detailed character expressions, resigned cynicism atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Patty LaHam showing resigned cynicism, detailed facial expression, dramatic lighting, capturing the emotional weight of Misery loves company, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of Unemployment Office during evening, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Patty LaHam and Madame Zelda and Eddie the Pawn Shop Owner in Unemployment Office, showing their relationship dynamics, detailed character expressions, existential dread atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Patty LaHam showing existential dread, detailed facial expression, dramatic lighting, capturing the emotional weight of Misery loves company, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of The Broken Dreams Apartment Complex during late night, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Patty LaHam and Dumbo and Madame Zelda and Eddie the Pawn Shop Owner in The Broken Dreams Apartment Complex, showing their relationship dynamics, detailed character expressions, resigned cynicism atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Patty LaHam showing resigned cynicism, detailed facial expression, dramatic lighting, capturing the emotional weight of Misery loves company, photorealistic digital art"
+    }
+  ],
+  "comic_panels": [
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Patty LaHam in 24-Hour Laundromat, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Patty LaHam",
+        "line": "I have a bad feeling about this.",
+        "tone": "theatrical drama covering genuine vulnerability",
+        "subtext": "protecting themselves from further disappointment"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on Patty LaHam begins their day with the usual routine of avoiding responsibility and managing expectat...",
+      "dialogue": {
+        "speaker": "Patty LaHam",
+        "line": "This is not what I signed up for.",
+        "tone": "theatrical drama covering genuine vulnerability",
+        "subtext": "terrified of being vulnerable again"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Action panel showing character interaction and plot development, focusing on Patty LaHam begins their day with the usual routine of avoiding responsibility and managing expectat...",
+      "dialogue": {
+        "speaker": "Dumbo",
+        "line": "Why do I let myself get talked into these things?",
+        "tone": "defeated resignation with occasional flashes of frustrated energy",
+        "subtext": "terrified of being vulnerable again"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 4,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Narrator",
+        "line": "...",
+        "tone": "omniscient cynicism"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "dramatic angle emphasizing conflict",
+      "image_prompt": "Comic book panel 4: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Patty LaHam in Unemployment Office, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Patty LaHam",
+        "line": "I have a bad feeling about this.",
+        "tone": "theatrical drama covering genuine vulnerability",
+        "subtext": "revealing more about their pain than intended"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when a misunderstanding escalates out of control. What seemed like a managea...",
+      "dialogue": {
+        "speaker": "Eddie the Pawn Shop Owner",
+        "line": "Things just keep getting worse.",
+        "tone": "weary sarcasm",
+        "subtext": "terrified of being vulnerable again"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Eddie the Pawn Shop Owner",
+        "line": "That went about as well as expected.",
+        "tone": "weary sarcasm",
+        "subtext": "testing whether this person can be trusted"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Patty LaHam in The Broken Dreams Apartment Complex, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Patty LaHam",
+        "line": "I have a bad feeling about this.",
+        "tone": "theatrical drama covering genuine vulnerability",
+        "subtext": "testing whether this person can be trusted"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Patty LaHam having learned nothing from their experience but somehow find...",
+      "dialogue": {
+        "speaker": "Eddie the Pawn Shop Owner",
+        "line": "Things just keep getting worse.",
+        "tone": "weary sarcasm",
+        "subtext": "revealing more about their pain than intended"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Dumbo",
+        "line": "Can we solve this with minimal effort on my part?",
+        "tone": "defeated resignation with occasional flashes of frustrated energy",
+        "subtext": "protecting themselves from further disappointment"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Patty LaHam and other characters, resigned cynicism atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    }
+  ]
+}

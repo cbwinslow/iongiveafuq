@@ -1,0 +1,722 @@
+{
+  "id": "98de3eca-bc17-4aa5-a214-0da1aa93e805",
+  "title": "Rizzo: Dr. Needham's Return",
+  "timestamp": "2025-06-11T08:31:58.097Z",
+  "primary_mascot": "rizzo",
+  "theme": "Some bridges are meant to be burned",
+  "type": "revenge_plot",
+  "characters": [
+    "rizzo",
+    "scrapz",
+    "npc_bartender_sal",
+    "npc_dealer_mickey",
+    "villain_dr_needham"
+  ],
+  "setting": "Municipal Court",
+  "plot_outline": "Rizzo faces a typical day that goes from bad to worse when bad luck compounds exponentially. What starts as a simple attempt to buy cigarettes becomes a meditation on some bridges are meant to be burned as Rizzo encounters the usual cast of neighborhood characters and discovers that even small victories come with a price.",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "Rock Bottom Has a Basement",
+      "location": "Municipal Court",
+      "characters_present": [
+        "rizzo",
+        "villain_dr_needham"
+      ],
+      "time_of_day": "3 AM (why is it always 3 AM?)",
+      "mood": "chemical courage",
+      "action": "Rizzo begins their day with the usual routine of avoiding responsibility and managing expectations. The catalyst for today's adventure presents itself in the form of an overdue bill. Despite every instinct screaming \"don't get involved,\" circumstances and poor judgment combine to draw Rizzo into the situation.",
+      "dialogue": [
+        {
+          "speaker": "Scrapz",
+          "line": "I don't do charity work, and I don't do favors.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "secretly hoping someone will save them"
+        },
+        {
+          "speaker": "Rizzo",
+          "line": "Things just keep getting worse.",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "revealing more about their pain than intended"
+        },
+        {
+          "speaker": "Rizzo",
+          "line": "This is not what I signed up for.",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "terrified of being vulnerable again"
+        },
+        {
+          "speaker": "Dr. Cornelius Needham",
+          "line": "Some lessons are learned the hard way.",
+          "tone": "weary sarcasm",
+          "subtext": "terrified of being vulnerable again"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Rizzo": "gaunt, greenish tint, X's for eyes, skull-and-crossbones bandana, poison bottle, death certificate collection, tiny coffin, showing signs of spiritual emptiness",
+          "Scrapz": "torn ear, ragged fur, perpetual scowl, half-smoked cigarette, ash tray, torn leather jacket, showing signs of financial stress",
+          "Dr. Cornelius Needham": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "The kind of lighting that makes everyone look like they've made poor life choices",
+        "props_and_objects": [
+          "lucky charms that aren't working",
+          "prescription bottles"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of Municipal Court during 3 AM (why is it always 3 AM?), A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Rizzo and Dr. Cornelius Needham in Municipal Court, showing their relationship dynamics, detailed character expressions, chemical courage atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Rizzo showing chemical courage, detailed facial expression, dramatic lighting, capturing the emotional weight of Some bridges are meant to be burned, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Rizzo in Municipal Court, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "I don't do charity work, and I don't do favors.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "secretly hoping someone will save them"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, chemical courage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on Rizzo begins their day with the usual routine of avoiding responsibility and managing expectations. ...",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "Things just keep getting worse.",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "revealing more about their pain than intended"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, chemical courage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "This is not what I signed up for.",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "terrified of being vulnerable again"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, chemical courage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 2,
+      "title": "Things Get Complicated",
+      "location": "24-Hour Laundromat",
+      "characters_present": [
+        "rizzo",
+        "scrapz",
+        "npc_dealer_mickey"
+      ],
+      "time_of_day": "3 AM (why is it always 3 AM?)",
+      "mood": "existential dread",
+      "action": "A conversation with Mickey the Dealer reveals new information that changes Rizzo's understanding of the situation.",
+      "dialogue": [
+        {
+          "speaker": "Dr. Cornelius Needham",
+          "line": "Well, this should be interesting.",
+          "tone": "weary sarcasm",
+          "subtext": "protecting themselves from further disappointment"
+        },
+        {
+          "speaker": "Rizzo",
+          "line": "Things just keep getting worse.",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "secretly hoping someone will save them"
+        },
+        {
+          "speaker": "Rizzo",
+          "line": "Some stories don't have happy endings, just honest ones.",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "revealing more about their pain than intended"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "Sunlight revealing every stain, scratch, and broken promise",
+        "character_appearances": {
+          "Rizzo": "gaunt, greenish tint, X's for eyes, skull-and-crossbones bandana, poison bottle, death certificate collection, tiny coffin, showing signs of spiritual emptiness",
+          "Sal the Bartender": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "Peeling paint, broken promises, and the smell of desperation",
+        "mood_lighting": "Unforgiving daylight exposing every flaw and failure",
+        "props_and_objects": [
+          "overdue notices",
+          "lucky charms that aren't working"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of 24-Hour Laundromat during 3 AM (why is it always 3 AM?), Sunlight revealing every stain, scratch, and broken promise, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Rizzo and Scrapz and Mickey the Dealer in 24-Hour Laundromat, showing their relationship dynamics, detailed character expressions, existential dread atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Rizzo showing existential dread, detailed facial expression, dramatic lighting, capturing the emotional weight of Some bridges are meant to be burned, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Rizzo in 24-Hour Laundromat, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Dr. Cornelius Needham",
+            "line": "Well, this should be interesting.",
+            "tone": "weary sarcasm",
+            "subtext": "protecting themselves from further disappointment"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: Sunlight revealing every stain, scratch, and broken promise, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on A conversation with Mickey the Dealer reveals new information that changes Rizzo's understanding of ...",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "Things just keep getting worse.",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "secretly hoping someone will save them"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: Sunlight revealing every stain, scratch, and broken promise, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Action panel showing character interaction and plot development, focusing on A conversation with Mickey the Dealer reveals new information that changes Rizzo's understanding of ...",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "Some stories don't have happy endings, just honest ones.",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "revealing more about their pain than intended"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: Sunlight revealing every stain, scratch, and broken promise, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 4,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Narrator",
+            "line": "...",
+            "tone": "omniscient cynicism"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "dramatic angle emphasizing conflict",
+          "image_prompt": "Comic book panel 4: Sunlight revealing every stain, scratch, and broken promise, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 3,
+      "title": "When Bad Gets Worse",
+      "location": "The Broken Dreams Apartment Complex",
+      "characters_present": [
+        "rizzo",
+        "villain_dr_needham"
+      ],
+      "time_of_day": "afternoon",
+      "mood": "pharmaceutical numbness",
+      "action": "The situation escalates when law enforcement becomes involved. What seemed like a manageable problem reveals itself to be connected to larger issues involving organized crime. Rizzo realizes they're in deeper than anticipated and that their usual strategy of \"ignore it and hope it goes away\" won't work this time.",
+      "dialogue": [
+        {
+          "speaker": "Scrapz",
+          "line": "I don't do charity work, and I don't do favors.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "secretly hoping someone will save them"
+        },
+        {
+          "speaker": "Sal the Bartender",
+          "line": "This is not what I signed up for.",
+          "tone": "weary sarcasm",
+          "subtext": "protecting themselves from further disappointment"
+        },
+        {
+          "speaker": "Rizzo",
+          "line": "This is not what I signed up for.",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "secretly hoping someone will save them"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "I told you this was a bad idea.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "terrified of being vulnerable again"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Rizzo": "gaunt, greenish tint, X's for eyes, skull-and-crossbones bandana, poison bottle, death certificate collection, tiny coffin, showing signs of spiritual emptiness",
+          "Mickey the Dealer": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "Unforgiving daylight exposing every flaw and failure",
+        "props_and_objects": [
+          "lottery tickets",
+          "broken promises",
+          "crumpled bills",
+          "lucky charms that aren't working"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of The Broken Dreams Apartment Complex during afternoon, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Rizzo and Dr. Cornelius Needham in The Broken Dreams Apartment Complex, showing their relationship dynamics, detailed character expressions, pharmaceutical numbness atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Rizzo showing pharmaceutical numbness, detailed facial expression, dramatic lighting, capturing the emotional weight of Some bridges are meant to be burned, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Rizzo in The Broken Dreams Apartment Complex, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "I don't do charity work, and I don't do favors.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "secretly hoping someone will save them"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when law enforcement becomes involved. What seemed like a manageable problem...",
+          "dialogue": {
+            "speaker": "Sal the Bartender",
+            "line": "This is not what I signed up for.",
+            "tone": "weary sarcasm",
+            "subtext": "protecting themselves from further disappointment"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when law enforcement becomes involved. What seemed like a manageable problem...",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "This is not what I signed up for.",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "secretly hoping someone will save them"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 4,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "I told you this was a bad idea.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "terrified of being vulnerable again"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "dramatic angle emphasizing conflict",
+          "image_prompt": "Comic book panel 4: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 4,
+      "title": "Same Shit, Different Day",
+      "location": "Dr. Needham's Underground Lab",
+      "characters_present": [
+        "rizzo",
+        "npc_dealer_mickey"
+      ],
+      "time_of_day": "3 AM (why is it always 3 AM?)",
+      "mood": "barely contained rage",
+      "action": "The episode concludes with Rizzo having learned nothing from their experience but somehow finding themselves in a slightly different variation of the same situation they started in. Victory is redefined as \"not making things significantly worse,\" and the audience is reminded that some problems don't get solved—they just get replaced with new problems.",
+      "dialogue": [
+        {
+          "speaker": "Sal the Bartender",
+          "line": "Well, this should be interesting.",
+          "tone": "weary sarcasm",
+          "subtext": "testing whether this person can be trusted"
+        },
+        {
+          "speaker": "Sal the Bartender",
+          "line": "Why does this always happen?",
+          "tone": "weary sarcasm",
+          "subtext": "desperately wants to be proven wrong about people"
+        },
+        {
+          "speaker": "Rizzo",
+          "line": "At least nobody died... this time.",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "revealing more about their pain than intended"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Rizzo": "gaunt, greenish tint, X's for eyes, skull-and-crossbones bandana, poison bottle, death certificate collection, tiny coffin, showing signs of psychological wear",
+          "Scrapz": "torn ear, ragged fur, perpetual scowl, half-smoked cigarette, ash tray, torn leather jacket, showing signs of spiritual emptiness",
+          "Dr. Cornelius Needham": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "The kind of lighting that makes everyone look like they've made poor life choices",
+        "props_and_objects": [
+          "broken promises",
+          "expired coupons"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of Dr. Needham's Underground Lab during 3 AM (why is it always 3 AM?), A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Rizzo and Mickey the Dealer in Dr. Needham's Underground Lab, showing their relationship dynamics, detailed character expressions, barely contained rage atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Rizzo showing barely contained rage, detailed facial expression, dramatic lighting, capturing the emotional weight of Some bridges are meant to be burned, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Rizzo in Dr. Needham's Underground Lab, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Sal the Bartender",
+            "line": "Well, this should be interesting.",
+            "tone": "weary sarcasm",
+            "subtext": "testing whether this person can be trusted"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, barely contained rage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Rizzo having learned nothing from their experience but somehow finding th...",
+          "dialogue": {
+            "speaker": "Sal the Bartender",
+            "line": "Why does this always happen?",
+            "tone": "weary sarcasm",
+            "subtext": "desperately wants to be proven wrong about people"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, barely contained rage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Rizzo having learned nothing from their experience but somehow finding th...",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "At least nobody died... this time.",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "revealing more about their pain than intended"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, barely contained rage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 4,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Narrator",
+            "line": "...",
+            "tone": "omniscient cynicism"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "dramatic angle emphasizing conflict",
+          "image_prompt": "Comic book panel 4: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, barely contained rage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    }
+  ],
+  "moral": "Sometimes destroying your past is the only way to move forward.",
+  "image_prompts": [
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of Municipal Court during 3 AM (why is it always 3 AM?), A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Rizzo and Dr. Cornelius Needham in Municipal Court, showing their relationship dynamics, detailed character expressions, chemical courage atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Rizzo showing chemical courage, detailed facial expression, dramatic lighting, capturing the emotional weight of Some bridges are meant to be burned, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of 24-Hour Laundromat during 3 AM (why is it always 3 AM?), Sunlight revealing every stain, scratch, and broken promise, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Rizzo and Scrapz and Mickey the Dealer in 24-Hour Laundromat, showing their relationship dynamics, detailed character expressions, existential dread atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Rizzo showing existential dread, detailed facial expression, dramatic lighting, capturing the emotional weight of Some bridges are meant to be burned, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of The Broken Dreams Apartment Complex during afternoon, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Rizzo and Dr. Cornelius Needham in The Broken Dreams Apartment Complex, showing their relationship dynamics, detailed character expressions, pharmaceutical numbness atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Rizzo showing pharmaceutical numbness, detailed facial expression, dramatic lighting, capturing the emotional weight of Some bridges are meant to be burned, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of Dr. Needham's Underground Lab during 3 AM (why is it always 3 AM?), A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Rizzo and Mickey the Dealer in Dr. Needham's Underground Lab, showing their relationship dynamics, detailed character expressions, barely contained rage atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Rizzo showing barely contained rage, detailed facial expression, dramatic lighting, capturing the emotional weight of Some bridges are meant to be burned, photorealistic digital art"
+    }
+  ],
+  "comic_panels": [
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Rizzo in Municipal Court, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "I don't do charity work, and I don't do favors.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "secretly hoping someone will save them"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, chemical courage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on Rizzo begins their day with the usual routine of avoiding responsibility and managing expectations. ...",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "Things just keep getting worse.",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "revealing more about their pain than intended"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, chemical courage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "This is not what I signed up for.",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "terrified of being vulnerable again"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, chemical courage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Rizzo in 24-Hour Laundromat, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Dr. Cornelius Needham",
+        "line": "Well, this should be interesting.",
+        "tone": "weary sarcasm",
+        "subtext": "protecting themselves from further disappointment"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: Sunlight revealing every stain, scratch, and broken promise, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on A conversation with Mickey the Dealer reveals new information that changes Rizzo's understanding of ...",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "Things just keep getting worse.",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "secretly hoping someone will save them"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: Sunlight revealing every stain, scratch, and broken promise, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Action panel showing character interaction and plot development, focusing on A conversation with Mickey the Dealer reveals new information that changes Rizzo's understanding of ...",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "Some stories don't have happy endings, just honest ones.",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "revealing more about their pain than intended"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: Sunlight revealing every stain, scratch, and broken promise, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 4,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Narrator",
+        "line": "...",
+        "tone": "omniscient cynicism"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "dramatic angle emphasizing conflict",
+      "image_prompt": "Comic book panel 4: Sunlight revealing every stain, scratch, and broken promise, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Rizzo in The Broken Dreams Apartment Complex, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "I don't do charity work, and I don't do favors.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "secretly hoping someone will save them"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when law enforcement becomes involved. What seemed like a manageable problem...",
+      "dialogue": {
+        "speaker": "Sal the Bartender",
+        "line": "This is not what I signed up for.",
+        "tone": "weary sarcasm",
+        "subtext": "protecting themselves from further disappointment"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when law enforcement becomes involved. What seemed like a manageable problem...",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "This is not what I signed up for.",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "secretly hoping someone will save them"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 4,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "I told you this was a bad idea.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "terrified of being vulnerable again"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "dramatic angle emphasizing conflict",
+      "image_prompt": "Comic book panel 4: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Rizzo in Dr. Needham's Underground Lab, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Sal the Bartender",
+        "line": "Well, this should be interesting.",
+        "tone": "weary sarcasm",
+        "subtext": "testing whether this person can be trusted"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, barely contained rage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Rizzo having learned nothing from their experience but somehow finding th...",
+      "dialogue": {
+        "speaker": "Sal the Bartender",
+        "line": "Why does this always happen?",
+        "tone": "weary sarcasm",
+        "subtext": "desperately wants to be proven wrong about people"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, barely contained rage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Rizzo having learned nothing from their experience but somehow finding th...",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "At least nobody died... this time.",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "revealing more about their pain than intended"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, barely contained rage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 4,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Narrator",
+        "line": "...",
+        "tone": "omniscient cynicism"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "dramatic angle emphasizing conflict",
+      "image_prompt": "Comic book panel 4: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, barely contained rage atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    }
+  ],
+  "setup": "Rizzo's worst nightmare comes true when Dr. Needham tracks him down with a new experimental proposal",
+  "continuation": true,
+  "dramatic_focus": true
+}

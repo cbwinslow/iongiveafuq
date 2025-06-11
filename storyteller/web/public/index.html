@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ION Give A Fuq - Storytelling Agent</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            border: 2px solid #ff4ecd;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #ff4ecd;
+            text-shadow: 0 0 10px #ff4ecd;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #39ff14;
+            font-size: 1.1em;
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 30px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 15px;
+            background: transparent;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: inherit;
+            font-size: 1em;
+        }
+
+        .tab:hover {
+            background: rgba(255, 78, 205, 0.2);
+        }
+
+        .tab.active {
+            background: #ff4ecd;
+            color: #000;
+        }
+
+        .tab-content {
+            display: none;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #39ff14;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #39ff14;
+            font-weight: bold;
+        }
+
+        .form-group select,
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #39ff14;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border-radius: 5px;
+            font-family: inherit;
+        }
+
+        .form-group select:focus,
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #ff4ecd;
+            box-shadow: 0 0 5px #ff4ecd;
+        }
+
+        .btn {
+            background: #39ff14;
+            color: #000;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: inherit;
+            font-weight: bold;
+            transition: all 0.3s;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .btn:hover {
+            background: #ff4ecd;
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            background: #666;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: #3bf7ff;
+            color: #000;
+        }
+
+        .btn-secondary:hover {
+            background: #ff4ecd;
+            color: #fff;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #39ff14;
+        }
+
+        .result {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            border: 1px solid #3bf7ff;
+        }
+
+        .result h3 {
+            color: #3bf7ff;
+            margin-bottom: 15px;
+        }
+
+        .result pre {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            color: #fff;
+            border: 1px solid #39ff14;
+        }
+
+        .mascot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .mascot-card {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #39ff14;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .mascot-card:hover {
+            border-color: #ff4ecd;
+            transform: translateY(-5px);
+        }
+
+        .mascot-card.selected {
+            border-color: #ff4ecd;
+            background: rgba(255, 78, 205, 0.2);
+        }
+
+        .mascot-card h4 {
+            color: #ff4ecd;
+            margin-bottom: 10px;
+        }
+
+        .mascot-card p {
+            color: #39ff14;
+            font-size: 0.9em;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #3bf7ff;
+            text-align: center;
+        }
+
+        .stat-card h4 {
+            color: #3bf7ff;
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            color: #39ff14;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .content-list {
+            max-height: 400px;
+            overflow-y: auto;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            border: 1px solid #39ff14;
+        }
+
+        .content-item {
+            padding: 10px 15px;
+            border-bottom: 1px solid rgba(57, 255, 20, 0.3);
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .content-item:hover {
+            background: rgba(255, 78, 205, 0.2);
+        }
+
+        .content-item:last-child {
+            border-bottom: none;
+        }
+
+        .error {
+            background: rgba(255, 0, 0, 0.2);
+            border: 1px solid #ff4444;
+            color: #ff8888;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .tabs {
+                flex-direction: column;
+            }
+            
+            .mascot-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎭 ION Give A Fuq</h1>
+            <p>Dark Humor Storytelling Agent</p>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('backstories')">📖 Backstories</button>
+            <button class="tab" onclick="showTab('episodes')">🎬 Episodes</button>
+            <button class="tab" onclick="showTab('comics')">📰 Comics</button>
+            <button class="tab" onclick="showTab('manage')">⚙️ Manage</button>
+        </div>
+
+        <!-- Backstories Tab -->
+        <div id="backstories" class="tab-content active">
+            <h2>Generate Mascot Backstories</h2>
+            
+            <div class="mascot-grid" id="mascot-grid">
+                <!-- Mascots will be loaded here -->
+            </div>
+
+            <div class="form-group">
+                <button class="btn" onclick="generateBackstory()">Generate Selected Backstory</button>
+                <button class="btn btn-secondary" onclick="generateAllBackstories()">Generate All Backstories</button>
+                <button class="btn btn-secondary" onclick="generateRandomBackstory()">Random Backstory</button>
+            </div>
+
+            <div id="backstory-result"></div>
+        </div>
+
+        <!-- Episodes Tab -->
+        <div id="episodes" class="tab-content">
+            <h2>Generate Story Episodes</h2>
+            
+            <div class="form-group">
+                <label for="episode-count">Number of Episodes:</label>
+                <input type="number" id="episode-count" min="1" max="10" value="1">
+            </div>
+
+            <div class="form-group">
+                <label for="episode-mascot">Primary Mascot:</label>
+                <select id="episode-mascot">
+                    <option value="random">Random</option>
+                    <option value="dumbo">Dumbo</option>
+                    <option value="scrapz">Scrapz</option>
+                    <option value="patty">Patty LaHam</option>
+                    <option value="buzz">Buzz</option>
+                    <option value="rizzo">Rizzo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="episode-type">Episode Type:</label>
+                <select id="episode-type">
+                    <option value="random">Random</option>
+                    <option value="slice_of_life">Slice of Life</option>
+                    <option value="caper">Caper</option>
+                    <option value="relationship_drama">Relationship Drama</option>
+                    <option value="workplace_comedy">Workplace Comedy</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="revenge_plot">Revenge Plot</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="include-villain"> Include Villain
+                </label>
+            </div>
+
+            <div class="form-group">
+                <button class="btn" onclick="generateEpisode()">Generate Episode</button>
+                <button class="btn btn-secondary" onclick="generateEpisodeSeries()">Generate Series</button>
+                <button class="btn btn-secondary" onclick="generateRandomEpisode()">Random Episode</button>
+            </div>
+
+            <div id="episode-result"></div>
+        </div>
+
+        <!-- Comics Tab -->
+        <div id="comics" class="tab-content">
+            <h2>Generate Comic Strips</h2>
+            
+            <div class="form-group">
+                <label for="comic-format">Comic Format:</label>
+                <select id="comic-format">
+                    <option value="random">Random</option>
+                    <option value="single_panel">Single Panel</option>
+                    <option value="three_panel">Three Panel</option>
+                    <option value="four_panel">Four Panel</option>
+                    <option value="six_panel">Six Panel</option>
+                    <option value="full_page">Full Page</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comic-mascot">Primary Mascot:</label>
+                <select id="comic-mascot">
+                    <option value="random">Random</option>
+                    <option value="dumbo">Dumbo</option>
+                    <option value="scrapz">Scrapz</option>
+                    <option value="patty">Patty LaHam</option>
+                    <option value="buzz">Buzz</option>
+                    <option value="rizzo">Rizzo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comic-type">Comic Type:</label>
+                <select id="comic-type">
+                    <option value="random">Random</option>
+                    <option value="daily_struggle">Daily Struggle</option>
+                    <option value="social_commentary">Social Commentary</option>
+                    <option value="relationship_humor">Relationship Humor</option>
+                    <option value="workplace_satire">Workplace Satire</option>
+                    <option value="existential_crisis">Existential Crisis</option>
+                    <option value="vice_addiction">Vice Addiction</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comic-count">Number of Comics:</label>
+                <input type="number" id="comic-count" min="1" max="10" value="1">
+            </div>
+
+            <div class="form-group">
+                <button class="btn" onclick="generateComic()">Generate Comic</button>
+                <button class="btn btn-secondary" onclick="generateComicSeries()">Generate Series</button>
+                <button class="btn btn-secondary" onclick="generateRandomComic()">Random Comic</button>
+            </div>
+
+            <div id="comic-result"></div>
+        </div>
+
+        <!-- Manage Tab -->
+        <div id="manage" class="tab-content">
+            <h2>Content Management</h2>
+            
+            <div class="stats" id="content-stats">
+                <!-- Stats will be loaded here -->
+            </div>
+
+            <div class="form-group">
+                <button class="btn" onclick="loadContentStats()">Refresh Stats</button>
+                <button class="btn btn-secondary" onclick="generateCompletePackage()">Generate Complete Package</button>
+                <button class="btn btn-secondary" onclick="loadContentList()">View Content</button>
+            </div>
+
+            <div id="content-list"></div>
+            <div id="manage-result"></div>
+        </div>
+    </div>
+
+    <script>
+        let selectedMascot = null;
+        let mascots = {};
+
+        // Initialize the app
+        async function init() {
+            await loadMascots();
+            await loadContentStats();
+        }
+
+        // Tab management
+        function showTab(tabName) {
+            // Hide all tabs
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            const tabButtons = document.querySelectorAll('.tab');
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        // Load mascots from API
+        async function loadMascots() {
+            try {
+                const response = await fetch('/api/mascots');
+                mascots = await response.json();
+                
+                const grid = document.getElementById('mascot-grid');
+                grid.innerHTML = '';
+                
+                Object.entries(mascots).forEach(([key, mascot]) => {
+                    const card = document.createElement('div');
+                    card.className = 'mascot-card';
+                    card.onclick = () => selectMascot(key, card);
+                    
+                    card.innerHTML = `
+                        <h4>${mascot.name}</h4>
+                        <p><strong>${mascot.tier}:</strong> ${mascot.tagline}</p>
+                        <p>${mascot.personality.primary.join(', ')}</p>
+                    `;
+                    
+                    grid.appendChild(card);
+                });
+            } catch (error) {
+                console.error('Failed to load mascots:', error);
+            }
+        }
+
+        // Select a mascot
+        function selectMascot(key, element) {
+            // Remove previous selection
+            document.querySelectorAll('.mascot-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+            
+            // Add selection to clicked card
+            element.classList.add('selected');
+            selectedMascot = key;
+        }
+
+        // API call helper
+        async function apiCall(endpoint, options = {}) {
+            try {
+                const response = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    ...options
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                return await response.json();
+            } catch (error) {
+                throw new Error(`API call failed: ${error.message}`);
+            }
+        }
+
+        // Show loading state
+        function showLoading(elementId) {
+            document.getElementById(elementId).innerHTML = `
+                <div class="loading">
+                    <p>🎭 Generating content... This may take a moment...</p>
+                </div>
+            `;
+        }
+
+        // Show result
+        function showResult(elementId, title, content, files = null) {
+            const resultDiv = document.getElementById(elementId);
+            
+            let filesHtml = '';
+            if (files) {
+                const filesList = Object.entries(files).map(([key, value]) => {
+                    if (typeof value === 'string') {
+                        return `<li><strong>${key}:</strong> ${value}</li>`;
+                    } else if (Array.isArray(value)) {
+                        return `<li><strong>${key}:</strong> ${value.length} files</li>`;
+                    } else {
+                        return `<li><strong>${key}:</strong> ${JSON.stringify(value)}</li>`;
+                    }
+                }).join('');
+                
+                filesHtml = `
+                    <h4>Generated Files:</h4>
+                    <ul>${filesList}</ul>
+                `;
+            }
+            
+            resultDiv.innerHTML = `
+                <div class="result">
+                    <h3>${title}</h3>
+                    ${filesHtml}
+                    <pre>${JSON.stringify(content, null, 2)}</pre>
+                </div>
+            `;
+        }
+
+        // Show error
+        function showError(elementId, message) {
+            document.getElementById(elementId).innerHTML = `
+                <div class="error">
+                    <strong>Error:</strong> ${message}
+                </div>
+            `;
+        }
+
+        // Backstory functions
+        async function generateBackstory() {
+            if (!selectedMascot) {
+                showError('backstory-result', 'Please select a mascot first');
+                return;
+            }
+            
+            showLoading('backstory-result');
+            
+            try {
+                const result = await apiCall('/api/backstories/generate', {
+                    body: JSON.stringify({ mascot: selectedMascot })
+                });
+                
+                showResult('backstory-result', `Backstory for ${mascots[selectedMascot].name}`, result.backstory, result.files);
+            } catch (error) {
+                showError('backstory-result', error.message);
+            }
+        }
+
+        async function generateAllBackstories() {
+            showLoading('backstory-result');
+            
+            try {
+                const result = await apiCall('/api/backstories/generate-all');
+                showResult('backstory-result', 'All Mascot Backstories', result.results, result.results);
+            } catch (error) {
+                showError('backstory-result', error.message);
+            }
+        }
+
+        async function generateRandomBackstory() {
+            showLoading('backstory-result');
+            
+            try {
+                const result = await apiCall('/api/random/backstory');
+                showResult('backstory-result', `Random Backstory: ${result.mascot}`, result.backstory, result.files);
+            } catch (error) {
+                showError('backstory-result', error.message);
+            }
+        }
+
+        // Episode functions
+        async function generateEpisode() {
+            showLoading('episode-result');
+            
+            try {
+                const options = {};
+                
+                const mascot = document.getElementById('episode-mascot').value;
+                if (mascot !== 'random') options.primaryMascot = mascot;
+                
+                const type = document.getElementById('episode-type').value;
+                if (type !== 'random') options.episodeType = type;
+                
+                options.includeVillain = document.getElementById('include-villain').checked;
+                
+                const result = await apiCall('/api/episodes/generate', {
+                    body: JSON.stringify(options)
+                });
+                
+                showResult('episode-result', result.episode.title, result.episode, result.files);
+            } catch (error) {
+                showError('episode-result', error.message);
+            }
+        }
+
+        async function generateEpisodeSeries() {
+            showLoading('episode-result');
+            
+            try {
+                const count = parseInt(document.getElementById('episode-count').value);
+                const result = await apiCall('/api/episodes/generate-series', {
+                    body: JSON.stringify({ count })
+                });
+                
+                showResult('episode-result', `${count} Episode Series`, result.results, { series: result.results.length });
+            } catch (error) {
+                showError('episode-result', error.message);
+            }
+        }
+
+        async function generateRandomEpisode() {
+            showLoading('episode-result');
+            
+            try {
+                const result = await apiCall('/api/random/episode');
+                showResult('episode-result', result.episode.title, result.episode, result.files);
+            } catch (error) {
+                showError('episode-result', error.message);
+            }
+        }
+
+        // Comic functions
+        async function generateComic() {
+            showLoading('comic-result');
+            
+            try {
+                const options = {};
+                
+                const format = document.getElementById('comic-format').value;
+                if (format !== 'random') options.format = format;
+                
+                const mascot = document.getElementById('comic-mascot').value;
+                if (mascot !== 'random') options.primaryMascot = mascot;
+                
+                const type = document.getElementById('comic-type').value;
+                if (type !== 'random') options.comicType = type;
+                
+                const result = await apiCall('/api/comics/generate', {
+                    body: JSON.stringify(options)
+                });
+                
+                showResult('comic-result', result.comic.title, result.comic, result.files);
+            } catch (error) {
+                showError('comic-result', error.message);
+            }
+        }
+
+        async function generateComicSeries() {
+            showLoading('comic-result');
+            
+            try {
+                const count = parseInt(document.getElementById('comic-count').value);
+                const result = await apiCall('/api/comics/generate-series', {
+                    body: JSON.stringify({ count })
+                });
+                
+                showResult('comic-result', `${count} Comic Series`, result.results, { series: result.results.length });
+            } catch (error) {
+                showError('comic-result', error.message);
+            }
+        }
+
+        async function generateRandomComic() {
+            showLoading('comic-result');
+            
+            try {
+                const result = await apiCall('/api/random/comic');
+                showResult('comic-result', result.comic.title, result.comic, result.files);
+            } catch (error) {
+                showError('comic-result', error.message);
+            }
+        }
+
+        // Management functions
+        async function loadContentStats() {
+            try {
+                const response = await fetch('/api/content/stats');
+                const stats = await response.json();
+                
+                const statsDiv = document.getElementById('content-stats');
+                statsDiv.innerHTML = `
+                    <div class="stat-card">
+                        <h4>Total Files</h4>
+                        <p>${stats.total_files}</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Backstories</h4>
+                        <p>${stats.content_types.backstories || 0}</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Episodes</h4>
+                        <p>${stats.content_types.episodes || 0}</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Comics</h4>
+                        <p>${stats.content_types.comics || 0}</p>
+                    </div>
+                `;
+            } catch (error) {
+                console.error('Failed to load stats:', error);
+            }
+        }
+
+        async function generateCompletePackage() {
+            showLoading('manage-result');
+            
+            try {
+                const result = await apiCall('/api/package/generate');
+                showResult('manage-result', 'Complete Content Package', result.package, result.package.files);
+            } catch (error) {
+                showError('manage-result', error.message);
+            }
+        }
+
+        async function loadContentList() {
+            try {
+                const response = await fetch('/api/content/list');
+                const content = await response.json();
+                
+                const listDiv = document.getElementById('content-list');
+                let html = '<h3>Generated Content</h3>';
+                
+                Object.entries(content).forEach(([type, files]) => {
+                    if (files.length > 0) {
+                        html += `<h4>${type.charAt(0).toUpperCase() + type.slice(1)}</h4>`;
+                        html += '<div class="content-list">';
+                        
+                        files.forEach(file => {
+                            html += `
+                                <div class="content-item" onclick="viewFile('${type}', '${file.filename}')">
+                                    📄 ${file.filename} (${file.type})
+                                </div>
+                            `;
+                        });
+                        
+                        html += '</div>';
+                    }
+                });
+                
+                listDiv.innerHTML = html;
+            } catch (error) {
+                console.error('Failed to load content list:', error);
+            }
+        }
+
+        async function viewFile(type, filename) {
+            try {
+                const response = await fetch(`/api/content/file/${type}/${filename}`);
+                const file = await response.json();
+                
+                showResult('manage-result', `File: ${filename}`, file.content);
+            } catch (error) {
+                showError('manage-result', `Failed to load file: ${error.message}`);
+            }
+        }
+
+        // Initialize the app when page loads
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

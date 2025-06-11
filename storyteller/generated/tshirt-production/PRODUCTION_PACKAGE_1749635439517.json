@@ -1,0 +1,411 @@
+{
+  "designs": {
+    "flagship_design": {
+      "title": "The Day Scrapz Gave a Shit - Flagship Design",
+      "product_tier": "shihts",
+      "design_id": "SCRAPZ_TRANSFORMATION_001",
+      "design_specifications": {
+        "concept": "Split character transformation showing Scrapz's journey from cynical to caring",
+        "dimensions": "12\" x 14\" front chest placement",
+        "colors": "Full color print with spot metallic accents",
+        "print_method": "DTG (Direct to Garment) with screen print highlights",
+        "left_side": {
+          "character": "Classic cynical Scrapz",
+          "pose": "Middle finger up, cigarette dangling",
+          "text": "I DON'T GIVE A SHIT",
+          "color_scheme": "Muted grays, ash colors, cold tones",
+          "details": "Torn ear, scars, permanent scowl"
+        },
+        "right_side": {
+          "character": "Caring Scrapz protecting kitten",
+          "pose": "Protective stance, gentle expression",
+          "text": "BUT I GIVE A SHIT ABOUT THIS",
+          "color_scheme": "Warmer tones, soft edges, hint of pink heart",
+          "details": "Same scars but softer expression, kitten nestled safely"
+        },
+        "center_divider": {
+          "element": "Calendar page or clock design",
+          "text": "THE DAY",
+          "subtext": "Some days change everything",
+          "visual": "Torn calendar page effect with date circled",
+          "special_effect": "Metallic gold foil on \"THE DAY\" text"
+        }
+      },
+      "production_files": {
+        "high_res_artwork": "300 DPI CMYK + spot color separations",
+        "vector_source": "Adobe Illustrator .ai file with outlined fonts",
+        "mockup_views": "Front, back, detail shots on black/white/gray shirts",
+        "color_separations": "Individual layers for each print color",
+        "print_ready_pdf": "Production PDF with crop marks and color swatches"
+      },
+      "garment_specifications": {
+        "style": "Unisex crew neck t-shirt",
+        "material": "100% ring-spun cotton (softest premium feel)",
+        "weight": "4.5 oz lightweight but durable",
+        "fit": "Modern unisex fit, slightly tailored",
+        "sizes": "XS, S, M, L, XL, 2XL, 3XL",
+        "colors": [
+          "Black (primary)",
+          "Charcoal Gray",
+          "Navy Blue",
+          "Dark Forest Green"
+        ]
+      },
+      "pricing_structure": {
+        "production_cost": "$12.50 per unit (including premium materials)",
+        "suggested_retail": "$29.99",
+        "profit_margin": "58%",
+        "bulk_pricing": "Cost drops to $9.50 at 100+ units"
+      }
+    },
+    "additional_designs": [
+      {
+        "title": "Scrapz Cares (Don't Tell Anyone)",
+        "product_tier": "fuhqs",
+        "design_concept": "Scrapz with finger to lips in \"shh\" gesture, small heart hidden in smoke",
+        "placement": "Left chest pocket area, subtle design",
+        "colors": "Single color print with hidden heart detail",
+        "target_price": "$24.99"
+      },
+      {
+        "title": "Even Cynics Have Hearts",
+        "product_tier": "shihts",
+        "design_concept": "Anatomical heart with cigarette, smoke forming tiny hearts",
+        "placement": "Full front design, medical illustration style",
+        "colors": "Red heart, gray smoke, pink heart details",
+        "target_price": "$27.99"
+      },
+      {
+        "title": "From Zero Shits to One Shit Given",
+        "product_tier": "dayums",
+        "design_concept": "Progress bar or loading bar showing character growth",
+        "placement": "Horizontal across chest, tech/gaming aesthetic",
+        "colors": "Neon green progress bar, dark background",
+        "target_price": "$25.99"
+      },
+      {
+        "title": "Official Shit-Giver Certificate",
+        "product_tier": "rats-azzes",
+        "design_concept": "Mock certificate design with Scrapz reluctantly holding award",
+        "placement": "Full front, vintage certificate styling",
+        "colors": "Aged paper effect, gold foil elements",
+        "target_price": "$26.99"
+      },
+      {
+        "title": "I Don't Give a Shit... But Scrapz Does",
+        "product_tier": "darns",
+        "design_concept": "Text design with Scrapz silhouette transformation",
+        "placement": "Text across chest, character detail below",
+        "colors": "High contrast black and white with single accent",
+        "target_price": "$22.99"
+      }
+    ],
+    "special_editions": {
+      "limited_glow_version": {
+        "title": "The Day Scrapz Gave a Shit - GLOW EDITION",
+        "special_feature": "Glow-in-the-dark elements on heart and cigarette ember",
+        "production_cost": "$18.50",
+        "retail_price": "$39.99",
+        "limited_run": "500 numbered pieces"
+      },
+      "vintage_distressed": {
+        "title": "Vintage Distressed Collection",
+        "treatment": "Pre-distressed fabric, cracked print effects",
+        "aesthetic": "Looks like fan has worn it for years",
+        "production_cost": "$15.00",
+        "retail_price": "$34.99"
+      }
+    }
+  },
+  "print_specifications": {
+    "print_methods": {
+      "dtg_screen_hybrid": {
+        "description": "Direct-to-garment base with screen print highlights",
+        "best_for": "Multi-color designs with special effects",
+        "cost": "Higher but premium quality",
+        "durability": "Excellent wash resistance"
+      },
+      "screen_print": {
+        "description": "Traditional screen printing for solid colors",
+        "best_for": "Simple designs, large quantities",
+        "cost": "Lower cost at volume",
+        "durability": "Excellent for solid colors"
+      },
+      "heat_transfer_vinyl": {
+        "description": "Vinyl cutting for text and simple graphics",
+        "best_for": "Single color text designs",
+        "cost": "Low cost, quick turnaround",
+        "durability": "Good with proper application"
+      }
+    },
+    "color_specifications": {
+      "flagship_design": {
+        "base_colors": "CMYK full color print",
+        "spot_colors": [
+          "Metallic Gold PMS 871",
+          "Neon Pink PMS 806"
+        ],
+        "special_effects": [
+          "Glow-in-dark additive",
+          "Soft-hand finish"
+        ],
+        "color_matching": "Pantone color standards for consistency"
+      }
+    },
+    "quality_standards": {
+      "print_resolution": "300 DPI minimum for all artwork",
+      "color_accuracy": "95% Pantone color match or better",
+      "durability_testing": "50+ wash cycles without significant fading",
+      "hand_feel": "Soft-hand print finish, no cracking or peeling",
+      "registration": "Perfect alignment for multi-color prints"
+    },
+    "production_timeline": {
+      "artwork_approval": "1-2 business days",
+      "sample_production": "3-5 business days",
+      "bulk_production": "7-10 business days",
+      "shipping": "2-3 business days domestic",
+      "total_turnaround": "14-20 business days from approval"
+    }
+  },
+  "product_catalog": {
+    "catalog_structure": {
+      "hero_product": {
+        "design": {
+          "title": "The Day Scrapz Gave a Shit - Flagship Design",
+          "product_tier": "shihts",
+          "design_id": "SCRAPZ_TRANSFORMATION_001",
+          "design_specifications": {
+            "concept": "Split character transformation showing Scrapz's journey from cynical to caring",
+            "dimensions": "12\" x 14\" front chest placement",
+            "colors": "Full color print with spot metallic accents",
+            "print_method": "DTG (Direct to Garment) with screen print highlights",
+            "left_side": {
+              "character": "Classic cynical Scrapz",
+              "pose": "Middle finger up, cigarette dangling",
+              "text": "I DON'T GIVE A SHIT",
+              "color_scheme": "Muted grays, ash colors, cold tones",
+              "details": "Torn ear, scars, permanent scowl"
+            },
+            "right_side": {
+              "character": "Caring Scrapz protecting kitten",
+              "pose": "Protective stance, gentle expression",
+              "text": "BUT I GIVE A SHIT ABOUT THIS",
+              "color_scheme": "Warmer tones, soft edges, hint of pink heart",
+              "details": "Same scars but softer expression, kitten nestled safely"
+            },
+            "center_divider": {
+              "element": "Calendar page or clock design",
+              "text": "THE DAY",
+              "subtext": "Some days change everything",
+              "visual": "Torn calendar page effect with date circled",
+              "special_effect": "Metallic gold foil on \"THE DAY\" text"
+            }
+          },
+          "production_files": {
+            "high_res_artwork": "300 DPI CMYK + spot color separations",
+            "vector_source": "Adobe Illustrator .ai file with outlined fonts",
+            "mockup_views": "Front, back, detail shots on black/white/gray shirts",
+            "color_separations": "Individual layers for each print color",
+            "print_ready_pdf": "Production PDF with crop marks and color swatches"
+          },
+          "garment_specifications": {
+            "style": "Unisex crew neck t-shirt",
+            "material": "100% ring-spun cotton (softest premium feel)",
+            "weight": "4.5 oz lightweight but durable",
+            "fit": "Modern unisex fit, slightly tailored",
+            "sizes": "XS, S, M, L, XL, 2XL, 3XL",
+            "colors": [
+              "Black (primary)",
+              "Charcoal Gray",
+              "Navy Blue",
+              "Dark Forest Green"
+            ]
+          },
+          "pricing_structure": {
+            "production_cost": "$12.50 per unit (including premium materials)",
+            "suggested_retail": "$29.99",
+            "profit_margin": "58%",
+            "bulk_pricing": "Cost drops to $9.50 at 100+ units"
+          }
+        },
+        "featured_placement": "Homepage banner, category featured",
+        "marketing_copy": "The moment that changed everything. Wear the transformation.",
+        "lifestyle_images": [
+          "Street photography",
+          "Coffee shop candid",
+          "Concert crowd"
+        ]
+      },
+      "category_organization": {
+        "The Scrapz Collection": {
+          "description": "Character transformation series",
+          "products": [
+            "Flagship design",
+            "Scrapz Cares",
+            "Official Certificate"
+          ],
+          "tier_focus": "shihts and fuhqs"
+        },
+        "Character Development": {
+          "description": "Growth and change designs",
+          "products": [
+            "Progress bar design",
+            "Cynics have hearts"
+          ],
+          "tier_focus": "dayums and rats-azzes"
+        },
+        "Statement Pieces": {
+          "description": "Bold declarations and quotes",
+          "products": [
+            "I Don't Give a Shit variant"
+          ],
+          "tier_focus": "darns"
+        }
+      }
+    },
+    "product_photography": {
+      "lifestyle_shots": [
+        "Urban street wear styling",
+        "Coffee shop intellectual vibe",
+        "Concert/music venue atmosphere",
+        "Late night diner aesthetic"
+      ],
+      "detail_shots": [
+        "Close-up of print quality",
+        "Fabric texture and feel",
+        "Special effects (glow, metallic)",
+        "Sizing and fit demonstration"
+      ],
+      "model_direction": [
+        "Authentic, slightly edgy styling",
+        "Natural expressions, not forced smiles",
+        "Urban/alternative fashion aesthetic",
+        "Diverse representation across age/style"
+      ]
+    },
+    "product_descriptions": {
+      "copywriting_tone": "Dark humor, authentic, slightly irreverent",
+      "key_messaging": [
+        "Character transformation story",
+        "Premium quality materials",
+        "Limited edition exclusivity",
+        "Community membership feeling"
+      ],
+      "seo_keywords": [
+        "character development shirt",
+        "dark humor apparel",
+        "transformation merch",
+        "cynical cat design",
+        "ION Give A Fuq official"
+      ]
+    }
+  },
+  "store_integration": {
+    "ecommerce_platform": {
+      "recommended": "Shopify Plus with custom theme",
+      "features_needed": [
+        "Product variants (size, color)",
+        "Inventory management",
+        "Tier-based pricing",
+        "Pre-order capabilities",
+        "Customer reviews",
+        "Size chart integration"
+      ]
+    },
+    "product_data_structure": {
+      "flagship_product": {
+        "sku": "SCRAPZ-001-FLAGSHIP",
+        "title": "The Day Scrapz Gave a Shit - Transformation Tee",
+        "category": "shihts",
+        "tags": [
+          "flagship",
+          "character development",
+          "premium",
+          "scrapz"
+        ],
+        "variants": [
+          {
+            "size": "XS",
+            "color": "Black",
+            "price": "$29.99",
+            "sku": "SCRAPZ-001-XS-BLK"
+          },
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "$29.99",
+            "sku": "SCRAPZ-001-S-BLK"
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "$29.99",
+            "sku": "SCRAPZ-001-M-BLK"
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "$29.99",
+            "sku": "SCRAPZ-001-L-BLK"
+          },
+          {
+            "size": "XL",
+            "color": "Black",
+            "price": "$29.99",
+            "sku": "SCRAPZ-001-XL-BLK"
+          },
+          {
+            "size": "2XL",
+            "color": "Black",
+            "price": "$32.99",
+            "sku": "SCRAPZ-001-2XL-BLK"
+          },
+          {
+            "size": "3XL",
+            "color": "Black",
+            "price": "$34.99",
+            "sku": "SCRAPZ-001-3XL-BLK"
+          }
+        ]
+      }
+    },
+    "tier_integration": {
+      "fuhqs": {
+        "min_price": "$19.99",
+        "max_price": "$24.99",
+        "description": "Entry level premium"
+      },
+      "shihts": {
+        "min_price": "$25.99",
+        "max_price": "$29.99",
+        "description": "Premium tier"
+      },
+      "dayums": {
+        "min_price": "$22.99",
+        "max_price": "$27.99",
+        "description": "Mid-tier quality"
+      },
+      "rats-azzes": {
+        "min_price": "$26.99",
+        "max_price": "$31.99",
+        "description": "Special editions"
+      },
+      "darns": {
+        "min_price": "$19.99",
+        "max_price": "$22.99",
+        "description": "Accessible tier"
+      }
+    },
+    "checkout_experience": {
+      "size_chart": "Interactive size guide with character examples",
+      "product_recommendations": "Cross-sell with other Scrapz collection items",
+      "shipping_options": [
+        "Standard (5-7 business days) - FREE over $50",
+        "Express (2-3 business days) - $9.99",
+        "Overnight (next business day) - $24.99"
+      ],
+      "packaging": "Custom ION Give A Fuq branded mailers with story insert"
+    }
+  },
+  "created_at": "2025-06-11T09:50:39.518Z"
+}

@@ -1,0 +1,493 @@
+{
+  "specifications": {
+    "project_overview": {
+      "title": "ION Give A Fuq - Interactive Website Experience",
+      "theme": "Dark humor, crude, gross, authentic edge with premium animations",
+      "target_audience": "Adults 18-35 who appreciate dark humor and character-driven stories",
+      "core_experience": "Rich, animated landing page with storytelling integration",
+      "brand_identity": {
+        "motto": "We sell fuhqs, shihts, dayums, rats-azzes, and darns",
+        "personality": "Unapologetically crude, authentically broken, surprisingly heartfelt",
+        "tone": "Dark humor with genuine emotional depth",
+        "visual_style": "Gritty urban realism meets smooth premium animations"
+      }
+    },
+    "landing_page_design": {
+      "hero_section": {
+        "concept": "Immersive animated experience with floating mascots and interactive elements",
+        "logo_treatment": "Multiple ION Give A Fuq logos scattered throughout, various sizes and styles",
+        "mascot_integration": "All 5 mascots animated in signature poses, interactive hover states",
+        "animations": {
+          "logo_effects": [
+            "Neon flicker effect on main logo",
+            "Floating secondary logos with parallax movement",
+            "Glitch effects on hover",
+            "Breathing pulse animation",
+            "Random position shifts for scattered logos"
+          ],
+          "mascot_animations": [
+            "Dumbo: Lazy scrolling, occasionally shifts position on couch",
+            "Scrapz: Cigarette smoke animation, tail flick, suspicious glances",
+            "Patty: Hair flip animation, makeup touch-ups, dramatic poses",
+            "Buzz: Swaying motion, hiccup animation, bottle raising toast",
+            "Rizzo: Defensive curling, quick darting movements, cough animation"
+          ],
+          "background_effects": [
+            "Urban decay particle system (falling ash, floating debris)",
+            "Neon underglow effects that respond to mouse movement",
+            "Subtle screen glitch effects",
+            "Animated graffiti that appears and fades",
+            "Steam/smoke effects from manholes and vents"
+          ]
+        },
+        "interactive_elements": {
+          "mascot_interactions": [
+            "Click Dumbo: \"Ugh, what now?\" voice line + annoyed animation",
+            "Click Scrapz: Middle finger gesture + \"Whatever\" audio",
+            "Click Patty: Dramatic hair flip + \"Honey, please\" voice",
+            "Click Buzz: Hiccup sound + stumbling animation",
+            "Click Rizzo: Cough + defensive curl animation"
+          ],
+          "easter_eggs": [
+            "Secret konami code unlocks \"Super Cynical Mode\"",
+            "Random mascot interactions when idle for 30+ seconds",
+            "Hidden clickable elements reveal character backstories",
+            "Mouse trail effects that match current page mood"
+          ]
+        }
+      },
+      "navigation_design": {
+        "style": "Sticky header with animated mascot icons as nav items",
+        "menu_items": [
+          {
+            "name": "Home",
+            "icon": "ION logo",
+            "animation": "neon_pulse"
+          },
+          {
+            "name": "The Story",
+            "icon": "Scrapz head",
+            "animation": "smoke_trail"
+          },
+          {
+            "name": "Shop Shit",
+            "icon": "Shopping cart",
+            "animation": "wobble"
+          },
+          {
+            "name": "Characters",
+            "icon": "All mascots tiny",
+            "animation": "group_wave"
+          },
+          {
+            "name": "About Us",
+            "icon": "Middle finger",
+            "animation": "flip_off"
+          }
+        ],
+        "mobile_treatment": "Hamburger menu with animated mascot reveal",
+        "scroll_behavior": "Nav shrinks on scroll, mascot icons get smaller but more animated"
+      },
+      "content_sections": {
+        "hero_callout": {
+          "headline": "We Don't Give a Fuq... But We Give You Options",
+          "subhead": "Premium tier dysfunction for the authentically broken",
+          "cta_button": "Shop Your Tier of Despair",
+          "animation": "Typewriter effect with glitch interruptions"
+        },
+        "tier_showcase": {
+          "layout": "Horizontal scrolling cards with mascot representatives",
+          "tiers": [
+            {
+              "name": "fuhqs",
+              "price_range": "$19.99 - $24.99",
+              "description": "Entry level premium dysfunction",
+              "mascot": "Dumbo",
+              "animation": "Lazy float with occasional position shift",
+              "crude_tagline": "For when you barely give a fuhq"
+            },
+            {
+              "name": "shihts",
+              "price_range": "$25.99 - $29.99",
+              "description": "Premium tier emotional damage",
+              "mascot": "Scrapz",
+              "animation": "Smoke effects with attitude flicks",
+              "crude_tagline": "Quality shiht for quality people"
+            },
+            {
+              "name": "dayums",
+              "price_range": "$22.99 - $27.99",
+              "description": "Mid-tier existential crisis",
+              "mascot": "Patty",
+              "animation": "Dramatic poses with sparkle effects",
+              "crude_tagline": "Dayum, that's some good dysfunction"
+            },
+            {
+              "name": "rats-azzes",
+              "price_range": "$26.99 - $31.99",
+              "description": "Special edition trauma bonding",
+              "mascot": "Rizzo",
+              "animation": "Defensive movements with medical glitches",
+              "crude_tagline": "For the rats-azzes who survived"
+            },
+            {
+              "name": "darns",
+              "price_range": "$19.99 - $22.99",
+              "description": "Accessible tier heartbreak",
+              "mascot": "Buzz",
+              "animation": "Swaying with bottle physics",
+              "crude_tagline": "Darn good value for darn good people"
+            }
+          ]
+        },
+        "featured_story_section": {
+          "title": "\"The Day Scrapz Gave a Shit\" - Now Available",
+          "layout": "Split screen with video preview and merchandising",
+          "animation": "Video preview auto-plays, merch items float and rotate",
+          "cta": "Watch the Transformation + Shop the Collection"
+        }
+      }
+    },
+    "storyline_timeline_page": {
+      "url": "/the-story",
+      "concept": "Interactive timeline showing complete ION Give A Fuq narrative",
+      "timeline_design": {
+        "layout": "Vertical scrolling timeline with character progression",
+        "visual_style": "Urban decay aesthetic with neon timeline markers",
+        "timeline_structure": [
+          {
+            "phase": "Origins",
+            "episodes": [
+              "Dumbo: Another Day, Another Disappointment",
+              "Scrapz: Scrapz and the Art of Not Trying",
+              "Patty: Another Day, Another Disappointment",
+              "Buzz: Buzz's Tuesday from Hell",
+              "Rizzo: Rizzo's Tuesday from Hell"
+            ],
+            "animation": "Character introductions with signature animations",
+            "interaction": "Click to watch episode previews"
+          },
+          {
+            "phase": "Interactions",
+            "episodes": [
+              "Dumbo Meets Their Match (Dumbo + Rizzo)",
+              "When Hearts Break and Wallets Empty (Scrapz + Patty)",
+              "Love is a Battlefield (Buzz + Scrapz)",
+              "Community Formation"
+            ],
+            "animation": "Character connections with line animations",
+            "interaction": "Hover to see relationship dynamics"
+          },
+          {
+            "phase": "Continuation",
+            "episodes": [
+              "Dumbo: The Eviction Notice Strikes Back",
+              "Scrapz: Trust Issues Intensify",
+              "Patty: When the Spotlight Fades",
+              "Buzz: The Morning After Reality Check",
+              "Rizzo: Dr. Needham's Return (DRAMATIC)"
+            ],
+            "animation": "Character development progression bars",
+            "interaction": "Character growth visualization"
+          },
+          {
+            "phase": "The Transformation Arc",
+            "episodes": [
+              "Episode 1: The Unwanted Discovery",
+              "Episode 2: Accidental Attachment",
+              "Episode 3: The Threat Emerges",
+              "Episode 4: The Day Scrapz Gave a Shit (FLAGSHIP)",
+              "Supporting Episodes (All Mascots)",
+              "Finale: The Day They All Gave a Shit"
+            ],
+            "animation": "Transformation visualization with before/after",
+            "interaction": "Merchandising integration, buy t-shirts"
+          }
+        ],
+        "interactive_features": {
+          "character_tracking": "Follow individual character journeys through entire timeline",
+          "episode_previews": "Hover/click for video previews and key quotes",
+          "merchandise_integration": "Buy related merchandise directly from timeline points",
+          "progress_tracking": "User can mark episodes as watched",
+          "social_sharing": "Share favorite moments and character developments"
+        }
+      }
+    },
+    "technical_specifications": {
+      "framework": "React with Framer Motion for animations",
+      "performance": "Optimized for smooth 60fps animations",
+      "responsive_design": "Mobile-first with rich desktop enhancements",
+      "animation_library": {
+        "primary": "Framer Motion for React components",
+        "particles": "React-particles for background effects",
+        "audio": "Howler.js for character voice lines and sound effects",
+        "video": "Video.js for episode previews and integration"
+      },
+      "assets_required": {
+        "character_sprites": "High-res mascot images in multiple poses",
+        "animations": "Sprite sheets for smooth character animations",
+        "audio_files": "Voice lines, sound effects, ambient audio",
+        "video_content": "Episode previews, transformation sequences",
+        "logos": "ION Give A Fuq logo in multiple formats and variations"
+      },
+      "performance_targets": {
+        "loading_time": "Under 3 seconds initial load",
+        "animation_fps": "Consistent 60fps for all animations",
+        "mobile_optimization": "Responsive down to 320px width",
+        "accessibility": "WCAG 2.1 AA compliance with dark humor exceptions"
+      }
+    },
+    "development_components": {
+      "animated_mascot_component": "\n        - Individual mascot components with full animation sets\n        - Idle animations, hover states, click interactions\n        - Voice line integration with audio management\n        - Pose variations and expression changes\n        - Physics-based movement for realistic feel\n      ",
+      "timeline_component": "\n        - Interactive timeline with smooth scrolling\n        - Episode markers with preview integration\n        - Character progression visualization\n        - Merchandise integration points\n        - Social sharing capabilities\n      ",
+      "tier_showcase_component": "\n        - Horizontal scrolling tier cards\n        - Mascot representative animations\n        - Pricing and description overlays\n        - Direct purchase integration\n        - Crude tagline animations\n      ",
+      "background_effects_component": "\n        - Particle system for urban decay effects\n        - Neon underglow responsive to mouse movement\n        - Glitch effects and screen distortions\n        - Animated graffiti system\n        - Steam and smoke environmental effects\n      "
+    },
+    "content_management": {
+      "storyline_cms": {
+        "purpose": "Easy updates to timeline and episode information",
+        "features": [
+          "Add new episodes to timeline",
+          "Update character development progress",
+          "Manage merchandise tie-ins",
+          "Social media integration",
+          "Analytics and engagement tracking"
+        ]
+      },
+      "merchandise_integration": {
+        "api_connection": "Shopify API for real-time inventory and pricing",
+        "cart_persistence": "Cross-page shopping cart with character themes",
+        "checkout_experience": "Themed checkout with mascot encouragement/discouragement"
+      }
+    }
+  },
+  "react_components": {
+    "animated_hero_component": {
+      "name": "AnimatedHero",
+      "purpose": "Main landing page hero with floating mascots and logos",
+      "component_structure": "\nimport React, { useState, useEffect } from 'react';\nimport { motion, useAnimation } from 'framer-motion';\nimport { AnimatedMascot } from './AnimatedMascot';\nimport { FloatingLogo } from './FloatingLogo';\nimport { ParticleBackground } from './ParticleBackground';\n\nexport const AnimatedHero = () => {\n  const [isLoaded, setIsLoaded] = useState(false);\n  \n  return (\n    <motion.section \n      className=\"hero-section\"\n      initial={{ opacity: 0 }}\n      animate={{ opacity: 1 }}\n      transition={{ duration: 2 }}\n    >\n      <ParticleBackground />\n      \n      {/* Multiple floating ION logos */}\n      <FloatingLogo \n        variant=\"main\" \n        position=\"center\" \n        animation=\"neon_pulse\" \n      />\n      <FloatingLogo \n        variant=\"graffiti\" \n        position=\"top-left\" \n        animation=\"glitch_flicker\" \n      />\n      <FloatingLogo \n        variant=\"neon\" \n        position=\"bottom-right\" \n        animation=\"breathing_pulse\" \n      />\n      \n      {/* All mascots with signature animations */}\n      <AnimatedMascot \n        character=\"dumbo\" \n        position=\"bottom-left\"\n        idleAnimation=\"lazy_couch_shift\"\n        clickInteraction=\"annoyed_grunt\"\n      />\n      <AnimatedMascot \n        character=\"scrapz\" \n        position=\"top-right\"\n        idleAnimation=\"cigarette_smoke\"\n        clickInteraction=\"middle_finger_flash\"\n      />\n      <AnimatedMascot \n        character=\"patty\" \n        position=\"center-left\"\n        idleAnimation=\"dramatic_pose_cycle\"\n        clickInteraction=\"hair_flip_sparkle\"\n      />\n      <AnimatedMascot \n        character=\"buzz\" \n        position=\"center-right\"\n        idleAnimation=\"swaying_with_bottle\"\n        clickInteraction=\"hiccup_stumble\"\n      />\n      <AnimatedMascot \n        character=\"rizzo\" \n        position=\"bottom-center\"\n        idleAnimation=\"defensive_curl_uncurl\"\n        clickInteraction=\"cough_and_hide\"\n      />\n      \n      {/* Hero content */}\n      <motion.div \n        className=\"hero-content\"\n        initial={{ y: 50, opacity: 0 }}\n        animate={{ y: 0, opacity: 1 }}\n        transition={{ delay: 1, duration: 1.5 }}\n      >\n        <TypewriterText \n          text=\"We Don't Give a Fuq... But We Give You Options\"\n          glitchEffect={true}\n        />\n        <motion.p \n          className=\"hero-subtext\"\n          initial={{ opacity: 0 }}\n          animate={{ opacity: 1 }}\n          transition={{ delay: 2, duration: 1 }}\n        >\n          Premium tier dysfunction for the authentically broken\n        </motion.p>\n        \n        <CrudeCTAButton \n          text=\"Shop Your Tier of Despair\"\n          mascotApproval=\"scrapz_middle_finger\"\n        />\n      </motion.div>\n    </motion.section>\n  );\n};\n      ",
+      "animation_details": {
+        "entrance": "Staggered component loading with particle effects",
+        "idle_state": "Continuous subtle animations keep page alive",
+        "interactions": "Click mascots for voice lines and signature animations",
+        "scroll_behavior": "Parallax effects on logos and background elements"
+      }
+    },
+    "tier_showcase_component": {
+      "name": "TierShowcase",
+      "purpose": "Horizontal scrolling tier cards with mascot integration",
+      "component_structure": "\nimport React, { useRef } from 'react';\nimport { motion, useScroll, useTransform } from 'framer-motion';\n\nexport const TierShowcase = () => {\n  const containerRef = useRef(null);\n  const { scrollXProgress } = useScroll({ container: containerRef });\n  \n  const tiers = [\n    {\n      name: 'fuhqs',\n      priceRange: '$19.99 - $24.99',\n      mascot: 'dumbo',\n      crudeTagline: 'For when you barely give a fuhq',\n      bgColor: '#2D2D2D',\n      accentColor: '#FF6B6B'\n    },\n    // ... other tiers\n  ];\n  \n  return (\n    <section className=\"tier-showcase\">\n      <motion.h2 \n        className=\"crude-title\"\n        initial={{ opacity: 0, y: -20 }}\n        whileInView={{ opacity: 1, y: 0 }}\n        viewport={{ once: true }}\n      >\n        Pick Your Flavor of Dysfunction\n      </motion.h2>\n      \n      <motion.div \n        ref={containerRef}\n        className=\"tier-scroll-container\"\n        style={{ overflowX: 'scroll' }}\n      >\n        <motion.div className=\"tier-cards-wrapper\">\n          {tiers.map((tier, index) => (\n            <TierCard \n              key={tier.name}\n              tier={tier}\n              index={index}\n              scrollProgress={scrollXProgress}\n            />\n          ))}\n        </motion.div>\n      </motion.div>\n    </section>\n  );\n};\n\nconst TierCard = ({ tier, index, scrollProgress }) => {\n  const x = useTransform(scrollProgress, [0, 1], [0, -100 * index]);\n  \n  return (\n    <motion.div \n      className=\"tier-card\"\n      style={{ x }}\n      whileHover={{ \n        scale: 1.05,\n        rotateY: 5,\n        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'\n      }}\n      transition={{ type: 'spring', stiffness: 300 }}\n    >\n      <AnimatedMascot \n        character={tier.mascot}\n        variant=\"tier_representative\"\n        size=\"medium\"\n      />\n      \n      <motion.h3 \n        className=\"tier-name\"\n        whileHover={{ scale: 1.1 }}\n      >\n        {tier.name}\n      </motion.h3>\n      \n      <motion.p \n        className=\"tier-price\"\n        initial={{ opacity: 0.7 }}\n        whileHover={{ opacity: 1 }}\n      >\n        {tier.priceRange}\n      </motion.p>\n      \n      <motion.p \n        className=\"crude-tagline\"\n        initial={{ y: 10, opacity: 0 }}\n        whileInView={{ y: 0, opacity: 1 }}\n        transition={{ delay: index * 0.1 }}\n      >\n        {tier.crudeTagline}\n      </motion.p>\n      \n      <CrudeButton \n        text=\"Shop This Shit\"\n        tier={tier.name}\n        mascotReaction={tier.mascot}\n      />\n    </motion.div>\n  );\n};\n      ",
+      "animation_details": {
+        "scroll_behavior": "Smooth horizontal scrolling with momentum",
+        "card_animations": "Hover effects with 3D transforms and shadows",
+        "mascot_integration": "Each tier represented by animated mascot",
+        "crude_transitions": "Swear word reveals and attitude animations"
+      }
+    },
+    "interactive_timeline_component": {
+      "name": "StorylineTimeline",
+      "purpose": "Interactive timeline for complete ION Give A Fuq narrative",
+      "component_structure": "\nimport React, { useState, useEffect } from 'react';\nimport { motion, AnimatePresence } from 'framer-motion';\nimport { TimelineMarker } from './TimelineMarker';\nimport { EpisodePreview } from './EpisodePreview';\nimport { CharacterProgression } from './CharacterProgression';\n\nexport const StorylineTimeline = () => {\n  const [selectedPhase, setSelectedPhase] = useState(null);\n  const [characterFilter, setCharacterFilter] = useState('all');\n  \n  const timelinePhases = [\n    {\n      id: 'origins',\n      title: 'Origins',\n      description: 'Where it all began - meet the dysfunction',\n      episodes: [...], // episode data\n      characterDevelopment: {...} // character progress data\n    },\n    // ... other phases\n  ];\n  \n  return (\n    <div className=\"storyline-timeline\">\n      <motion.header \n        className=\"timeline-header\"\n        initial={{ opacity: 0, y: -50 }}\n        animate={{ opacity: 1, y: 0 }}\n      >\n        <h1 className=\"timeline-title\">The ION Give A Fuq Story</h1>\n        <p className=\"timeline-subtitle\">\n          Follow the journey from zero shits given to... well, one shit given\n        </p>\n        \n        <CharacterFilter \n          selected={characterFilter}\n          onChange={setCharacterFilter}\n        />\n      </motion.header>\n      \n      <motion.div \n        className=\"timeline-container\"\n        layout\n      >\n        {timelinePhases.map((phase, index) => (\n          <TimelinePhase \n            key={phase.id}\n            phase={phase}\n            index={index}\n            isSelected={selectedPhase === phase.id}\n            onSelect={() => setSelectedPhase(\n              selectedPhase === phase.id ? null : phase.id\n            )}\n            characterFilter={characterFilter}\n          />\n        ))}\n      </motion.div>\n      \n      <AnimatePresence>\n        {selectedPhase && (\n          <EpisodeModal \n            phase={timelinePhases.find(p => p.id === selectedPhase)}\n            onClose={() => setSelectedPhase(null)}\n          />\n        )}\n      </AnimatePresence>\n    </div>\n  );\n};\n\nconst TimelinePhase = ({ phase, index, isSelected, onSelect, characterFilter }) => {\n  return (\n    <motion.div \n      className=\"timeline-phase\"\n      initial={{ opacity: 0, x: index % 2 === 0 ? -100 : 100 }}\n      whileInView={{ opacity: 1, x: 0 }}\n      viewport={{ once: true }}\n      transition={{ delay: index * 0.2 }}\n    >\n      <motion.div \n        className=\"phase-marker\"\n        whileHover={{ scale: 1.1 }}\n        onClick={onSelect}\n      >\n        <NeonMarker phase={phase.id} />\n      </motion.div>\n      \n      <motion.div \n        className=\"phase-content\"\n        animate={{ \n          height: isSelected ? 'auto' : '120px',\n          opacity: isSelected ? 1 : 0.8 \n        }}\n        transition={{ type: 'spring', stiffness: 300 }}\n      >\n        <h3 className=\"phase-title\">{phase.title}</h3>\n        <p className=\"phase-description\">{phase.description}</p>\n        \n        <AnimatePresence>\n          {isSelected && (\n            <motion.div \n              className=\"episode-grid\"\n              initial={{ opacity: 0, height: 0 }}\n              animate={{ opacity: 1, height: 'auto' }}\n              exit={{ opacity: 0, height: 0 }}\n            >\n              {phase.episodes\n                .filter(ep => characterFilter === 'all' || ep.characters.includes(characterFilter))\n                .map((episode, epIndex) => (\n                  <EpisodeCard \n                    key={episode.id}\n                    episode={episode}\n                    index={epIndex}\n                  />\n                ))\n              }\n            </motion.div>\n          )}\n        </AnimatePresence>\n      </motion.div>\n    </motion.div>\n  );\n};\n      ",
+      "animation_details": {
+        "scroll_triggered": "Timeline markers appear as user scrolls",
+        "phase_expansion": "Smooth accordion-style phase expansion",
+        "episode_reveals": "Staggered episode card animations",
+        "character_filtering": "Smooth transitions when filtering by character"
+      }
+    }
+  },
+  "styling_specs": {
+    "design_system": {
+      "color_palette": {
+        "primary": {
+          "ion-neon-pink": "#FF0080",
+          "ion-neon-green": "#00FF41",
+          "ion-neon-blue": "#0080FF",
+          "ion-acid-yellow": "#FFFF00"
+        },
+        "neutral": {
+          "urban-black": "#0D0D0D",
+          "concrete-gray": "#2D2D2D",
+          "ash-gray": "#666666",
+          "dirty-white": "#F0F0F0"
+        },
+        "character": {
+          "dumbo-brown": "#8B4513",
+          "scrapz-gray": "#4A4A4A",
+          "patty-pink": "#FF69B4",
+          "buzz-amber": "#FFA500",
+          "rizzo-green": "#228B22"
+        }
+      },
+      "typography": {
+        "headlines": {
+          "family": "\"Bebas Neue\", \"Arial Black\", sans-serif",
+          "weight": "700",
+          "treatment": "Aggressive, condensed, all caps",
+          "effects": "Neon glow, glitch effects, text shadows"
+        },
+        "body": {
+          "family": "\"Inter\", \"Helvetica Neue\", sans-serif",
+          "weight": "400-600",
+          "treatment": "Clean, readable, slightly edgy",
+          "effects": "Subtle text shadows for dark backgrounds"
+        },
+        "crude_callouts": {
+          "family": "\"Permanent Marker\", cursive",
+          "weight": "400",
+          "treatment": "Hand-drawn, rebellious, authentic",
+          "effects": "Rough edges, slight rotation, organic feel"
+        }
+      },
+      "spacing_system": {
+        "base_unit": "8px",
+        "scales": {
+          "xs": "4px",
+          "sm": "8px",
+          "md": "16px",
+          "lg": "24px",
+          "xl": "32px",
+          "xxl": "48px",
+          "xxxl": "64px"
+        }
+      }
+    },
+    "animation_specifications": {
+      "performance_targets": {
+        "fps": "60fps consistent",
+        "gpu_acceleration": "Transform and opacity only for optimal performance",
+        "reduced_motion": "Respect user prefers-reduced-motion settings",
+        "mobile_optimization": "Lighter animations on mobile devices"
+      },
+      "mascot_animations": {
+        "dumbo": {
+          "idle": "Subtle breathing, occasional position shift (2% movement)",
+          "hover": "Annoyed eye roll, slight lean away",
+          "click": "Audible grunt, more pronounced lean, brief scowl"
+        },
+        "scrapz": {
+          "idle": "Cigarette smoke particles, tail flick every 3-5 seconds",
+          "hover": "Suspicious squint, ear twitch",
+          "click": "Quick middle finger flash, dismissive head turn"
+        },
+        "patty": {
+          "idle": "Hair shimmer, subtle pose adjustments, jewelry glint",
+          "hover": "Hair flip preparation, confident smile",
+          "click": "Full dramatic hair flip with sparkle particle effects"
+        },
+        "buzz": {
+          "idle": "Gentle swaying motion, bottle occasionally tilts",
+          "hover": "Perks up slightly, bottle raises a bit",
+          "click": "Hiccup animation, brief stumble, recovery smile"
+        },
+        "rizzo": {
+          "idle": "Defensive posture, occasional cough, tail twitch",
+          "hover": "Slightly more alert, ears perk up",
+          "click": "Cough fit, brief curl into defensive ball, quick recovery"
+        }
+      },
+      "ui_animations": {
+        "page_transitions": "Smooth slide transitions with particle effects",
+        "button_interactions": "Hover growth, click shrink, crude feedback",
+        "loading_states": "Character-themed loading animations",
+        "error_states": "Mascot reactions to errors (Scrapz middle finger, etc.)"
+      }
+    },
+    "responsive_design": {
+      "breakpoints": {
+        "mobile": "320px - 768px",
+        "tablet": "768px - 1024px",
+        "desktop": "1024px+",
+        "large_desktop": "1440px+"
+      },
+      "mobile_adaptations": {
+        "navigation": "Hamburger menu with animated mascot reveal",
+        "hero_section": "Single floating mascot, reduced particle effects",
+        "timeline": "Vertical scrolling only, simplified interactions",
+        "tier_showcase": "Stacked cards instead of horizontal scroll"
+      },
+      "performance_considerations": {
+        "mobile": "Reduced animation complexity, optimized assets",
+        "tablet": "Moderate animation complexity, full feature set",
+        "desktop": "Full animation complexity, all effects enabled"
+      }
+    }
+  },
+  "development_roadmap": {
+    "phase_1_foundation": {
+      "duration": "2-3 weeks",
+      "deliverables": [
+        "React app setup with Framer Motion integration",
+        "Basic component architecture and routing",
+        "Design system implementation (colors, typography, spacing)",
+        "Asset preparation (mascot sprites, logos, audio files)",
+        "Performance optimization setup (lazy loading, code splitting)"
+      ],
+      "success_criteria": [
+        "Smooth 60fps animations on desktop",
+        "Sub-3-second initial load time",
+        "Responsive design working across all devices",
+        "Accessibility compliance (WCAG 2.1 AA with exceptions)"
+      ]
+    },
+    "phase_2_hero_and_landing": {
+      "duration": "2-3 weeks",
+      "deliverables": [
+        "Animated hero section with floating mascots",
+        "Interactive mascot components with voice lines",
+        "Particle background system",
+        "Tier showcase with horizontal scrolling",
+        "Navigation with animated mascot icons"
+      ],
+      "success_criteria": [
+        "All mascot animations working smoothly",
+        "Voice line integration functioning",
+        "Tier cards responsive and interactive",
+        "Navigation accessible and functional"
+      ]
+    },
+    "phase_3_storyline_timeline": {
+      "duration": "3-4 weeks",
+      "deliverables": [
+        "Interactive timeline component",
+        "Episode preview integration",
+        "Character progression visualization",
+        "Merchandise integration points",
+        "Social sharing functionality"
+      ],
+      "success_criteria": [
+        "Timeline smoothly navigable",
+        "Episode previews load and play correctly",
+        "Merchandise links functional",
+        "Social sharing working across platforms"
+      ]
+    },
+    "phase_4_integration_and_polish": {
+      "duration": "2-3 weeks",
+      "deliverables": [
+        "Shopify integration for merchandise",
+        "Content management system setup",
+        "Analytics and tracking implementation",
+        "Performance optimization and testing",
+        "Cross-browser compatibility testing"
+      ],
+      "success_criteria": [
+        "E-commerce functionality working",
+        "CMS allowing easy content updates",
+        "Site performance meeting all targets",
+        "Compatible across major browsers"
+      ]
+    },
+    "ongoing_maintenance": {
+      "frequency": "Monthly",
+      "tasks": [
+        "Content updates (new episodes, merchandise)",
+        "Performance monitoring and optimization",
+        "User feedback implementation",
+        "Feature enhancements based on analytics",
+        "Security updates and maintenance"
+      ]
+    }
+  },
+  "created_at": "2025-06-11T09:53:28.661Z"
+}

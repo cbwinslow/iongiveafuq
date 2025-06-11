@@ -1,0 +1,38 @@
+{
+  "locations": {
+    "municipal_court": {
+      "description": "Harsh fluorescent lighting, institutional feel, cold and bureaucratic",
+      "key_elements": "Benches, filing cabinets, forms, fluorescent lights",
+      "lighting_setup": "Cold overhead fluorescents with harsh shadows",
+      "atmosphere": "Oppressive, institutional, dehumanizing",
+      "camera_positions": "Low angles to emphasize institutional power"
+    },
+    "laundromat_24hour": {
+      "description": "Spinning cycles of futility, industrial detergent smell, late night isolation",
+      "key_elements": "Washing machines, dryers, fluorescent lights, plastic chairs",
+      "lighting_setup": "Mixed fluorescent and machine indicator lights",
+      "atmosphere": "Lonely, cyclical, working-class struggle",
+      "camera_positions": "Medium shots through machines, reflections in glass"
+    },
+    "sals_dive_bar": {
+      "description": "Where hope goes to die and problems get temporarily drowned",
+      "key_elements": "Bar stools, neon beer signs, sticky floors, regulars",
+      "lighting_setup": "Warm amber lighting with neon highlights",
+      "atmosphere": "Familiar desperation, working-class camaraderie",
+      "camera_positions": "Bar-level shots, mirror reflections, intimate angles"
+    },
+    "needham_lab_flashback": {
+      "description": "Clinical horror, medical equipment, sterile environment",
+      "key_elements": "Examination tables, medical instruments, cages, computers",
+      "lighting_setup": "Cold clinical lighting with harsh shadows",
+      "atmosphere": "Threatening, medical horror, scientific detachment",
+      "camera_positions": "Low angles from Rizzo's perspective, clinical overhead shots"
+    }
+  },
+  "environmental_storytelling": {
+    "wear_and_tear": "Everything shows age, use, and neglect",
+    "class_indicators": "Visual cues about economic struggle",
+    "emotional_resonance": "Environments reflect character emotional states",
+    "practical_details": "Functional elements that characters interact with"
+  }
+}

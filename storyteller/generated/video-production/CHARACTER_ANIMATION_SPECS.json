@@ -1,0 +1,35 @@
+{
+  "character_rigs": {
+    "rizzo": {
+      "facial_controls": "Eyes (X-scars), mouth, eyebrows, ear movement",
+      "body_controls": "Full body IK, tail animation, breathing cycle",
+      "props": "Skull bandana, poison bottle, medical equipment interaction",
+      "special_features": "Coughing animation, pain reactions, defensive postures"
+    },
+    "dr_needham": {
+      "facial_controls": "Sinister expressions, glasses adjustment, mouth movements",
+      "body_controls": "Authoritative posture, lab coat movement, hand gestures",
+      "props": "Clipboard, medical instruments, keys",
+      "special_features": "Intimidating presence, clinical movements"
+    },
+    "supporting_characters": {
+      "controls": "Basic facial and body animation for reactions",
+      "interaction": "Limited but authentic character responses"
+    }
+  },
+  "animation_principles": {
+    "timing": "24fps with held frames for emphasis",
+    "spacing": "Slower timing for dramatic moments, quick cuts for tension",
+    "anticipation": "Strong anticipation for character reactions",
+    "follow_through": "Natural follow-through on all movements",
+    "arcs": "Natural movement arcs for organic feel",
+    "staging": "Clear staging for dramatic storytelling"
+  },
+  "performance_guidelines": {
+    "rizzo_performance": "Defensive, wary, building to courageous defiance",
+    "needham_performance": "Cold, clinical, increasingly threatening",
+    "emotional_arc": "Tension building to confrontation to resolution",
+    "dialogue_timing": "Allow pauses for emotional weight",
+    "physical_acting": "Subtle but clear body language storytelling"
+  }
+}

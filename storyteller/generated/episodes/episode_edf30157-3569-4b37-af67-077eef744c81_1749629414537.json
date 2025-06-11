@@ -1,0 +1,844 @@
+{
+  "id": "edf30157-3569-4b37-af67-077eef744c81",
+  "title": "Love is a Battlefield (And Everyone's Losing)",
+  "timestamp": "2025-06-11T08:10:14.536Z",
+  "primary_mascot": "rizzo",
+  "theme": "False hope is the cruelest hope",
+  "type": "relationship_drama",
+  "characters": [
+    "rizzo",
+    "scrapz",
+    "npc_bartender_sal",
+    "npc_social_worker_karen"
+  ],
+  "setting": "Municipal Court",
+  "plot_outline": "Rizzo's carefully constructed solitude is disrupted when they're forced to interact with a social worker with good intentions. As bad luck compounds exponentially, both characters must confront their issues with trust, intimacy, and the fact that false hope is the cruelest hope.",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "Rock Bottom Has a Basement",
+      "location": "Municipal Court",
+      "characters_present": [
+        "rizzo",
+        "scrapz"
+      ],
+      "time_of_day": "late night",
+      "mood": "desperately optimistic",
+      "action": "Rizzo begins their day with the usual routine of avoiding responsibility and managing expectations. The catalyst for today's adventure presents itself in the form of a knock at the door. Despite every instinct screaming \"don't get involved,\" circumstances and poor judgment combine to draw Rizzo into the situation.",
+      "dialogue": [
+        {
+          "speaker": "Karen the Social Worker",
+          "line": "Well, this should be interesting.",
+          "tone": "weary sarcasm",
+          "subtext": "protecting themselves from further disappointment"
+        },
+        {
+          "speaker": "Rizzo",
+          "line": "Why does this always happen?",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "terrified of being vulnerable again"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "Trust me, it gets worse from here.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "terrified of being vulnerable again"
+        },
+        {
+          "speaker": "Karen the Social Worker",
+          "line": "Some lessons are learned the hard way.",
+          "tone": "weary sarcasm",
+          "subtext": "protecting themselves from further disappointment"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Rizzo": "gaunt, greenish tint, X's for eyes, skull-and-crossbones bandana, poison bottle, death certificate collection, tiny coffin, showing signs of psychological wear",
+          "Karen the Social Worker": "Tired, worn down, but still clinging to whatever dignity remains",
+          "Sal the Bartender": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "The kind of lighting that makes everyone look like they've made poor life choices",
+        "props_and_objects": [
+          "prescription bottles",
+          "broken promises",
+          "lucky charms that aren't working"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of Municipal Court during late night, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Rizzo and Scrapz in Municipal Court, showing their relationship dynamics, detailed character expressions, desperately optimistic atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Rizzo showing desperately optimistic, detailed facial expression, dramatic lighting, capturing the emotional weight of False hope is the cruelest hope, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Rizzo in Municipal Court, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Karen the Social Worker",
+            "line": "Well, this should be interesting.",
+            "tone": "weary sarcasm",
+            "subtext": "protecting themselves from further disappointment"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on Rizzo begins their day with the usual routine of avoiding responsibility and managing expectations. ...",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "Why does this always happen?",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "terrified of being vulnerable again"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "Trust me, it gets worse from here.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "terrified of being vulnerable again"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 2,
+      "title": "The Plot Thickens (Like Curdled Milk)",
+      "location": "The Roach Motel",
+      "characters_present": [
+        "rizzo",
+        "npc_social_worker_karen"
+      ],
+      "time_of_day": "evening",
+      "mood": "spite-fueled determination",
+      "action": "Rizzo's past comes back to haunt them when an unpaid favor becomes relevant to current events.",
+      "dialogue": [
+        {
+          "speaker": "Rizzo",
+          "line": "Death would be preferable to whatever you're about to ask.",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "desperately wants to be proven wrong about people"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "Trust me, it gets worse from here.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "secretly hoping someone will save them"
+        },
+        {
+          "speaker": "Karen the Social Worker",
+          "line": "Why does this always happen?",
+          "tone": "weary sarcasm",
+          "subtext": "testing whether this person can be trusted"
+        },
+        {
+          "speaker": "Sal the Bartender",
+          "line": "This is not what I signed up for.",
+          "tone": "weary sarcasm",
+          "subtext": "testing whether this person can be trusted"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "Next time, count me out.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "desperately wants to be proven wrong about people"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Rizzo": "gaunt, greenish tint, X's for eyes, skull-and-crossbones bandana, poison bottle, death certificate collection, tiny coffin, showing signs of psychological wear",
+          "Karen the Social Worker": "Tired, worn down, but still clinging to whatever dignity remains",
+          "Sal the Bartender": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "Spinning cycles of futility, industrial detergent, and late-night confessions",
+        "mood_lighting": "The kind of lighting that makes everyone look like they've made poor life choices",
+        "props_and_objects": [
+          "empty bottles",
+          "worn photographs",
+          "broken promises"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of The Roach Motel during evening, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Rizzo and Karen the Social Worker in The Roach Motel, showing their relationship dynamics, detailed character expressions, spite-fueled determination atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Rizzo showing spite-fueled determination, detailed facial expression, dramatic lighting, capturing the emotional weight of False hope is the cruelest hope, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Rizzo in The Roach Motel, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "Death would be preferable to whatever you're about to ask.",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "desperately wants to be proven wrong about people"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on Rizzo's past comes back to haunt them when an unpaid favor becomes relevant to current events....",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "Trust me, it gets worse from here.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "secretly hoping someone will save them"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Karen the Social Worker",
+            "line": "Why does this always happen?",
+            "tone": "weary sarcasm",
+            "subtext": "testing whether this person can be trusted"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 3,
+      "title": "When Bad Gets Worse",
+      "location": "24-Hour Laundromat",
+      "characters_present": [
+        "rizzo",
+        "npc_bartender_sal"
+      ],
+      "time_of_day": "noon",
+      "mood": "existential dread",
+      "action": "The situation escalates when their simple plan attracts unwanted attention. What seemed like a manageable problem reveals itself to be connected to larger issues involving corporate greed. Rizzo realizes they're in deeper than anticipated and that their usual strategy of \"ignore it and hope it goes away\" won't work this time.",
+      "dialogue": [
+        {
+          "speaker": "Rizzo",
+          "line": "Death would be preferable to whatever you're about to ask.",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "desperately wants to be proven wrong about people"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "Everyone's got an angle, what's yours?",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "secretly hoping someone will save them"
+        },
+        {
+          "speaker": "Rizzo",
+          "line": "Why does this always happen?",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "secretly hoping someone will save them"
+        },
+        {
+          "speaker": "Rizzo",
+          "line": "Some stories don't have happy endings, just honest ones.",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "protecting themselves from further disappointment"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "Where dignity comes to die and rent checks bounce higher than expectations",
+        "character_appearances": {
+          "Rizzo": "gaunt, greenish tint, X's for eyes, skull-and-crossbones bandana, poison bottle, death certificate collection, tiny coffin, showing signs of financial stress",
+          "Karen the Social Worker": "Tired, worn down, but still clinging to whatever dignity remains",
+          "Scrapz": "torn ear, ragged fur, perpetual scowl, half-smoked cigarette, ash tray, torn leather jacket, showing signs of financial stress"
+        },
+        "environmental_details": "Peeling paint, broken promises, and the smell of desperation",
+        "mood_lighting": "The kind of lighting that makes everyone look like they've made poor life choices",
+        "props_and_objects": [
+          "prescription bottles",
+          "lucky charms that aren't working",
+          "overdue notices"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of 24-Hour Laundromat during noon, Where dignity comes to die and rent checks bounce higher than expectations, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Rizzo and Sal the Bartender in 24-Hour Laundromat, showing their relationship dynamics, detailed character expressions, existential dread atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Rizzo showing existential dread, detailed facial expression, dramatic lighting, capturing the emotional weight of False hope is the cruelest hope, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Rizzo in 24-Hour Laundromat, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "Death would be preferable to whatever you're about to ask.",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "desperately wants to be proven wrong about people"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: Where dignity comes to die and rent checks bounce higher than expectations, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when their simple plan attracts unwanted attention. What seemed like a manag...",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "Everyone's got an angle, what's yours?",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "secretly hoping someone will save them"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: Where dignity comes to die and rent checks bounce higher than expectations, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "Why does this always happen?",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "secretly hoping someone will save them"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: Where dignity comes to die and rent checks bounce higher than expectations, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 4,
+      "title": "Things Get Complicated",
+      "location": "The Plasma Donation Center",
+      "characters_present": [
+        "rizzo",
+        "scrapz",
+        "npc_bartender_sal"
+      ],
+      "time_of_day": "3 AM (why is it always 3 AM?)",
+      "mood": "pharmaceutical numbness",
+      "action": "Rizzo attempts to apply their unique problem-solving skills to the situation, which predictably makes everything more complicated.",
+      "dialogue": [
+        {
+          "speaker": "Rizzo",
+          "line": "This is either very bad news or very bad news disguised as good news.",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "testing whether this person can be trusted"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "Trust me, it gets worse from here.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "desperately wants to be proven wrong about people"
+        },
+        {
+          "speaker": "Karen the Social Worker",
+          "line": "That went about as well as expected.",
+          "tone": "weary sarcasm",
+          "subtext": "desperately wants to be proven wrong about people"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A dimly lit establishment where hope goes to die and problems get temporarily drowned",
+        "character_appearances": {
+          "Rizzo": "gaunt, greenish tint, X's for eyes, skull-and-crossbones bandana, poison bottle, death certificate collection, tiny coffin, showing signs of chemical enhancement",
+          "Scrapz": "torn ear, ragged fur, perpetual scowl, half-smoked cigarette, ash tray, torn leather jacket, showing signs of physical deterioration",
+          "Sal the Bartender": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "Sticky floors, broken dreams, and the ghost of better times",
+        "mood_lighting": "Unforgiving daylight exposing every flaw and failure",
+        "props_and_objects": [
+          "crumpled bills",
+          "broken promises",
+          "lucky charms that aren't working",
+          "prescription bottles"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of The Plasma Donation Center during 3 AM (why is it always 3 AM?), A dimly lit establishment where hope goes to die and problems get temporarily drowned, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Rizzo and Scrapz and Sal the Bartender in The Plasma Donation Center, showing their relationship dynamics, detailed character expressions, pharmaceutical numbness atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Rizzo showing pharmaceutical numbness, detailed facial expression, dramatic lighting, capturing the emotional weight of False hope is the cruelest hope, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Rizzo in The Plasma Donation Center, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "This is either very bad news or very bad news disguised as good news.",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "testing whether this person can be trusted"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A dimly lit establishment where hope goes to die and problems get temporarily drowned, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on Rizzo attempts to apply their unique problem-solving skills to the situation, which predictably make...",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "Trust me, it gets worse from here.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "desperately wants to be proven wrong about people"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A dimly lit establishment where hope goes to die and problems get temporarily drowned, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Action panel showing character interaction and plot development, focusing on Rizzo attempts to apply their unique problem-solving skills to the situation, which predictably make...",
+          "dialogue": {
+            "speaker": "Karen the Social Worker",
+            "line": "That went about as well as expected.",
+            "tone": "weary sarcasm",
+            "subtext": "desperately wants to be proven wrong about people"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A dimly lit establishment where hope goes to die and problems get temporarily drowned, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 4,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Narrator",
+            "line": "...",
+            "tone": "omniscient cynicism"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "dramatic angle emphasizing conflict",
+          "image_prompt": "Comic book panel 4: A dimly lit establishment where hope goes to die and problems get temporarily drowned, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 5,
+      "title": "Same Shit, Different Day",
+      "location": "The Alley Behind Everything",
+      "characters_present": [
+        "rizzo",
+        "npc_bartender_sal"
+      ],
+      "time_of_day": "early morning",
+      "mood": "spite-fueled determination",
+      "action": "The episode concludes with Rizzo having learned nothing from their experience but somehow finding themselves in a slightly different variation of the same situation they started in. Victory is redefined as \"not making things significantly worse,\" and the audience is reminded that some problems don't get solved—they just get replaced with new problems.",
+      "dialogue": [
+        {
+          "speaker": "Sal the Bartender",
+          "line": "Why do I always get involved in these situations?",
+          "tone": "weary sarcasm",
+          "subtext": "protecting themselves from further disappointment"
+        },
+        {
+          "speaker": "Rizzo",
+          "line": "Why does this always happen?",
+          "tone": "dark humor as a defense mechanism against trauma",
+          "subtext": "terrified of being vulnerable again"
+        },
+        {
+          "speaker": "Karen the Social Worker",
+          "line": "This is not what I signed up for.",
+          "tone": "weary sarcasm",
+          "subtext": "revealing more about their pain than intended"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "This is why I work alone.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "desperately wants to be proven wrong about people"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Rizzo": "gaunt, greenish tint, X's for eyes, skull-and-crossbones bandana, poison bottle, death certificate collection, tiny coffin, showing signs of chemical enhancement",
+          "Karen the Social Worker": "Tired, worn down, but still clinging to whatever dignity remains",
+          "Sal the Bartender": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "Neon desperation casting rainbow shadows on concrete dreams",
+        "props_and_objects": [
+          "worn photographs",
+          "cellular phones with cracked screens",
+          "expired coupons"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of The Alley Behind Everything during early morning, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Rizzo and Sal the Bartender in The Alley Behind Everything, showing their relationship dynamics, detailed character expressions, spite-fueled determination atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Rizzo showing spite-fueled determination, detailed facial expression, dramatic lighting, capturing the emotional weight of False hope is the cruelest hope, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Rizzo in The Alley Behind Everything, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Sal the Bartender",
+            "line": "Why do I always get involved in these situations?",
+            "tone": "weary sarcasm",
+            "subtext": "protecting themselves from further disappointment"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Rizzo having learned nothing from their experience but somehow finding th...",
+          "dialogue": {
+            "speaker": "Rizzo",
+            "line": "Why does this always happen?",
+            "tone": "dark humor as a defense mechanism against trauma",
+            "subtext": "terrified of being vulnerable again"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Karen the Social Worker",
+            "line": "This is not what I signed up for.",
+            "tone": "weary sarcasm",
+            "subtext": "revealing more about their pain than intended"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    }
+  ],
+  "moral": "Hope is the last thing to die, which makes it the most painful.",
+  "image_prompts": [
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of Municipal Court during late night, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Rizzo and Scrapz in Municipal Court, showing their relationship dynamics, detailed character expressions, desperately optimistic atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Rizzo showing desperately optimistic, detailed facial expression, dramatic lighting, capturing the emotional weight of False hope is the cruelest hope, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of The Roach Motel during evening, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Rizzo and Karen the Social Worker in The Roach Motel, showing their relationship dynamics, detailed character expressions, spite-fueled determination atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Rizzo showing spite-fueled determination, detailed facial expression, dramatic lighting, capturing the emotional weight of False hope is the cruelest hope, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of 24-Hour Laundromat during noon, Where dignity comes to die and rent checks bounce higher than expectations, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Rizzo and Sal the Bartender in 24-Hour Laundromat, showing their relationship dynamics, detailed character expressions, existential dread atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Rizzo showing existential dread, detailed facial expression, dramatic lighting, capturing the emotional weight of False hope is the cruelest hope, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of The Plasma Donation Center during 3 AM (why is it always 3 AM?), A dimly lit establishment where hope goes to die and problems get temporarily drowned, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Rizzo and Scrapz and Sal the Bartender in The Plasma Donation Center, showing their relationship dynamics, detailed character expressions, pharmaceutical numbness atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Rizzo showing pharmaceutical numbness, detailed facial expression, dramatic lighting, capturing the emotional weight of False hope is the cruelest hope, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of The Alley Behind Everything during early morning, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Rizzo and Sal the Bartender in The Alley Behind Everything, showing their relationship dynamics, detailed character expressions, spite-fueled determination atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Rizzo showing spite-fueled determination, detailed facial expression, dramatic lighting, capturing the emotional weight of False hope is the cruelest hope, photorealistic digital art"
+    }
+  ],
+  "comic_panels": [
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Rizzo in Municipal Court, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Karen the Social Worker",
+        "line": "Well, this should be interesting.",
+        "tone": "weary sarcasm",
+        "subtext": "protecting themselves from further disappointment"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on Rizzo begins their day with the usual routine of avoiding responsibility and managing expectations. ...",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "Why does this always happen?",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "terrified of being vulnerable again"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Trust me, it gets worse from here.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "terrified of being vulnerable again"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Rizzo in The Roach Motel, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "Death would be preferable to whatever you're about to ask.",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "desperately wants to be proven wrong about people"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on Rizzo's past comes back to haunt them when an unpaid favor becomes relevant to current events....",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Trust me, it gets worse from here.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "secretly hoping someone will save them"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Karen the Social Worker",
+        "line": "Why does this always happen?",
+        "tone": "weary sarcasm",
+        "subtext": "testing whether this person can be trusted"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Rizzo in 24-Hour Laundromat, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "Death would be preferable to whatever you're about to ask.",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "desperately wants to be proven wrong about people"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: Where dignity comes to die and rent checks bounce higher than expectations, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when their simple plan attracts unwanted attention. What seemed like a manag...",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Everyone's got an angle, what's yours?",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "secretly hoping someone will save them"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: Where dignity comes to die and rent checks bounce higher than expectations, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "Why does this always happen?",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "secretly hoping someone will save them"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: Where dignity comes to die and rent checks bounce higher than expectations, Rizzo and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Rizzo in The Plasma Donation Center, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "This is either very bad news or very bad news disguised as good news.",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "testing whether this person can be trusted"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A dimly lit establishment where hope goes to die and problems get temporarily drowned, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on Rizzo attempts to apply their unique problem-solving skills to the situation, which predictably make...",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Trust me, it gets worse from here.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "desperately wants to be proven wrong about people"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A dimly lit establishment where hope goes to die and problems get temporarily drowned, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Action panel showing character interaction and plot development, focusing on Rizzo attempts to apply their unique problem-solving skills to the situation, which predictably make...",
+      "dialogue": {
+        "speaker": "Karen the Social Worker",
+        "line": "That went about as well as expected.",
+        "tone": "weary sarcasm",
+        "subtext": "desperately wants to be proven wrong about people"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A dimly lit establishment where hope goes to die and problems get temporarily drowned, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 4,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Narrator",
+        "line": "...",
+        "tone": "omniscient cynicism"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "dramatic angle emphasizing conflict",
+      "image_prompt": "Comic book panel 4: A dimly lit establishment where hope goes to die and problems get temporarily drowned, Rizzo and other characters, pharmaceutical numbness atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Rizzo in The Alley Behind Everything, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Sal the Bartender",
+        "line": "Why do I always get involved in these situations?",
+        "tone": "weary sarcasm",
+        "subtext": "protecting themselves from further disappointment"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Rizzo having learned nothing from their experience but somehow finding th...",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "Why does this always happen?",
+        "tone": "dark humor as a defense mechanism against trauma",
+        "subtext": "terrified of being vulnerable again"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Karen the Social Worker",
+        "line": "This is not what I signed up for.",
+        "tone": "weary sarcasm",
+        "subtext": "revealing more about their pain than intended"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Rizzo and other characters, spite-fueled determination atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    }
+  ]
+}

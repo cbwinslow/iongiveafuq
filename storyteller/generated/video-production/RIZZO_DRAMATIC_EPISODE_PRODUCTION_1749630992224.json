@@ -1,0 +1,678 @@
+{
+  "project_name": "ION Give A Fuq: Dr. Needham's Return",
+  "episode_title": "Rizzo: Dr. Needham's Return",
+  "target_runtime": "3-4 minutes",
+  "production_type": "Dramatic short film with dark humor",
+  "priority": "HIGH - Flagship dramatic content",
+  "technical_specs": {
+    "resolution": "1920x1080 (Full HD)",
+    "framerate": "24fps",
+    "aspect_ratio": "16:9",
+    "color_space": "Rec. 709",
+    "audio_format": "48kHz/24-bit stereo",
+    "compression": "H.264 high profile",
+    "file_format": "MP4 container"
+  },
+  "visual_style": {
+    "art_direction": "Gritty urban realism with cyberpunk neon accents",
+    "color_grading": "Desaturated with selective neon highlights",
+    "lighting_mood": "Dramatic shadows, harsh fluorescents, medical cold lighting",
+    "camera_style": "Handheld feel, intimate close-ups, dramatic angles",
+    "animation_style": "Limited animation with detailed character expressions",
+    "effects_style": "Minimal but impactful - smoke, neon flicker, shadows"
+  },
+  "audio_design": {
+    "dialogue_style": "Clear, character-appropriate voice acting",
+    "sound_effects": "Urban ambience, medical equipment, footsteps, breathing",
+    "music_style": "Minimal atmospheric score, tension-building",
+    "ambient_audio": "Sewer drips, distant traffic, fluorescent hum",
+    "mixing_approach": "Dialogue-forward with immersive environmental audio"
+  },
+  "production_pipeline": {
+    "phase_1_preproduction": {
+      "duration": "1-2 days",
+      "tasks": [
+        "Generate all character reference images using detailed prompts",
+        "Create environment backgrounds for each scene location",
+        "Record voice acting sessions for all dialogue",
+        "Create sound effect library for urban environments",
+        "Design motion graphics templates for neon effects"
+      ]
+    },
+    "phase_2_asset_creation": {
+      "duration": "2-3 days",
+      "tasks": [
+        "Create character animation rigs for each mascot",
+        "Build environment assets with proper layering",
+        "Generate prop models (cigarettes, bottles, medical equipment)",
+        "Create particle effects for smoke, steam, sparks",
+        "Design typography and text overlays"
+      ]
+    },
+    "phase_3_animation": {
+      "duration": "3-4 days",
+      "tasks": [
+        "Animate character performances for each scene",
+        "Create camera movements and transitions",
+        "Implement lighting changes and effects",
+        "Add secondary animation (smoke, background elements)",
+        "Time all actions to audio tracks"
+      ]
+    },
+    "phase_4_post_production": {
+      "duration": "1-2 days",
+      "tasks": [
+        "Color grading and visual consistency passes",
+        "Audio mixing and sound design integration",
+        "Add visual effects and neon highlights",
+        "Final editing and pacing adjustments",
+        "Export final video in multiple formats"
+      ]
+    }
+  },
+  "shot_list": {
+    "total_shots": 33,
+    "estimated_runtime": "3 minutes 30 seconds",
+    "scenes": [
+      {
+        "scene_number": 1,
+        "scene_title": "Rock Bottom Has a Basement",
+        "location": "Municipal Court",
+        "time_of_day": "3 AM (why is it always 3 AM?)",
+        "mood": "chemical courage",
+        "estimated_duration": "45-60 seconds",
+        "shots": [
+          {
+            "shot_number": 1,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide establishing shot",
+            "camera_movement": "Tilt up",
+            "framing": "Environmental framing",
+            "subject": "Character reaction",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and chemical courage atmosphere",
+            "audio_focus": "Mixed dialogue and effects",
+            "animation_notes": "Subtle character breathing and micro-expressions",
+            "image_prompt": "Shot 1: Wide establishing shot of Municipal Court, chemical courage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Special attention to character interaction"
+          },
+          {
+            "shot_number": 2,
+            "duration": "3-8 seconds",
+            "shot_type": "Two-shot",
+            "camera_movement": "Orbit around subject",
+            "framing": "Dutch angle unsettling",
+            "subject": "Emotional beat",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and chemical courage atmosphere",
+            "audio_focus": "Silence for tension",
+            "animation_notes": "Camera movement animation only",
+            "image_prompt": "Shot 2: Insert shot of Municipal Court, chemical courage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Special attention to character interaction"
+          },
+          {
+            "shot_number": 3,
+            "duration": "3-8 seconds",
+            "shot_type": "Extreme close-up",
+            "camera_movement": "Static hold",
+            "framing": "Depth of field focus",
+            "subject": "Shadow and lighting",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and chemical courage atmosphere",
+            "audio_focus": "Breathing and intimacy",
+            "animation_notes": "Facial expression changes",
+            "image_prompt": "Shot 3: Point of view of Municipal Court, chemical courage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Audio sync critical for this shot"
+          },
+          {
+            "shot_number": 4,
+            "duration": "3-8 seconds",
+            "shot_type": "Over-the-shoulder",
+            "camera_movement": "Pan right to left",
+            "framing": "Rule of thirds composition",
+            "subject": "Shadow and lighting",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and chemical courage atmosphere",
+            "audio_focus": "Character dialogue prominent",
+            "animation_notes": "Prop interaction animation",
+            "image_prompt": "Shot 4: Close-up of Municipal Court, chemical courage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Special attention to character interaction"
+          },
+          {
+            "shot_number": 5,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide establishing shot",
+            "camera_movement": "Pan right to left",
+            "framing": "Silhouette against light",
+            "subject": "Dr. Needham looming presence",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and chemical courage atmosphere",
+            "audio_focus": "Character dialogue prominent",
+            "animation_notes": "Environmental animation - lights, shadows",
+            "image_prompt": "Shot 5: Point of view of Municipal Court, chemical courage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Special attention to character interaction"
+          },
+          {
+            "shot_number": 6,
+            "duration": "3-8 seconds",
+            "shot_type": "Close-up",
+            "camera_movement": "Orbit around subject",
+            "framing": "Depth of field focus",
+            "subject": "Character reaction",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and chemical courage atmosphere",
+            "audio_focus": "Footsteps and movement",
+            "animation_notes": "Limited animation - focus on key poses",
+            "image_prompt": "Shot 6: Cutaway of Municipal Court, chemical courage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Audio sync critical for this shot"
+          },
+          {
+            "shot_number": 7,
+            "duration": "3-8 seconds",
+            "shot_type": "Medium shot",
+            "camera_movement": "Zoom in slowly",
+            "framing": "Symmetrical composition",
+            "subject": "Prop interaction",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and chemical courage atmosphere",
+            "audio_focus": "Silence for tension",
+            "animation_notes": "Secondary animation - smoke, steam, particles",
+            "image_prompt": "Shot 7: Wide establishing shot of Municipal Court, chemical courage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Visual effects integration needed"
+          },
+          {
+            "shot_number": 8,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide conclusion shot",
+            "camera_movement": "Tilt down",
+            "framing": "High angle oppressive",
+            "subject": "Dr. Needham looming presence",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and chemical courage atmosphere",
+            "audio_focus": "Mixed dialogue and effects",
+            "animation_notes": "Facial expression changes",
+            "image_prompt": "Shot 8: Two-shot of Municipal Court, chemical courage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Add particle effects for environmental detail"
+          }
+        ]
+      },
+      {
+        "scene_number": 2,
+        "scene_title": "Things Get Complicated",
+        "location": "24-Hour Laundromat",
+        "time_of_day": "3 AM (why is it always 3 AM?)",
+        "mood": "existential dread",
+        "estimated_duration": "45-60 seconds",
+        "shots": [
+          {
+            "shot_number": 9,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide establishing shot",
+            "camera_movement": "Handheld follow",
+            "framing": "High angle oppressive",
+            "subject": "Character dialogue",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and existential dread atmosphere",
+            "audio_focus": "Musical score highlight",
+            "animation_notes": "Character gesture and body language",
+            "image_prompt": "Shot 9: Wide establishing shot of 24-Hour Laundromat, existential dread atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Maintain lighting continuity"
+          },
+          {
+            "shot_number": 10,
+            "duration": "3-8 seconds",
+            "shot_type": "Close-up",
+            "camera_movement": "Handheld follow",
+            "framing": "Rule of thirds composition",
+            "subject": "Shadow and lighting",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and existential dread atmosphere",
+            "audio_focus": "Medical equipment sounds",
+            "animation_notes": "Secondary animation - smoke, steam, particles",
+            "image_prompt": "Shot 10: Two-shot of 24-Hour Laundromat, existential dread atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Transition setup for next shot"
+          },
+          {
+            "shot_number": 11,
+            "duration": "3-8 seconds",
+            "shot_type": "Over-the-shoulder",
+            "camera_movement": "Slow push in",
+            "framing": "Environmental framing",
+            "subject": "Character dialogue",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and existential dread atmosphere",
+            "audio_focus": "Sound effects emphasis",
+            "animation_notes": "Subtle character breathing and micro-expressions",
+            "image_prompt": "Shot 11: Cutaway of 24-Hour Laundromat, existential dread atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Visual effects integration needed"
+          },
+          {
+            "shot_number": 12,
+            "duration": "3-8 seconds",
+            "shot_type": "Insert shot",
+            "camera_movement": "Pan left to right",
+            "framing": "Foreground/background layers",
+            "subject": "Shadow and lighting",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and existential dread atmosphere",
+            "audio_focus": "Character dialogue prominent",
+            "animation_notes": "Transition animation between shots",
+            "image_prompt": "Shot 12: Close-up of 24-Hour Laundromat, existential dread atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Audio sync critical for this shot"
+          },
+          {
+            "shot_number": 13,
+            "duration": "3-8 seconds",
+            "shot_type": "Point of view",
+            "camera_movement": "Static hold",
+            "framing": "Depth of field focus",
+            "subject": "Character dialogue",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and existential dread atmosphere",
+            "audio_focus": "Medical equipment sounds",
+            "animation_notes": "Camera movement animation only",
+            "image_prompt": "Shot 13: Wide establishing shot of 24-Hour Laundromat, existential dread atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Add particle effects for environmental detail"
+          },
+          {
+            "shot_number": 14,
+            "duration": "3-8 seconds",
+            "shot_type": "Point of view",
+            "camera_movement": "Zoom in slowly",
+            "framing": "Rule of thirds composition",
+            "subject": "Prop interaction",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and existential dread atmosphere",
+            "audio_focus": "Environmental ambience",
+            "animation_notes": "Transition animation between shots",
+            "image_prompt": "Shot 14: Reaction shot of 24-Hour Laundromat, existential dread atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Visual effects integration needed"
+          },
+          {
+            "shot_number": 15,
+            "duration": "3-8 seconds",
+            "shot_type": "Close-up",
+            "camera_movement": "Static hold",
+            "framing": "Low angle dramatic",
+            "subject": "Environmental details",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and existential dread atmosphere",
+            "audio_focus": "Medical equipment sounds",
+            "animation_notes": "Character gesture and body language",
+            "image_prompt": "Shot 15: Insert shot of 24-Hour Laundromat, existential dread atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Audio sync critical for this shot"
+          },
+          {
+            "shot_number": 16,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide conclusion shot",
+            "camera_movement": "Slow push in",
+            "framing": "Dutch angle unsettling",
+            "subject": "Transition element",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and existential dread atmosphere",
+            "audio_focus": "Character dialogue prominent",
+            "animation_notes": "Facial expression changes",
+            "image_prompt": "Shot 16: Insert shot of 24-Hour Laundromat, existential dread atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Maintain lighting continuity"
+          }
+        ]
+      },
+      {
+        "scene_number": 3,
+        "scene_title": "When Bad Gets Worse",
+        "location": "The Broken Dreams Apartment Complex",
+        "time_of_day": "afternoon",
+        "mood": "pharmaceutical numbness",
+        "estimated_duration": "45-60 seconds",
+        "shots": [
+          {
+            "shot_number": 17,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide establishing shot",
+            "camera_movement": "Tilt up",
+            "framing": "Symmetrical composition",
+            "subject": "Medical equipment detail",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and pharmaceutical numbness atmosphere",
+            "audio_focus": "Silence for tension",
+            "animation_notes": "Character gesture and body language",
+            "image_prompt": "Shot 17: Wide establishing shot of The Broken Dreams Apartment Complex, pharmaceutical numbness atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Color grade for mood and atmosphere"
+          },
+          {
+            "shot_number": 18,
+            "duration": "3-8 seconds",
+            "shot_type": "Close-up",
+            "camera_movement": "Orbit around subject",
+            "framing": "Environmental framing",
+            "subject": "Character reaction",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and pharmaceutical numbness atmosphere",
+            "audio_focus": "Breathing and intimacy",
+            "animation_notes": "Secondary animation - smoke, steam, particles",
+            "image_prompt": "Shot 18: Close-up of The Broken Dreams Apartment Complex, pharmaceutical numbness atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Color grade for mood and atmosphere"
+          },
+          {
+            "shot_number": 19,
+            "duration": "3-8 seconds",
+            "shot_type": "Extreme close-up",
+            "camera_movement": "Zoom in slowly",
+            "framing": "Low angle dramatic",
+            "subject": "Dr. Needham looming presence",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and pharmaceutical numbness atmosphere",
+            "audio_focus": "Urban background noise",
+            "animation_notes": "Camera movement animation only",
+            "image_prompt": "Shot 19: Extreme close-up of The Broken Dreams Apartment Complex, pharmaceutical numbness atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Color grade for mood and atmosphere"
+          },
+          {
+            "shot_number": 20,
+            "duration": "3-8 seconds",
+            "shot_type": "Point of view",
+            "camera_movement": "Orbit around subject",
+            "framing": "Centered subject",
+            "subject": "Character dialogue",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and pharmaceutical numbness atmosphere",
+            "audio_focus": "Environmental ambience",
+            "animation_notes": "Subtle character breathing and micro-expressions",
+            "image_prompt": "Shot 20: Reaction shot of The Broken Dreams Apartment Complex, pharmaceutical numbness atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Transition setup for next shot"
+          },
+          {
+            "shot_number": 21,
+            "duration": "3-8 seconds",
+            "shot_type": "Insert shot",
+            "camera_movement": "Orbit around subject",
+            "framing": "Environmental framing",
+            "subject": "Character reaction",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and pharmaceutical numbness atmosphere",
+            "audio_focus": "Medical equipment sounds",
+            "animation_notes": "Secondary animation - smoke, steam, particles",
+            "image_prompt": "Shot 21: Over-the-shoulder of The Broken Dreams Apartment Complex, pharmaceutical numbness atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Transition setup for next shot"
+          },
+          {
+            "shot_number": 22,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide establishing shot",
+            "camera_movement": "Zoom in slowly",
+            "framing": "High angle oppressive",
+            "subject": "Emotional beat",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and pharmaceutical numbness atmosphere",
+            "audio_focus": "Sound effects emphasis",
+            "animation_notes": "Character gesture and body language",
+            "image_prompt": "Shot 22: Reaction shot of The Broken Dreams Apartment Complex, pharmaceutical numbness atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Special attention to character interaction"
+          },
+          {
+            "shot_number": 23,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide establishing shot",
+            "camera_movement": "Pull back reveal",
+            "framing": "High angle oppressive",
+            "subject": "Dr. Needham looming presence",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and pharmaceutical numbness atmosphere",
+            "audio_focus": "Sound effects emphasis",
+            "animation_notes": "Facial expression changes",
+            "image_prompt": "Shot 23: Reaction shot of The Broken Dreams Apartment Complex, pharmaceutical numbness atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Maintain lighting continuity"
+          },
+          {
+            "shot_number": 24,
+            "duration": "3-8 seconds",
+            "shot_type": "Two-shot",
+            "camera_movement": "Pull back reveal",
+            "framing": "High angle oppressive",
+            "subject": "Medical equipment detail",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and pharmaceutical numbness atmosphere",
+            "audio_focus": "Breathing and intimacy",
+            "animation_notes": "Subtle character breathing and micro-expressions",
+            "image_prompt": "Shot 24: Close-up of The Broken Dreams Apartment Complex, pharmaceutical numbness atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Focus on facial expression detail"
+          },
+          {
+            "shot_number": 25,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide conclusion shot",
+            "camera_movement": "Orbit around subject",
+            "framing": "Low angle dramatic",
+            "subject": "Rizzo in environment",
+            "lighting": "Unforgiving daylight exposing every flaw and failure with dramatic shadows and pharmaceutical numbness atmosphere",
+            "audio_focus": "Silence for tension",
+            "animation_notes": "Limited animation - focus on key poses",
+            "image_prompt": "Shot 25: Extreme close-up of The Broken Dreams Apartment Complex, pharmaceutical numbness atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, Unforgiving daylight exposing every flaw and failure",
+            "technical_notes": "Audio sync critical for this shot"
+          }
+        ]
+      },
+      {
+        "scene_number": 4,
+        "scene_title": "Same Shit, Different Day",
+        "location": "Dr. Needham's Underground Lab",
+        "time_of_day": "3 AM (why is it always 3 AM?)",
+        "mood": "barely contained rage",
+        "estimated_duration": "45-60 seconds",
+        "shots": [
+          {
+            "shot_number": 26,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide establishing shot",
+            "camera_movement": "Pan left to right",
+            "framing": "Centered subject",
+            "subject": "Rizzo in environment",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and barely contained rage atmosphere",
+            "audio_focus": "Musical score highlight",
+            "animation_notes": "Environmental animation - lights, shadows",
+            "image_prompt": "Shot 26: Wide establishing shot of Dr. Needham's Underground Lab, barely contained rage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Add particle effects for environmental detail"
+          },
+          {
+            "shot_number": 27,
+            "duration": "3-8 seconds",
+            "shot_type": "Cutaway",
+            "camera_movement": "Pan left to right",
+            "framing": "Foreground/background layers",
+            "subject": "Environmental details",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and barely contained rage atmosphere",
+            "audio_focus": "Environmental ambience",
+            "animation_notes": "Subtle character breathing and micro-expressions",
+            "image_prompt": "Shot 27: Over-the-shoulder of Dr. Needham's Underground Lab, barely contained rage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Maintain lighting continuity"
+          },
+          {
+            "shot_number": 28,
+            "duration": "3-8 seconds",
+            "shot_type": "Two-shot",
+            "camera_movement": "Tilt up",
+            "framing": "Environmental framing",
+            "subject": "Dr. Needham looming presence",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and barely contained rage atmosphere",
+            "audio_focus": "Musical score highlight",
+            "animation_notes": "Character gesture and body language",
+            "image_prompt": "Shot 28: Insert shot of Dr. Needham's Underground Lab, barely contained rage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Focus on facial expression detail"
+          },
+          {
+            "shot_number": 29,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide establishing shot",
+            "camera_movement": "Slow push in",
+            "framing": "Depth of field focus",
+            "subject": "Rizzo in environment",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and barely contained rage atmosphere",
+            "audio_focus": "Sound effects emphasis",
+            "animation_notes": "Character gesture and body language",
+            "image_prompt": "Shot 29: Point of view of Dr. Needham's Underground Lab, barely contained rage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Transition setup for next shot"
+          },
+          {
+            "shot_number": 30,
+            "duration": "3-8 seconds",
+            "shot_type": "Medium shot",
+            "camera_movement": "Tilt down",
+            "framing": "Foreground/background layers",
+            "subject": "Character reaction",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and barely contained rage atmosphere",
+            "audio_focus": "Silence for tension",
+            "animation_notes": "Facial expression changes",
+            "image_prompt": "Shot 30: Close-up of Dr. Needham's Underground Lab, barely contained rage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Color grade for mood and atmosphere"
+          },
+          {
+            "shot_number": 31,
+            "duration": "3-8 seconds",
+            "shot_type": "Close-up",
+            "camera_movement": "Pan left to right",
+            "framing": "Depth of field focus",
+            "subject": "Transition element",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and barely contained rage atmosphere",
+            "audio_focus": "Footsteps and movement",
+            "animation_notes": "Facial expression changes",
+            "image_prompt": "Shot 31: Over-the-shoulder of Dr. Needham's Underground Lab, barely contained rage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Ensure character model consistency"
+          },
+          {
+            "shot_number": 32,
+            "duration": "3-8 seconds",
+            "shot_type": "Two-shot",
+            "camera_movement": "Pan left to right",
+            "framing": "Depth of field focus",
+            "subject": "Shadow and lighting",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and barely contained rage atmosphere",
+            "audio_focus": "Footsteps and movement",
+            "animation_notes": "Camera movement animation only",
+            "image_prompt": "Shot 32: Point of view of Dr. Needham's Underground Lab, barely contained rage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Special attention to character interaction"
+          },
+          {
+            "shot_number": 33,
+            "duration": "3-8 seconds",
+            "shot_type": "Wide conclusion shot",
+            "camera_movement": "Pan left to right",
+            "framing": "Foreground/background layers",
+            "subject": "Character dialogue",
+            "lighting": "The kind of lighting that makes everyone look like they've made poor life choices with dramatic shadows and barely contained rage atmosphere",
+            "audio_focus": "Urban background noise",
+            "animation_notes": "Secondary animation - smoke, steam, particles",
+            "image_prompt": "Shot 33: Close-up of Dr. Needham's Underground Lab, barely contained rage atmosphere, Rizzo and supporting characters, cinematic lighting, professional film quality, detailed character animation, gritty urban realism style, The kind of lighting that makes everyone look like they've made poor life choices",
+            "technical_notes": "Visual effects integration needed"
+          }
+        ]
+      }
+    ]
+  },
+  "character_animation_specs": {
+    "character_rigs": {
+      "rizzo": {
+        "facial_controls": "Eyes (X-scars), mouth, eyebrows, ear movement",
+        "body_controls": "Full body IK, tail animation, breathing cycle",
+        "props": "Skull bandana, poison bottle, medical equipment interaction",
+        "special_features": "Coughing animation, pain reactions, defensive postures"
+      },
+      "dr_needham": {
+        "facial_controls": "Sinister expressions, glasses adjustment, mouth movements",
+        "body_controls": "Authoritative posture, lab coat movement, hand gestures",
+        "props": "Clipboard, medical instruments, keys",
+        "special_features": "Intimidating presence, clinical movements"
+      },
+      "supporting_characters": {
+        "controls": "Basic facial and body animation for reactions",
+        "interaction": "Limited but authentic character responses"
+      }
+    },
+    "animation_principles": {
+      "timing": "24fps with held frames for emphasis",
+      "spacing": "Slower timing for dramatic moments, quick cuts for tension",
+      "anticipation": "Strong anticipation for character reactions",
+      "follow_through": "Natural follow-through on all movements",
+      "arcs": "Natural movement arcs for organic feel",
+      "staging": "Clear staging for dramatic storytelling"
+    },
+    "performance_guidelines": {
+      "rizzo_performance": "Defensive, wary, building to courageous defiance",
+      "needham_performance": "Cold, clinical, increasingly threatening",
+      "emotional_arc": "Tension building to confrontation to resolution",
+      "dialogue_timing": "Allow pauses for emotional weight",
+      "physical_acting": "Subtle but clear body language storytelling"
+    }
+  },
+  "environment_assets": {
+    "locations": {
+      "municipal_court": {
+        "description": "Harsh fluorescent lighting, institutional feel, cold and bureaucratic",
+        "key_elements": "Benches, filing cabinets, forms, fluorescent lights",
+        "lighting_setup": "Cold overhead fluorescents with harsh shadows",
+        "atmosphere": "Oppressive, institutional, dehumanizing",
+        "camera_positions": "Low angles to emphasize institutional power"
+      },
+      "laundromat_24hour": {
+        "description": "Spinning cycles of futility, industrial detergent smell, late night isolation",
+        "key_elements": "Washing machines, dryers, fluorescent lights, plastic chairs",
+        "lighting_setup": "Mixed fluorescent and machine indicator lights",
+        "atmosphere": "Lonely, cyclical, working-class struggle",
+        "camera_positions": "Medium shots through machines, reflections in glass"
+      },
+      "sals_dive_bar": {
+        "description": "Where hope goes to die and problems get temporarily drowned",
+        "key_elements": "Bar stools, neon beer signs, sticky floors, regulars",
+        "lighting_setup": "Warm amber lighting with neon highlights",
+        "atmosphere": "Familiar desperation, working-class camaraderie",
+        "camera_positions": "Bar-level shots, mirror reflections, intimate angles"
+      },
+      "needham_lab_flashback": {
+        "description": "Clinical horror, medical equipment, sterile environment",
+        "key_elements": "Examination tables, medical instruments, cages, computers",
+        "lighting_setup": "Cold clinical lighting with harsh shadows",
+        "atmosphere": "Threatening, medical horror, scientific detachment",
+        "camera_positions": "Low angles from Rizzo's perspective, clinical overhead shots"
+      }
+    },
+    "environmental_storytelling": {
+      "wear_and_tear": "Everything shows age, use, and neglect",
+      "class_indicators": "Visual cues about economic struggle",
+      "emotional_resonance": "Environments reflect character emotional states",
+      "practical_details": "Functional elements that characters interact with"
+    }
+  },
+  "visual_effects_specs": {
+    "practical_effects": {
+      "cigarette_smoke": "Realistic smoke animation for Scrapz scenes",
+      "neon_flicker": "Subtle neon sign flickering for atmosphere",
+      "fluorescent_hum": "Visual representation of harsh lighting",
+      "steam_effects": "Environmental steam from pipes, vents",
+      "dust_particles": "Floating dust in shafts of light"
+    },
+    "digital_effects": {
+      "color_grading": "Desaturated base with selective neon highlighting",
+      "light_rays": "Dramatic light shafts through windows, doors",
+      "shadow_enhancement": "Deepened shadows for dramatic contrast",
+      "glow_effects": "Subtle glow on neon elements",
+      "atmospheric_haze": "Slight haze for depth and mood"
+    },
+    "character_effects": {
+      "rizzo_scars": "Subtle highlighting of X-shaped eye scars",
+      "needham_presence": "Subtle menacing aura through lighting",
+      "breathing_vapor": "Visible breath in cold environments",
+      "medical_equipment": "Blinking lights, digital displays",
+      "emotional_highlights": "Subtle color shifts for emotional beats"
+    },
+    "transition_effects": {
+      "scene_transitions": "Quick cuts with brief flash frames",
+      "time_transitions": "Subtle time-of-day lighting changes",
+      "emotional_transitions": "Color temperature shifts",
+      "flashback_effects": "Desaturated, slightly blurred flashback sequences"
+    }
+  },
+  "post_production_guide": {
+    "editing_approach": {
+      "pacing": "Deliberate pacing building to dramatic climax",
+      "cuts": "Sharp cuts for tension, holds for emotional weight",
+      "transitions": "Minimal transitions - focus on story flow",
+      "rhythm": "Audio-driven editing rhythm"
+    },
+    "color_grading": {
+      "base_look": "Desaturated, slightly cool base tone",
+      "highlights": "Selective neon color enhancement",
+      "shadows": "Deep, rich shadows with retained detail",
+      "skin_tones": "Natural but slightly desaturated",
+      "mood_shifts": "Subtle color temperature changes for emotional beats"
+    },
+    "audio_mixing": {
+      "dialogue": "Clear, present, character-appropriate levels",
+      "sound_effects": "Immersive but not overwhelming",
+      "music": "Subtle, atmospheric, supporting not leading",
+      "ambience": "Rich environmental soundscape",
+      "dynamic_range": "Full dynamic range for emotional impact"
+    },
+    "final_output": {
+      "master_version": "1920x1080, 24fps, high bitrate for archival",
+      "web_version": "1920x1080, 24fps, optimized for streaming",
+      "social_clips": "Various short clips for social media promotion",
+      "behind_scenes": "Making-of content showing process"
+    }
+  }
+}

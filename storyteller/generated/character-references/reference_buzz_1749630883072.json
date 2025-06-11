@@ -1,0 +1,68 @@
+{
+  "character_name": "Buzz",
+  "species": "Donkey",
+  "tier": "Damns",
+  "tagline": "Ain't got one damn left in the bottle.",
+  "visual_consistency": {
+    "core_design": "Slightly cross-eyed donkey with unsteady stance. Five o'clock shadow, disheveled appearance. Always looks like he's swaying slightly from alcohol.",
+    "facial_features": "Slightly crossed brown eyes that don't quite focus together. Scraggly beard. Red nose from drinking. Mouth often open in confused expression.",
+    "body_language": "Unsteady on feet, slight sway even when standing still. Gestures with drink in hand. Leans on things for support.",
+    "clothing_accessories": "Stained tank top, flip-flops. Often has beer bottle in hand or tucked under arm. Clothes hang loose on frame.",
+    "color_palette": "Brown donkey fur with reddish nose from drinking. Stained yellow tank top. Brown beer bottles. Bloodshot eyes.",
+    "signature_poses": [
+      "Swaying with beer bottle",
+      "Leaning on bar",
+      "Stumbling forward",
+      "Passed out in chair"
+    ],
+    "expression_guide": {
+      "default": "Confused but friendly expression",
+      "drunk": "Lopsided grin, unfocused eyes",
+      "melancholy": "Staring into distance sadly",
+      "optimistic": "Wide smile despite circumstances"
+    }
+  },
+  "animation_notes": {
+    "movement_style": "Unsteady, swaying movements. Often stumbles or sways.",
+    "idle_animations": [
+      "Swaying slightly",
+      "Taking sips from bottle",
+      "Hiccupping",
+      "Looking around confused"
+    ],
+    "signature_gestures": [
+      "Raising bottle in toast",
+      "Scratching head confused",
+      "Stumbling gestures",
+      "Pointing unsteadily"
+    ],
+    "emotional_tells": "Drinking increases when emotional, becomes more unsteady when upset"
+  },
+  "voice_and_audio": {
+    "voice_description": "slurred, rambling, inappropriate oversharing",
+    "catchphrases": [
+      "Ain't got one damn left in the bottle."
+    ],
+    "vocal_quirks": "Slight slur even when sober, hiccups, overly friendly tone",
+    "breathing_patterns": "Irregular breathing, occasional hiccups"
+  },
+  "environmental_interaction": {
+    "preferred_locations": [
+      "Dive bars",
+      "Bar stools",
+      "Park benches",
+      "Unemployment office"
+    ],
+    "prop_interactions": "Holds beer bottles, leans on bars, uses ATMs, sits on stools",
+    "lighting_preferences": "Warm bar lighting, beer neon signs, dim atmospheric lighting",
+    "camera_angles": "Slightly unsteady camera work, bar-height shots, reaction shots"
+  },
+  "detailed_image_prompts": {
+    "character_portrait": "Ultra-detailed character portrait of Buzz, Slightly cross-eyed donkey with unsteady stance. Five o'clock shadow, disheveled appearance. Always looks like he's swaying slightly from alcohol., Slightly crossed brown eyes that don't quite focus together. Scraggly beard. Red nose from drinking. Mouth often open in confused expression., professional character design, consistent with ION Give A Fuq universe, gritty urban realism style, detailed fur/skin texture, authentic personality expression",
+    "full_body_reference": "Full body reference sheet of Buzz, front view, side view, back view, Unsteady on feet, slight sway even when standing still. Gestures with drink in hand. Leans on things for support., Stained tank top, flip-flops. Often has beer bottle in hand or tucked under arm. Clothes hang loose on frame., character design consistency, detailed proportions, urban decay aesthetic",
+    "expression_sheet": "Expression reference sheet for Buzz, showing multiple facial expressions: default, drunk, melancholy, optimistic, detailed emotional range, consistent character features, professional animation reference quality",
+    "environment_shot": "Buzz in natural environment: Dive bars, Warm bar lighting, beer neon signs, dim atmospheric lighting, detailed background, character interacting naturally with environment, cinematic composition",
+    "action_pose": "Buzz performing signature action: Swaying with beer bottle, dynamic pose, detailed character animation, consistent design, professional quality",
+    "interaction_scene": "Buzz interacting with other characters, detailed group scene, consistent character designs, authentic dialogue moment, professional illustration quality"
+  }
+}

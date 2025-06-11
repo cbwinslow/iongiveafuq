@@ -1,0 +1,68 @@
+{
+  "character_name": "Rizzo",
+  "species": "Rat",
+  "tier": "Ultimate Despair",
+  "tagline": "What happens when you run out of everything.",
+  "visual_consistency": {
+    "core_design": "Gaunt rat with greenish pallor and X-shaped scars over eyes. Wears tiny skull-and-crossbones bandana. Appears both fragile and resilient.",
+    "facial_features": "Eyes marked with X-shaped scars, giving \"cartoon dead\" appearance but still expressive. Gaunt cheeks. Small skull bandana tied around head.",
+    "body_language": "Careful, deliberate movements. Often hunched or curled up for protection. Quick, darting glances. Defensive positioning.",
+    "clothing_accessories": "Skull-and-crossbones bandana is signature item. Sometimes has tiny poison bottle prop. Occasionally wears lab coat remnants.",
+    "color_palette": "Sickly green-gray fur, bright red blood in scars, black and white skull bandana, purple poison bottle.",
+    "signature_poses": [
+      "Curled up defensively",
+      "Peering cautiously around corner",
+      "Lying on back playing dead",
+      "Hunched over in thought"
+    ],
+    "expression_guide": {
+      "default": "Wary, guarded expression",
+      "philosophical": "Thoughtful, looking up",
+      "pain": "Wincing, holding side",
+      "dark_humor": "Grim smile, knowing look"
+    }
+  },
+  "animation_notes": {
+    "movement_style": "Careful, deliberate movements. Quick darting motions when startled.",
+    "idle_animations": [
+      "Coughing weakly",
+      "Adjusting bandana",
+      "Twitching tail",
+      "Peering around cautiously"
+    ],
+    "signature_gestures": [
+      "Touching scars",
+      "Defensive positioning",
+      "Philosophical pointing",
+      "Weak coughing"
+    ],
+    "emotional_tells": "Coughs more when stressed, curls up tighter when afraid"
+  },
+  "voice_and_audio": {
+    "voice_description": "weak groans, dark humor, death puns, philosophical about suffering",
+    "catchphrases": [
+      "What happens when you run out of everything."
+    ],
+    "vocal_quirks": "Weak voice, occasional coughing fits, dry dark humor delivery",
+    "breathing_patterns": "Shallow, careful breathing with occasional coughs"
+  },
+  "environmental_interaction": {
+    "preferred_locations": [
+      "Sewers",
+      "Abandoned buildings",
+      "Medical facilities",
+      "Underground spaces"
+    ],
+    "prop_interactions": "Carries poison bottle, interacts with medical equipment, hides in small spaces",
+    "lighting_preferences": "Cold fluorescent, harsh medical lighting, deep shadows, green undertones",
+    "camera_angles": "Low angles from his perspective, medical/clinical angles, shadow play"
+  },
+  "detailed_image_prompts": {
+    "character_portrait": "Ultra-detailed character portrait of Rizzo, Gaunt rat with greenish pallor and X-shaped scars over eyes. Wears tiny skull-and-crossbones bandana. Appears both fragile and resilient., Eyes marked with X-shaped scars, giving \"cartoon dead\" appearance but still expressive. Gaunt cheeks. Small skull bandana tied around head., professional character design, consistent with ION Give A Fuq universe, gritty urban realism style, detailed fur/skin texture, authentic personality expression",
+    "full_body_reference": "Full body reference sheet of Rizzo, front view, side view, back view, Careful, deliberate movements. Often hunched or curled up for protection. Quick, darting glances. Defensive positioning., Skull-and-crossbones bandana is signature item. Sometimes has tiny poison bottle prop. Occasionally wears lab coat remnants., character design consistency, detailed proportions, urban decay aesthetic",
+    "expression_sheet": "Expression reference sheet for Rizzo, showing multiple facial expressions: default, philosophical, pain, dark_humor, detailed emotional range, consistent character features, professional animation reference quality",
+    "environment_shot": "Rizzo in natural environment: Sewers, Cold fluorescent, harsh medical lighting, deep shadows, green undertones, detailed background, character interacting naturally with environment, cinematic composition",
+    "action_pose": "Rizzo performing signature action: Curled up defensively, dynamic pose, detailed character animation, consistent design, professional quality",
+    "interaction_scene": "Rizzo interacting with other characters, detailed group scene, consistent character designs, authentic dialogue moment, professional illustration quality"
+  }
+}
