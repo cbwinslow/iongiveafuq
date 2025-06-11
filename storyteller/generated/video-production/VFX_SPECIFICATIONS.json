@@ -1,0 +1,29 @@
+{
+  "practical_effects": {
+    "cigarette_smoke": "Realistic smoke animation for Scrapz scenes",
+    "neon_flicker": "Subtle neon sign flickering for atmosphere",
+    "fluorescent_hum": "Visual representation of harsh lighting",
+    "steam_effects": "Environmental steam from pipes, vents",
+    "dust_particles": "Floating dust in shafts of light"
+  },
+  "digital_effects": {
+    "color_grading": "Desaturated base with selective neon highlighting",
+    "light_rays": "Dramatic light shafts through windows, doors",
+    "shadow_enhancement": "Deepened shadows for dramatic contrast",
+    "glow_effects": "Subtle glow on neon elements",
+    "atmospheric_haze": "Slight haze for depth and mood"
+  },
+  "character_effects": {
+    "rizzo_scars": "Subtle highlighting of X-shaped eye scars",
+    "needham_presence": "Subtle menacing aura through lighting",
+    "breathing_vapor": "Visible breath in cold environments",
+    "medical_equipment": "Blinking lights, digital displays",
+    "emotional_highlights": "Subtle color shifts for emotional beats"
+  },
+  "transition_effects": {
+    "scene_transitions": "Quick cuts with brief flash frames",
+    "time_transitions": "Subtle time-of-day lighting changes",
+    "emotional_transitions": "Color temperature shifts",
+    "flashback_effects": "Desaturated, slightly blurred flashback sequences"
+  }
+}
