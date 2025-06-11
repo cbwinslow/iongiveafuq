@@ -1,0 +1,111 @@
+{
+  "id": "54b524a0-974a-4f57-bec4-7813f8851a57",
+  "title": "Why Everything's Broken (A Scrapz Perspective)",
+  "timestamp": "2025-06-11T08:11:09.410Z",
+  "format": "four_panel",
+  "style": "dark humor illustration",
+  "primary_mascot": "scrapz",
+  "supporting_characters": [],
+  "theme": "Dignity is a luxury",
+  "type": "social_commentary",
+  "setup": "Scrapz observes the housing crisis and shares their unique perspective",
+  "panels": [
+    {
+      "panel_number": 1,
+      "composition": "wide establishing shot",
+      "description": "Opening panel establishing Scrapz in their typical environment: dark alley, fire escape, abandoned buildings. The scene shows Scrapz observes the housing crisis and shares their unique perspective. Scrapz displays their characteristic sarcastic demeanor.",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "What fresh hell is this?",
+        "tone": "deadpan, sharp wit, lots of profanity",
+        "balloon_type": "question"
+      },
+      "visual_focus": "interaction between characters",
+      "mood": "existential dread",
+      "image_prompt": "Comic book panel 1: wide establishing shot, showing Scrapz Opening panel establishing Scrapz in their typical environment: dark alley, fire escape, abandoned buildings. The scene shows Scrapz observes the housing crisis and shares their unique perspective. Scrapz displays their characteristic sarcastic demeanor.. interaction between characters. Character says: \"What fresh hell is this?\". Art style: dark humor illustration, high contrast black and white with single color highlights. Mood: existential dread. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 2,
+      "composition": "close-up for emphasis",
+      "description": "Other characters react to Scrapz's behavior with typical human obliviousness",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Trust me, it gets worse from here.",
+        "tone": "deadpan, sharp wit, lots of profanity",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "facial close-up for emotional impact",
+      "mood": "chemical numbness",
+      "image_prompt": "Comic book panel 2: close-up for emphasis, showing Scrapz Other characters react to Scrapz's behavior with typical human obliviousness. facial close-up for emotional impact. Character says: \"Trust me, it gets worse from here.\". Art style: dark humor illustration, high contrast black and white with single color highlights. Mood: chemical numbness. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 3,
+      "composition": "reaction shot",
+      "description": "The situation escalates as Scrapz encounters the reality of their circumstances",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Everyone's got an angle. What's yours?",
+        "tone": "deadpan, sharp wit, lots of profanity",
+        "balloon_type": "question"
+      },
+      "visual_focus": "character expression and body language",
+      "mood": "existential dread",
+      "image_prompt": "Comic book panel 3: reaction shot, showing Scrapz The situation escalates as Scrapz encounters the reality of their circumstances. character expression and body language. Character says: \"Everyone's got an angle. What's yours?\". Art style: dark humor illustration, high contrast black and white with single color highlights. Mood: existential dread. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 4,
+      "composition": "close-up for punchline",
+      "description": "Final panel delivering the punchline: Nine lives, zero fucks given.. Scrapz's expression perfectly captures their chain smoker nature as they deliver their trademark cynical wisdom.",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Next time, count me out.",
+        "tone": "deadpan, sharp wit, lots of profanity",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "environmental details that reinforce mood",
+      "mood": "gallows humor",
+      "image_prompt": "Comic book panel 4: close-up for punchline, showing Scrapz Final panel delivering the punchline: Nine lives, zero fucks given.. Scrapz's expression perfectly captures their chain smoker nature as they deliver their trademark cynical wisdom.. environmental details that reinforce mood. Character says: \"Next time, count me out.\". Art style: dark humor illustration, high contrast black and white with single color highlights. Mood: gallows humor. Professional comic book illustration with consistent character design."
+    }
+  ],
+  "punchline": "Nine lives, zero fucks given.",
+  "visual_notes": {
+    "art_style": "dark humor illustration",
+    "color_palette": "high contrast black and white with single color highlights",
+    "typography": "graffiti-inspired text for urban feel",
+    "panel_borders": "traditional comic strip borders",
+    "background_treatment": "detailed urban environments",
+    "character_consistency": {
+      "character_models": "Maintain consistent character proportions and features across panels",
+      "expressions": "Exaggerate facial expressions for comic effect while staying true to character",
+      "clothing": "Keep signature clothing items and accessories consistent",
+      "body_language": "Reflect character personalities through posture and gestures",
+      "environmental_consistency": "Maintain lighting and perspective consistency within scenes"
+    }
+  },
+  "image_prompts": [
+    {
+      "type": "full_comic_layout",
+      "prompt": "Complete four_panel comic strip titled \"Why Everything's Broken (A Scrapz Perspective)\". Four-panel comic strip, allows for more story development. Art style: dark humor illustration. Color palette: high contrast black and white with single color highlights. Shows Scrapz story about Dignity is a luxury. Professional comic book quality with consistent character design throughout all panels."
+    },
+    {
+      "type": "panel_1",
+      "prompt": "Comic book panel 1: wide establishing shot, showing Scrapz Opening panel establishing Scrapz in their typical environment: dark alley, fire escape, abandoned buildings. The scene shows Scrapz observes the housing crisis and shares their unique perspective. Scrapz displays their characteristic sarcastic demeanor.. interaction between characters. Character says: \"What fresh hell is this?\". Art style: dark humor illustration, high contrast black and white with single color highlights. Mood: existential dread. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_2",
+      "prompt": "Comic book panel 2: close-up for emphasis, showing Scrapz Other characters react to Scrapz's behavior with typical human obliviousness. facial close-up for emotional impact. Character says: \"Trust me, it gets worse from here.\". Art style: dark humor illustration, high contrast black and white with single color highlights. Mood: chemical numbness. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_3",
+      "prompt": "Comic book panel 3: reaction shot, showing Scrapz The situation escalates as Scrapz encounters the reality of their circumstances. character expression and body language. Character says: \"Everyone's got an angle. What's yours?\". Art style: dark humor illustration, high contrast black and white with single color highlights. Mood: existential dread. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_4",
+      "prompt": "Comic book panel 4: close-up for punchline, showing Scrapz Final panel delivering the punchline: Nine lives, zero fucks given.. Scrapz's expression perfectly captures their chain smoker nature as they deliver their trademark cynical wisdom.. environmental details that reinforce mood. Character says: \"Next time, count me out.\". Art style: dark humor illustration, high contrast black and white with single color highlights. Mood: gallows humor. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "character_reference",
+      "prompt": "Character reference sheet for Scrapz: multiple views and expressions, torn ear, ragged fur, perpetual scowl, half-smoked cigarette, ash tray, torn leather jacket. Art style: dark humor illustration. For use in comic book illustration. Professional character design sheet."
+    }
+  ]
+}
