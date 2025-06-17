@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import dumboImg from "../../assets/mascots/dog_placeholder.png"; // replace with real asset
+import dumboImg from "../../../../artwork/mascots/dog_placeholder.png"; // replace with real asset
 
 export default function Dumbo() {
   return (
