@@ -1,0 +1,403 @@
+{
+  "shopify_store_setup": {
+    "store_configuration": {
+      "store_name": "ION Give A Fuq",
+      "domain": "iongiveafuq.myshopify.com",
+      "theme": "Custom React integration or premium theme",
+      "currency": "USD",
+      "shipping_zones": [
+        "United States",
+        "Canada",
+        "International"
+      ],
+      "brand_settings": {
+        "logo_files": "Multiple ION Give A Fuq logo variations",
+        "color_scheme": {
+          "primary": "#FF0080",
+          "secondary": "#00FF41",
+          "accent": "#0080FF",
+          "background": "#0D0D0D",
+          "text": "#F0F0F0"
+        },
+        "typography": "Bebas Neue for headlines, Inter for body",
+        "favicon": "ION logo favicon in multiple sizes"
+      }
+    },
+    "product_listings": [
+      {
+        "title": "The Day Scrapz Gave a Shit - Flagship Tee",
+        "handle": "scrapz-transformation-flagship",
+        "product_type": "T-Shirts",
+        "vendor": "ION Give A Fuq",
+        "tags": "flagship, scrapz, transformation, character development, premium, shihts",
+        "description": "\n# The Moment Everything Changed\n\nWitness Scrapz's transformation from \"I don't give a shit\" to \"But I give a shit about THIS.\" \n\n**The Story:** Split design showing the exact moment our most cynical character discovered something worth caring about. Left side shows classic Scrapz with his signature middle finger and \"I DON'T GIVE A SHIT.\" Right side reveals the caring Scrapz protecting what matters with \"BUT I GIVE A SHIT ABOUT THIS.\"\n\n**Premium Quality:**\n- 100% ring-spun cotton for maximum softness\n- High-quality DTG printing with screen print highlights\n- Metallic gold foil on \"THE DAY\" text\n- Soft-hand finish that won't crack or peel\n- Pre-shrunk for perfect fit that lasts\n\n**Sizing:** True-to-size unisex fit, size chart available\n\n*From zero shits to one shit given. Wear the transformation.*\n\n**Tier:** shihts (Premium emotional damage)\n          ",
+        "variants": [
+          {
+            "size": "XS",
+            "color": "Black",
+            "price": "29.99",
+            "sku": "SCRAPZ-001-XS-BLK",
+            "inventory": 25
+          },
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "29.99",
+            "sku": "SCRAPZ-001-S-BLK",
+            "inventory": 50
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "29.99",
+            "sku": "SCRAPZ-001-M-BLK",
+            "inventory": 75
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "29.99",
+            "sku": "SCRAPZ-001-L-BLK",
+            "inventory": 75
+          },
+          {
+            "size": "XL",
+            "color": "Black",
+            "price": "29.99",
+            "sku": "SCRAPZ-001-XL-BLK",
+            "inventory": 50
+          },
+          {
+            "size": "2XL",
+            "color": "Black",
+            "price": "32.99",
+            "sku": "SCRAPZ-001-2XL-BLK",
+            "inventory": 25
+          },
+          {
+            "size": "3XL",
+            "color": "Black",
+            "price": "34.99",
+            "sku": "SCRAPZ-001-3XL-BLK",
+            "inventory": 15
+          }
+        ],
+        "images": [
+          "flagship-front-mockup.jpg",
+          "flagship-back-plain.jpg",
+          "flagship-detail-transformation.jpg",
+          "flagship-lifestyle-street.jpg",
+          "flagship-size-chart.jpg"
+        ],
+        "seo_title": "The Day Scrapz Gave a Shit T-Shirt | Character Transformation | ION Give A Fuq",
+        "seo_description": "Premium t-shirt featuring Scrapz's transformation from cynical to caring. Split design showing character development with metallic gold accents. 100% ring-spun cotton.",
+        "metafields": {
+          "story_arc": "The Day Scrapz Gave a Shit",
+          "character": "Scrapz",
+          "tier": "shihts",
+          "episode_tie_in": "Episode 4: The Day Scrapz Gave a Shit"
+        }
+      },
+      {
+        "title": "Scrapz Cares (Don't Tell Anyone) - Subtle Statement Tee",
+        "handle": "scrapz-cares-subtle",
+        "product_type": "T-Shirts",
+        "vendor": "ION Give A Fuq",
+        "tags": "scrapz, subtle, caring, secret, fuhqs",
+        "description": "\n# The Secret's Out (But Keep It Quiet)\n\nScrapz with finger to lips in universal \"shh\" gesture, small heart hidden in the cigarette smoke. For those who care but don't want anyone to know about it.\n\n**Design:** Left chest placement, single color print with hidden heart detail that only shows up close.\n\n**Perfect For:** People who give a shit but maintain plausible deniability.\n\n**Tier:** fuhqs (Entry level premium dysfunction)\n          ",
+        "variants": [
+          {
+            "size": "XS",
+            "color": "Black",
+            "price": "24.99",
+            "sku": "SCRAPZ-002-XS-BLK",
+            "inventory": 20
+          },
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "24.99",
+            "sku": "SCRAPZ-002-S-BLK",
+            "inventory": 35
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "24.99",
+            "sku": "SCRAPZ-002-M-BLK",
+            "inventory": 50
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "24.99",
+            "sku": "SCRAPZ-002-L-BLK",
+            "inventory": 50
+          },
+          {
+            "size": "XL",
+            "color": "Black",
+            "price": "24.99",
+            "sku": "SCRAPZ-002-XL-BLK",
+            "inventory": 35
+          },
+          {
+            "size": "2XL",
+            "color": "Black",
+            "price": "27.99",
+            "sku": "SCRAPZ-002-2XL-BLK",
+            "inventory": 20
+          },
+          {
+            "size": "3XL",
+            "color": "Black",
+            "price": "29.99",
+            "sku": "SCRAPZ-002-3XL-BLK",
+            "inventory": 10
+          }
+        ]
+      }
+    ],
+    "collection_setup": [
+      {
+        "title": "The Scrapz Collection",
+        "handle": "scrapz-collection",
+        "description": "Character transformation series featuring our most cynical mascot's journey to giving a shit.",
+        "image": "scrapz-collection-banner.jpg"
+      },
+      {
+        "title": "fuhqs",
+        "handle": "fuhqs-tier",
+        "description": "Entry level premium dysfunction. For when you barely give a fuhq.",
+        "price_range": "$19.99 - $24.99"
+      },
+      {
+        "title": "shihts",
+        "handle": "shihts-tier",
+        "description": "Premium tier emotional damage. Quality shiht for quality people.",
+        "price_range": "$25.99 - $29.99"
+      },
+      {
+        "title": "dayums",
+        "handle": "dayums-tier",
+        "description": "Mid-tier existential crisis. Dayum, that's some good dysfunction.",
+        "price_range": "$22.99 - $27.99"
+      },
+      {
+        "title": "rats-azzes",
+        "handle": "rats-azzes-tier",
+        "description": "Special edition trauma bonding. For the rats-azzes who survived.",
+        "price_range": "$26.99 - $31.99"
+      },
+      {
+        "title": "darns",
+        "handle": "darns-tier",
+        "description": "Accessible tier heartbreak. Darn good value for darn good people.",
+        "price_range": "$19.99 - $22.99"
+      }
+    ]
+  },
+  "react_website_starter": {
+    "project_setup": {
+      "name": "iongiveafuq-website",
+      "framework": "Create React App with TypeScript",
+      "dependencies": [
+        "framer-motion@^10.0.0",
+        "react-router-dom@^6.0.0",
+        "react-particles@^2.0.0",
+        "howler@^2.2.0",
+        "shopify-buy@^2.17.0",
+        "react-helmet@^6.1.0",
+        "styled-components@^5.3.0"
+      ],
+      "dev_dependencies": [
+        "@types/react@^18.0.0",
+        "@types/howler@^2.2.0",
+        "eslint-config-prettier@^8.0.0",
+        "prettier@^2.8.0"
+      ]
+    },
+    "folder_structure": "\nsrc/\n├── components/\n│   ├── common/\n│   │   ├── Header.tsx\n│   │   ├── Footer.tsx\n│   │   └── LoadingSpinner.tsx\n│   ├── mascots/\n│   │   ├── AnimatedMascot.tsx\n│   │   ├── MascotInteractions.tsx\n│   │   └── mascot-data.ts\n│   ├── hero/\n│   │   ├── AnimatedHero.tsx\n│   │   ├── FloatingLogo.tsx\n│   │   └── ParticleBackground.tsx\n│   ├── shop/\n│   │   ├── TierShowcase.tsx\n│   │   ├── ProductCard.tsx\n│   │   └── ShoppingCart.tsx\n│   ├── timeline/\n│   │   ├── StorylineTimeline.tsx\n│   │   ├── TimelinePhase.tsx\n│   │   └── EpisodeCard.tsx\n│   └── ui/\n│       ├── Button.tsx\n│       ├── Typography.tsx\n│       └── animations.ts\n├── pages/\n│   ├── Home.tsx\n│   ├── Story.tsx\n│   ├── Shop.tsx\n│   └── About.tsx\n├── hooks/\n│   ├── useShopify.ts\n│   ├── useAudio.ts\n│   └── useAnimations.ts\n├── styles/\n│   ├── globals.css\n│   ├── variables.css\n│   └── animations.css\n├── assets/\n│   ├── images/\n│   ├── audio/\n│   └── fonts/\n└── utils/\n    ├── shopify.ts\n    ├── analytics.ts\n    └── constants.ts\n      ",
+    "package_json": {
+      "name": "iongiveafuq-website",
+      "version": "1.0.0",
+      "private": true,
+      "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "deploy": "npm run build && netlify deploy --prod --dir=build"
+      }
+    }
+  },
+  "social_media_implementation": {
+    "platform_setup": {
+      "instagram": {
+        "handle": "@iongiveafuq",
+        "bio": "Premium tier dysfunction for the authentically broken 🎭\nWe sell fuhqs, shihts, dayums, rats-azzes & darns\n👇 Shop the transformation",
+        "link_in_bio": "linktr.ee/iongiveafuq",
+        "profile_image": "ION logo circular.png",
+        "highlights": [
+          "Story Arc",
+          "Characters",
+          "Shop Shit",
+          "Behind Scenes"
+        ]
+      },
+      "tiktok": {
+        "handle": "@iongiveafuq",
+        "bio": "The day our cynical cat gave a shit 🐱\n#ScrapzGivesAShit\nDark humor + character development",
+        "profile_video": "Scrapz transformation loop"
+      },
+      "twitter": {
+        "handle": "@iongiveafuq",
+        "bio": "Premium dysfunction for the authentically broken | We sell fuhqs, shihts, dayums, rats-azzes & darns | The day Scrapz gave a shit: iongiveafuq.com",
+        "header_image": "All mascots banner.jpg"
+      }
+    },
+    "content_calendar": {
+      "week_1_launch": [
+        {
+          "day": "Monday",
+          "platform": "All",
+          "content_type": "Announcement",
+          "post": "Something's changing... 👀 #ScrapzGivesAShit",
+          "image": "Teaser silhouette of Scrapz transformation"
+        },
+        {
+          "day": "Tuesday",
+          "platform": "Instagram",
+          "content_type": "Story Series",
+          "post": "Meet Scrapz: The cat who doesn't give a shit... or does he?",
+          "image": "Character introduction carousel"
+        },
+        {
+          "day": "Wednesday",
+          "platform": "TikTok",
+          "content_type": "Character Voice",
+          "post": "POV: You're Scrapz and someone asks if you care",
+          "video": "Scrapz voice line compilation"
+        },
+        {
+          "day": "Thursday",
+          "platform": "Twitter",
+          "content_type": "Thread",
+          "post": "Thread: The 4 stages of giving a shit (according to Scrapz)",
+          "images": "Character development progression"
+        },
+        {
+          "day": "Friday",
+          "platform": "All",
+          "content_type": "Product Tease",
+          "post": "Coming soon: Wear the transformation. #TheDesignThatChangedEverything",
+          "image": "Flagship t-shirt mockup (partial reveal)"
+        }
+      ],
+      "ongoing_content_themes": [
+        "Character development moments",
+        "Behind-the-scenes creation process",
+        "User-generated content (customers wearing shirts)",
+        "Dark humor relatable content",
+        "Story episode previews and releases",
+        "Merchandise drops and limited editions"
+      ]
+    },
+    "hashtag_strategy": {
+      "primary": "#ScrapzGivesAShit",
+      "secondary": [
+        "#CharacterDevelopment",
+        "#DarkHumor",
+        "#IONGiveAFuq",
+        "#AuthenticDysfunction",
+        "#PremiumTierDespair",
+        "#TransformationTuesday",
+        "#CynicalCat"
+      ],
+      "trending_opportunities": [
+        "#MentalHealthAwareness (authentic approach)",
+        "#SmallBusiness (character-driven brand)",
+        "#Streetwear (urban aesthetic)",
+        "#IndependentBrand (authentic story)"
+      ]
+    }
+  },
+  "production_partner_contacts": {
+    "print_on_demand_options": [
+      {
+        "company": "Printful",
+        "pros": "Easy Shopify integration, good quality, no minimums",
+        "cons": "Higher per-unit cost, limited special effects",
+        "best_for": "Initial launch and testing",
+        "setup_time": "1-2 days",
+        "fulfillment_time": "2-7 business days",
+        "integration": "Direct Shopify app available"
+      },
+      {
+        "company": "Gooten",
+        "pros": "Multiple product options, decent pricing, good integration",
+        "cons": "Quality can be inconsistent, limited premium options",
+        "best_for": "Volume testing and expansion",
+        "setup_time": "2-3 days",
+        "fulfillment_time": "3-10 business days"
+      }
+    ],
+    "custom_printing_partners": [
+      {
+        "company": "Local Screen Printing Shop",
+        "pros": "Premium quality, special effects possible, personal relationship",
+        "cons": "Higher minimums, manual fulfillment needed",
+        "best_for": "Premium flagship items and limited editions",
+        "minimum_order": "25-50 pieces per design",
+        "setup_cost": "$50-100 per design",
+        "turnaround": "7-14 business days"
+      }
+    ],
+    "specialty_effects_vendors": [
+      {
+        "service": "Metallic foil printing",
+        "vendor": "Local specialty printer or online service",
+        "cost": "+$3-5 per unit",
+        "minimum": "25+ pieces",
+        "best_for": "Flagship \"THE DAY\" text treatment"
+      },
+      {
+        "service": "Glow-in-dark printing",
+        "vendor": "Specialty screen printer",
+        "cost": "+$4-6 per unit",
+        "minimum": "50+ pieces",
+        "best_for": "Limited edition variants"
+      }
+    ]
+  },
+  "immediate_action_items": {
+    "week_1": [
+      "Set up Shopify store with basic theme",
+      "Create social media accounts on all platforms",
+      "Order sample shirts from Printful for quality testing",
+      "Set up Google Analytics and Facebook Pixel",
+      "Create email signup form with welcome series"
+    ],
+    "week_2": [
+      "Upload flagship product to Shopify with full description",
+      "Create social media content for launch week",
+      "Set up Shopify payments and shipping zones",
+      "Design email welcome series and order confirmations",
+      "Create size chart and return policy pages"
+    ],
+    "week_3": [
+      "Launch flagship product with limited social media campaign",
+      "Set up Google Ads and Facebook Ads campaigns",
+      "Create customer service templates and FAQ",
+      "Begin website development with React starter",
+      "Film first episode content for storyline"
+    ],
+    "week_4": [
+      "Analyze initial sales data and customer feedback",
+      "Iterate on product descriptions and images",
+      "Expand social media content based on engagement",
+      "Continue website development with hero section",
+      "Plan next product launch (additional designs)"
+    ]
+  }
+}

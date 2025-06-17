@@ -1,0 +1,63 @@
+{
+  "character_name": "Patty LaHam",
+  "species": "Pig",
+  "tier": "Bonus",
+  "tagline": "Fabulous and fresh out of fuqs to give.",
+  "visual_consistency": {
+    "core_design": "Standard character design with personality-appropriate wear and weathering",
+    "facial_features": "Expressive features that reflect character personality and life experiences",
+    "body_language": "Body language consistent with character personality and emotional state",
+    "clothing_accessories": "Clothing and accessories that reflect character's lifestyle and personality",
+    "color_palette": "Color palette reflecting character mood and environment",
+    "signature_poses": [
+      "Standing neutral",
+      "Sitting relaxed",
+      "Walking forward",
+      "Emotional reaction"
+    ],
+    "expression_guide": {
+      "default": "Neutral expression",
+      "happy": "Smile",
+      "sad": "Frown",
+      "angry": "Scowl"
+    }
+  },
+  "animation_notes": {
+    "movement_style": "Movement style appropriate to character personality",
+    "idle_animations": [
+      "Standing normally",
+      "Breathing",
+      "Occasional blink"
+    ],
+    "signature_gestures": [
+      "Generic pointing",
+      "Hand waving",
+      "Head nodding"
+    ],
+    "emotional_tells": "Emotional state reflected in posture and expression"
+  },
+  "voice_and_audio": {
+    "voice_description": "theatrical, over-the-top, uses lots of slang and innuendo",
+    "catchphrases": [
+      "Fabulous and fresh out of fuqs to give."
+    ],
+    "vocal_quirks": "Speech patterns consistent with character personality",
+    "breathing_patterns": "Normal breathing pattern"
+  },
+  "environmental_interaction": {
+    "preferred_locations": [
+      "Various urban locations"
+    ],
+    "prop_interactions": "Standard prop interactions",
+    "lighting_preferences": "Standard lighting appropriate to scene",
+    "camera_angles": "Standard camera angles for clear character visibility"
+  },
+  "detailed_image_prompts": {
+    "character_portrait": "Ultra-detailed character portrait of Patty LaHam, Standard character design with personality-appropriate wear and weathering, Expressive features that reflect character personality and life experiences, professional character design, consistent with ION Give A Fuq universe, gritty urban realism style, detailed fur/skin texture, authentic personality expression",
+    "full_body_reference": "Full body reference sheet of Patty LaHam, front view, side view, back view, Body language consistent with character personality and emotional state, Clothing and accessories that reflect character's lifestyle and personality, character design consistency, detailed proportions, urban decay aesthetic",
+    "expression_sheet": "Expression reference sheet for Patty LaHam, showing multiple facial expressions: default, happy, sad, angry, detailed emotional range, consistent character features, professional animation reference quality",
+    "environment_shot": "Patty LaHam in natural environment: Various urban locations, Standard lighting appropriate to scene, detailed background, character interacting naturally with environment, cinematic composition",
+    "action_pose": "Patty LaHam performing signature action: Standing neutral, dynamic pose, detailed character animation, consistent design, professional quality",
+    "interaction_scene": "Patty LaHam interacting with other characters, detailed group scene, consistent character designs, authentic dialogue moment, professional illustration quality"
+  }
+}

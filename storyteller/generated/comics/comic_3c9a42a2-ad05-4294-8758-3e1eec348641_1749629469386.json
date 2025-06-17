@@ -1,0 +1,96 @@
+{
+  "id": "3c9a42a2-ad05-4294-8758-3e1eec348641",
+  "title": "Dumbo's Daily Dose of Reality",
+  "timestamp": "2025-06-11T08:11:09.383Z",
+  "format": "three_panel",
+  "style": "indie comic style",
+  "primary_mascot": "dumbo",
+  "supporting_characters": [
+    "patty",
+    "villain_landlord_jenkins"
+  ],
+  "theme": "Rock bottom isn't the bottom",
+  "type": "daily_struggle",
+  "setup": "Dumbo wakes up to face another day of problems they didn't create",
+  "panels": [
+    {
+      "panel_number": 1,
+      "composition": "wide establishing shot",
+      "description": "Opening panel establishing Dumbo in their typical environment: cluttered sofa with pizza boxes, soda cans, snack wrappers. The scene shows Dumbo wakes up to face another day of problems they didn't create. Dumbo displays their characteristic goofy demeanor.",
+      "dialogue": {
+        "speaker": "Dumbo",
+        "line": "I was having a perfectly mediocre day until...",
+        "tone": "slow, confused, often trails off mid-sentence",
+        "balloon_type": "thought_bubble"
+      },
+      "visual_focus": "character expression and body language",
+      "mood": "gallows humor",
+      "image_prompt": "Comic book panel 1: wide establishing shot, showing Dumbo Opening panel establishing Dumbo in their typical environment: cluttered sofa with pizza boxes, soda cans, snack wrappers. The scene shows Dumbo wakes up to face another day of problems they didn't create. Dumbo displays their characteristic goofy demeanor.. character expression and body language. Character says: \"I was having a perfectly mediocre day until...\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: gallows humor. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 2,
+      "composition": "close-up for emphasis",
+      "description": "Dumbo provides commentary on the absurdity of their situation",
+      "dialogue": {
+        "speaker": "Dumbo",
+        "line": "I'm too sober for this conversation.",
+        "tone": "slow, confused, often trails off mid-sentence",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "environmental details that reinforce mood",
+      "mood": "weary acceptance",
+      "image_prompt": "Comic book panel 2: close-up for emphasis, showing Dumbo Dumbo provides commentary on the absurdity of their situation. environmental details that reinforce mood. Character says: \"I'm too sober for this conversation.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: weary acceptance. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 3,
+      "composition": "zoom out for perspective",
+      "description": "Final panel delivering the punchline: At least failure is predictable.. Dumbo's expression perfectly captures their chronically unemployed nature as they deliver their trademark cynical wisdom.",
+      "dialogue": {
+        "speaker": "Dumbo",
+        "line": "At least failure is consistent.",
+        "tone": "slow, confused, often trails off mid-sentence",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "facial close-up for emotional impact",
+      "mood": "chemical numbness",
+      "image_prompt": "Comic book panel 3: zoom out for perspective, showing Dumbo Final panel delivering the punchline: At least failure is predictable.. Dumbo's expression perfectly captures their chronically unemployed nature as they deliver their trademark cynical wisdom.. facial close-up for emotional impact. Character says: \"At least failure is consistent.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: chemical numbness. Professional comic book illustration with consistent character design."
+    }
+  ],
+  "punchline": "At least failure is predictable.",
+  "visual_notes": {
+    "art_style": "indie comic style",
+    "color_palette": "noir-inspired shadows with selective color",
+    "typography": "hand-lettered dialogue with rough edges",
+    "panel_borders": "clean panel separation with consistent spacing",
+    "background_treatment": "selective focus with blurred backgrounds",
+    "character_consistency": {
+      "character_models": "Maintain consistent character proportions and features across panels",
+      "expressions": "Exaggerate facial expressions for comic effect while staying true to character",
+      "clothing": "Keep signature clothing items and accessories consistent",
+      "body_language": "Reflect character personalities through posture and gestures",
+      "environmental_consistency": "Maintain lighting and perspective consistency within scenes"
+    }
+  },
+  "image_prompts": [
+    {
+      "type": "full_comic_layout",
+      "prompt": "Complete three_panel comic strip titled \"Dumbo's Daily Dose of Reality\". Classic three-panel format, setup-development-punchline. Art style: indie comic style. Color palette: noir-inspired shadows with selective color. Shows Dumbo story about Rock bottom isn't the bottom. Professional comic book quality with consistent character design throughout all panels."
+    },
+    {
+      "type": "panel_1",
+      "prompt": "Comic book panel 1: wide establishing shot, showing Dumbo Opening panel establishing Dumbo in their typical environment: cluttered sofa with pizza boxes, soda cans, snack wrappers. The scene shows Dumbo wakes up to face another day of problems they didn't create. Dumbo displays their characteristic goofy demeanor.. character expression and body language. Character says: \"I was having a perfectly mediocre day until...\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: gallows humor. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_2",
+      "prompt": "Comic book panel 2: close-up for emphasis, showing Dumbo Dumbo provides commentary on the absurdity of their situation. environmental details that reinforce mood. Character says: \"I'm too sober for this conversation.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: weary acceptance. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_3",
+      "prompt": "Comic book panel 3: zoom out for perspective, showing Dumbo Final panel delivering the punchline: At least failure is predictable.. Dumbo's expression perfectly captures their chronically unemployed nature as they deliver their trademark cynical wisdom.. facial close-up for emotional impact. Character says: \"At least failure is consistent.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: chemical numbness. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "character_reference",
+      "prompt": "Character reference sheet for Dumbo: multiple views and expressions, droopy, bloodshot, crusty pizza slice, stained remote control, empty beer cans. Art style: indie comic style. For use in comic book illustration. Professional character design sheet."
+    }
+  ]
+}

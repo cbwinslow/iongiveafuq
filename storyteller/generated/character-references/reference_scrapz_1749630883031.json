@@ -1,0 +1,68 @@
+{
+  "character_name": "Scrapz",
+  "species": "Cat",
+  "tier": "Shits",
+  "tagline": "I couldn't give a 💩 if I tried.",
+  "visual_consistency": {
+    "core_design": "Lean, scarred alley cat with torn left ear and missing patches of fur. Perpetual scowl, yellow teeth, always has cigarette. Battle-worn and street-hardened appearance.",
+    "facial_features": "Sharp, narrow green eyes with permanent squint. Torn left ear with multiple notches. Scar across bridge of nose. Cigarette usually dangling from lips.",
+    "body_language": "Tense, alert posture. Quick, efficient movements. Often crouched or ready to bolt. Smoking gestures are habitual and practiced.",
+    "clothing_accessories": "No clothing but always has cigarette. Sometimes wears torn leather jacket or bandana. Ash stains on fur.",
+    "color_palette": "Gray and black striped fur with battle scars. Bright orange cigarette ember. Green eyes. Ash gray smoke.",
+    "signature_poses": [
+      "Smoking while leaning against wall",
+      "Crouched and alert",
+      "Walking away dismissively",
+      "Flicking cigarette ash"
+    ],
+    "expression_guide": {
+      "default": "Perpetual scowl with cigarette",
+      "angry": "Bared teeth, ears back, fur standing up",
+      "dismissive": "Eye roll, turning head away",
+      "calculating": "Narrow eyes, slight smirk"
+    }
+  },
+  "animation_notes": {
+    "movement_style": "Quick, efficient, street-smart movements. Always aware of surroundings.",
+    "idle_animations": [
+      "Taking drags from cigarette",
+      "Flicking ash",
+      "Grooming paw",
+      "Scanning environment"
+    ],
+    "signature_gestures": [
+      "Flicking cigarette",
+      "Giving middle finger",
+      "Sharpening claws",
+      "Spitting"
+    ],
+    "emotional_tells": "Fur stands up when angry, cigarette burns faster when stressed"
+  },
+  "voice_and_audio": {
+    "voice_description": "deadpan, sharp wit, lots of profanity",
+    "catchphrases": [
+      "I couldn't give a 💩 if I tried."
+    ],
+    "vocal_quirks": "Gravelly voice from smoking, lots of profanity, sharp delivery",
+    "breathing_patterns": "Controlled breathing between cigarette drags"
+  },
+  "environmental_interaction": {
+    "preferred_locations": [
+      "Dark alleys",
+      "Fire escapes",
+      "Rooftops",
+      "Behind dumpsters"
+    ],
+    "prop_interactions": "Always has cigarette, uses lighters, interacts with trash, climbs fire escapes",
+    "lighting_preferences": "Harsh streetlights, neon signs, shadows and dramatic contrast",
+    "camera_angles": "Street-level shots, dramatic angles emphasizing his edge"
+  },
+  "detailed_image_prompts": {
+    "character_portrait": "Ultra-detailed character portrait of Scrapz, Lean, scarred alley cat with torn left ear and missing patches of fur. Perpetual scowl, yellow teeth, always has cigarette. Battle-worn and street-hardened appearance., Sharp, narrow green eyes with permanent squint. Torn left ear with multiple notches. Scar across bridge of nose. Cigarette usually dangling from lips., professional character design, consistent with ION Give A Fuq universe, gritty urban realism style, detailed fur/skin texture, authentic personality expression",
+    "full_body_reference": "Full body reference sheet of Scrapz, front view, side view, back view, Tense, alert posture. Quick, efficient movements. Often crouched or ready to bolt. Smoking gestures are habitual and practiced., No clothing but always has cigarette. Sometimes wears torn leather jacket or bandana. Ash stains on fur., character design consistency, detailed proportions, urban decay aesthetic",
+    "expression_sheet": "Expression reference sheet for Scrapz, showing multiple facial expressions: default, angry, dismissive, calculating, detailed emotional range, consistent character features, professional animation reference quality",
+    "environment_shot": "Scrapz in natural environment: Dark alleys, Harsh streetlights, neon signs, shadows and dramatic contrast, detailed background, character interacting naturally with environment, cinematic composition",
+    "action_pose": "Scrapz performing signature action: Smoking while leaning against wall, dynamic pose, detailed character animation, consistent design, professional quality",
+    "interaction_scene": "Scrapz interacting with other characters, detailed group scene, consistent character designs, authentic dialogue moment, professional illustration quality"
+  }
+}

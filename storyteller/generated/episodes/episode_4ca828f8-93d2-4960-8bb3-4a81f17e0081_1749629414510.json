@@ -1,0 +1,549 @@
+{
+  "id": "4ca828f8-93d2-4960-8bb3-4a81f17e0081",
+  "title": "When Hearts Break and Wallets Empty",
+  "timestamp": "2025-06-11T08:10:14.509Z",
+  "primary_mascot": "scrapz",
+  "theme": "Everyone's got their vice",
+  "type": "relationship_drama",
+  "characters": [
+    "scrapz",
+    "patty",
+    "npc_social_worker_karen"
+  ],
+  "setting": "Dr. Needham's Underground Lab",
+  "plot_outline": "Scrapz's carefully constructed solitude is disrupted when they're forced to interact with someone from their past who recognizes them. As rock bottom has a basement, both characters must confront their issues with trust, intimacy, and the fact that everyone's got their vice.",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "Rock Bottom Has a Basement",
+      "location": "Dr. Needham's Underground Lab",
+      "characters_present": [
+        "scrapz",
+        "patty",
+        "npc_social_worker_karen"
+      ],
+      "time_of_day": "early morning",
+      "mood": "desperately optimistic",
+      "action": "Scrapz begins their day with the usual routine of avoiding responsibility and managing expectations. The catalyst for today's adventure presents itself in the form of an unexpected encounter with someone from their past. Despite every instinct screaming \"don't get involved,\" circumstances and poor judgment combine to draw Scrapz into the situation.",
+      "dialogue": [
+        {
+          "speaker": "Karen the Social Worker",
+          "line": "Well, this should be interesting.",
+          "tone": "weary sarcasm",
+          "subtext": "secretly hoping someone will save them"
+        },
+        {
+          "speaker": "Patty LaHam",
+          "line": "This is not what I signed up for.",
+          "tone": "theatrical drama covering genuine vulnerability",
+          "subtext": "testing whether this person can be trusted"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "Trust me, it gets worse from here.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "secretly hoping someone will save them"
+        },
+        {
+          "speaker": "Patty LaHam",
+          "line": "Things just keep getting worse.",
+          "tone": "theatrical drama covering genuine vulnerability",
+          "subtext": "testing whether this person can be trusted"
+        },
+        {
+          "speaker": "Karen the Social Worker",
+          "line": "That went about as well as expected.",
+          "tone": "weary sarcasm",
+          "subtext": "terrified of being vulnerable again"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Scrapz": "torn ear, ragged fur, perpetual scowl, half-smoked cigarette, ash tray, torn leather jacket, showing signs of psychological wear",
+          "Karen the Social Worker": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "Neon desperation casting rainbow shadows on concrete dreams",
+        "props_and_objects": [
+          "prescription bottles",
+          "empty bottles",
+          "lottery tickets",
+          "expired coupons"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of Dr. Needham's Underground Lab during early morning, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Scrapz and Patty LaHam and Karen the Social Worker in Dr. Needham's Underground Lab, showing their relationship dynamics, detailed character expressions, desperately optimistic atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Scrapz showing desperately optimistic, detailed facial expression, dramatic lighting, capturing the emotional weight of Everyone's got their vice, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Scrapz in Dr. Needham's Underground Lab, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Karen the Social Worker",
+            "line": "Well, this should be interesting.",
+            "tone": "weary sarcasm",
+            "subtext": "secretly hoping someone will save them"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on Scrapz begins their day with the usual routine of avoiding responsibility and managing expectations....",
+          "dialogue": {
+            "speaker": "Patty LaHam",
+            "line": "This is not what I signed up for.",
+            "tone": "theatrical drama covering genuine vulnerability",
+            "subtext": "testing whether this person can be trusted"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Action panel showing character interaction and plot development, focusing on Scrapz begins their day with the usual routine of avoiding responsibility and managing expectations....",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "Trust me, it gets worse from here.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "secretly hoping someone will save them"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 4,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Patty LaHam",
+            "line": "Things just keep getting worse.",
+            "tone": "theatrical drama covering genuine vulnerability",
+            "subtext": "testing whether this person can be trusted"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "dramatic angle emphasizing conflict",
+          "image_prompt": "Comic book panel 4: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 2,
+      "title": "When Bad Gets Worse",
+      "location": "Pawn Shop Paradise",
+      "characters_present": [
+        "scrapz",
+        "patty",
+        "npc_social_worker_karen"
+      ],
+      "time_of_day": "late morning",
+      "mood": "dark comedy",
+      "action": "The situation escalates when their reputation precedes them. What seemed like a manageable problem reveals itself to be connected to larger issues involving neighborhood politics. Scrapz realizes they're in deeper than anticipated and that their usual strategy of \"ignore it and hope it goes away\" won't work this time.",
+      "dialogue": [
+        {
+          "speaker": "Scrapz",
+          "line": "Let me guess, you need someone else to clean up your mess.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "protecting themselves from further disappointment"
+        },
+        {
+          "speaker": "Karen the Social Worker",
+          "line": "Why does this always happen?",
+          "tone": "weary sarcasm",
+          "subtext": "protecting themselves from further disappointment"
+        },
+        {
+          "speaker": "Patty LaHam",
+          "line": "At least it's over.",
+          "tone": "theatrical drama covering genuine vulnerability",
+          "subtext": "desperately wants to be proven wrong about people"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Scrapz": "torn ear, ragged fur, perpetual scowl, half-smoked cigarette, ash tray, torn leather jacket, showing signs of financial stress",
+          "Patty LaHam": "undefined, rhinestone tiara, fake eyelashes, flask of gin, showing signs of spiritual emptiness",
+          "Karen the Social Worker": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "The kind of lighting that makes everyone look like they've made poor life choices",
+        "props_and_objects": [
+          "expired coupons",
+          "cellular phones with cracked screens",
+          "worn photographs"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of Pawn Shop Paradise during late morning, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Scrapz and Patty LaHam and Karen the Social Worker in Pawn Shop Paradise, showing their relationship dynamics, detailed character expressions, dark comedy atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Scrapz showing dark comedy, detailed facial expression, dramatic lighting, capturing the emotional weight of Everyone's got their vice, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Scrapz in Pawn Shop Paradise, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "Let me guess, you need someone else to clean up your mess.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "protecting themselves from further disappointment"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, dark comedy atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when their reputation precedes them. What seemed like a manageable problem r...",
+          "dialogue": {
+            "speaker": "Karen the Social Worker",
+            "line": "Why does this always happen?",
+            "tone": "weary sarcasm",
+            "subtext": "protecting themselves from further disappointment"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, dark comedy atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when their reputation precedes them. What seemed like a manageable problem r...",
+          "dialogue": {
+            "speaker": "Patty LaHam",
+            "line": "At least it's over.",
+            "tone": "theatrical drama covering genuine vulnerability",
+            "subtext": "desperately wants to be proven wrong about people"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, dark comedy atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 4,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Narrator",
+            "line": "...",
+            "tone": "omniscient cynicism"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "dramatic angle emphasizing conflict",
+          "image_prompt": "Comic book panel 4: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, dark comedy atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 3,
+      "title": "Same Shit, Different Day",
+      "location": "The Broken Dreams Apartment Complex",
+      "characters_present": [
+        "scrapz",
+        "patty"
+      ],
+      "time_of_day": "noon",
+      "mood": "gallows humor",
+      "action": "The episode concludes with Scrapz having learned nothing from their experience but somehow finding themselves in a slightly different variation of the same situation they started in. Victory is redefined as \"not making things significantly worse,\" and the audience is reminded that some problems don't get solved—they just get replaced with new problems.",
+      "dialogue": [
+        {
+          "speaker": "Karen the Social Worker",
+          "line": "I have a bad feeling about this.",
+          "tone": "weary sarcasm",
+          "subtext": "desperately wants to be proven wrong about people"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "I've seen this shit before, it doesn't end well.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "testing whether this person can be trusted"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "Trust me, it gets worse from here.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "revealing more about their pain than intended"
+        },
+        {
+          "speaker": "Patty LaHam",
+          "line": "At least it's over.",
+          "tone": "theatrical drama covering genuine vulnerability",
+          "subtext": "revealing more about their pain than intended"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Scrapz": "torn ear, ragged fur, perpetual scowl, half-smoked cigarette, ash tray, torn leather jacket, showing signs of physical deterioration",
+          "Karen the Social Worker": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "Unforgiving daylight exposing every flaw and failure",
+        "props_and_objects": [
+          "empty bottles",
+          "crumpled bills"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of The Broken Dreams Apartment Complex during noon, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Scrapz and Patty LaHam in The Broken Dreams Apartment Complex, showing their relationship dynamics, detailed character expressions, gallows humor atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Scrapz showing gallows humor, detailed facial expression, dramatic lighting, capturing the emotional weight of Everyone's got their vice, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Scrapz in The Broken Dreams Apartment Complex, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Karen the Social Worker",
+            "line": "I have a bad feeling about this.",
+            "tone": "weary sarcasm",
+            "subtext": "desperately wants to be proven wrong about people"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Scrapz having learned nothing from their experience but somehow finding t...",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "I've seen this shit before, it doesn't end well.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "testing whether this person can be trusted"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "Trust me, it gets worse from here.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "revealing more about their pain than intended"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    }
+  ],
+  "moral": "We all have something that helps us avoid dealing with reality.",
+  "image_prompts": [
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of Dr. Needham's Underground Lab during early morning, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Scrapz and Patty LaHam and Karen the Social Worker in Dr. Needham's Underground Lab, showing their relationship dynamics, detailed character expressions, desperately optimistic atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Scrapz showing desperately optimistic, detailed facial expression, dramatic lighting, capturing the emotional weight of Everyone's got their vice, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of Pawn Shop Paradise during late morning, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Scrapz and Patty LaHam and Karen the Social Worker in Pawn Shop Paradise, showing their relationship dynamics, detailed character expressions, dark comedy atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Scrapz showing dark comedy, detailed facial expression, dramatic lighting, capturing the emotional weight of Everyone's got their vice, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of The Broken Dreams Apartment Complex during noon, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Scrapz and Patty LaHam in The Broken Dreams Apartment Complex, showing their relationship dynamics, detailed character expressions, gallows humor atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Scrapz showing gallows humor, detailed facial expression, dramatic lighting, capturing the emotional weight of Everyone's got their vice, photorealistic digital art"
+    }
+  ],
+  "comic_panels": [
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Scrapz in Dr. Needham's Underground Lab, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Karen the Social Worker",
+        "line": "Well, this should be interesting.",
+        "tone": "weary sarcasm",
+        "subtext": "secretly hoping someone will save them"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on Scrapz begins their day with the usual routine of avoiding responsibility and managing expectations....",
+      "dialogue": {
+        "speaker": "Patty LaHam",
+        "line": "This is not what I signed up for.",
+        "tone": "theatrical drama covering genuine vulnerability",
+        "subtext": "testing whether this person can be trusted"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Action panel showing character interaction and plot development, focusing on Scrapz begins their day with the usual routine of avoiding responsibility and managing expectations....",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Trust me, it gets worse from here.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "secretly hoping someone will save them"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 4,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Patty LaHam",
+        "line": "Things just keep getting worse.",
+        "tone": "theatrical drama covering genuine vulnerability",
+        "subtext": "testing whether this person can be trusted"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "dramatic angle emphasizing conflict",
+      "image_prompt": "Comic book panel 4: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, desperately optimistic atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Scrapz in Pawn Shop Paradise, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Let me guess, you need someone else to clean up your mess.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "protecting themselves from further disappointment"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, dark comedy atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when their reputation precedes them. What seemed like a manageable problem r...",
+      "dialogue": {
+        "speaker": "Karen the Social Worker",
+        "line": "Why does this always happen?",
+        "tone": "weary sarcasm",
+        "subtext": "protecting themselves from further disappointment"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, dark comedy atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when their reputation precedes them. What seemed like a manageable problem r...",
+      "dialogue": {
+        "speaker": "Patty LaHam",
+        "line": "At least it's over.",
+        "tone": "theatrical drama covering genuine vulnerability",
+        "subtext": "desperately wants to be proven wrong about people"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, dark comedy atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 4,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Narrator",
+        "line": "...",
+        "tone": "omniscient cynicism"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "dramatic angle emphasizing conflict",
+      "image_prompt": "Comic book panel 4: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, dark comedy atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Scrapz in The Broken Dreams Apartment Complex, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Karen the Social Worker",
+        "line": "I have a bad feeling about this.",
+        "tone": "weary sarcasm",
+        "subtext": "desperately wants to be proven wrong about people"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Scrapz having learned nothing from their experience but somehow finding t...",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "I've seen this shit before, it doesn't end well.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "testing whether this person can be trusted"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Trust me, it gets worse from here.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "revealing more about their pain than intended"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Scrapz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "5b8eb16a-c4a5-4f12-826f-101d92cb655c",
+  "title": "Patty LaHam's Existential Meltdown",
+  "timestamp": "2025-06-11T08:11:09.414Z",
+  "format": "single_panel",
+  "style": "noir comic book style",
+  "primary_mascot": "patty",
+  "supporting_characters": [
+    "npc_dealer_mickey"
+  ],
+  "theme": "Quick fixes make bigger problems",
+  "type": "existential_crisis",
+  "setup": "Patty LaHam contemplates the pointlessness of existence while cleaning their living space",
+  "panels": [
+    {
+      "panel_number": 1,
+      "composition": "full panel establishing shot",
+      "description": "Opening panel establishing Patty LaHam in their typical environment: underground drag clubs, sketchy dressing rooms, seedy motels. The scene shows Patty LaHam contemplates the pointlessness of existence while cleaning their living space. Patty LaHam displays their characteristic flamboyant demeanor.",
+      "dialogue": {
+        "speaker": "Patty LaHam",
+        "line": "Let me stop you right there before you ruin my day.",
+        "tone": "theatrical, over-the-top, uses lots of slang and innuendo",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "facial close-up for emotional impact",
+      "mood": "weary acceptance",
+      "image_prompt": "Comic book panel 1: full panel establishing shot, showing Patty LaHam Opening panel establishing Patty LaHam in their typical environment: underground drag clubs, sketchy dressing rooms, seedy motels. The scene shows Patty LaHam contemplates the pointlessness of existence while cleaning their living space. Patty LaHam displays their characteristic flamboyant demeanor.. facial close-up for emotional impact. Character says: \"Let me stop you right there before you ruin my day.\". Art style: noir comic book style, sepia tones with modern color pops. Mood: weary acceptance. Professional comic book illustration with consistent character design."
+    }
+  ],
+  "punchline": "This calls for retail therapy and day drinking.",
+  "visual_notes": {
+    "art_style": "noir comic book style",
+    "color_palette": "sepia tones with modern color pops",
+    "typography": "hand-lettered dialogue with rough edges",
+    "panel_borders": "thick black border with rough edges",
+    "background_treatment": "textured backgrounds suggesting mood",
+    "character_consistency": {
+      "character_models": "Maintain consistent character proportions and features across panels",
+      "expressions": "Exaggerate facial expressions for comic effect while staying true to character",
+      "clothing": "Keep signature clothing items and accessories consistent",
+      "body_language": "Reflect character personalities through posture and gestures",
+      "environmental_consistency": "Maintain lighting and perspective consistency within scenes"
+    }
+  },
+  "image_prompts": [
+    {
+      "type": "full_comic_layout",
+      "prompt": "Complete single_panel comic strip titled \"Patty LaHam's Existential Meltdown\". Single panel comic strip, like newspaper editorial cartoons. Art style: noir comic book style. Color palette: sepia tones with modern color pops. Shows Patty LaHam story about Quick fixes make bigger problems. Professional comic book quality with consistent character design throughout all panels."
+    },
+    {
+      "type": "panel_1",
+      "prompt": "Comic book panel 1: full panel establishing shot, showing Patty LaHam Opening panel establishing Patty LaHam in their typical environment: underground drag clubs, sketchy dressing rooms, seedy motels. The scene shows Patty LaHam contemplates the pointlessness of existence while cleaning their living space. Patty LaHam displays their characteristic flamboyant demeanor.. facial close-up for emotional impact. Character says: \"Let me stop you right there before you ruin my day.\". Art style: noir comic book style, sepia tones with modern color pops. Mood: weary acceptance. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "character_reference",
+      "prompt": "Character reference sheet for Patty LaHam: multiple views and expressions, undefined, rhinestone tiara, fake eyelashes, flask of gin. Art style: noir comic book style. For use in comic book illustration. Professional character design sheet."
+    }
+  ]
+}
