@@ -1,0 +1,47 @@
+{
+  "week_1_launch": [
+    {
+      "day": "Monday",
+      "platform": "All",
+      "content_type": "Announcement",
+      "post": "Something's changing... 👀 #ScrapzGivesAShit",
+      "image": "Teaser silhouette of Scrapz transformation"
+    },
+    {
+      "day": "Tuesday",
+      "platform": "Instagram",
+      "content_type": "Story Series",
+      "post": "Meet Scrapz: The cat who doesn't give a shit... or does he?",
+      "image": "Character introduction carousel"
+    },
+    {
+      "day": "Wednesday",
+      "platform": "TikTok",
+      "content_type": "Character Voice",
+      "post": "POV: You're Scrapz and someone asks if you care",
+      "video": "Scrapz voice line compilation"
+    },
+    {
+      "day": "Thursday",
+      "platform": "Twitter",
+      "content_type": "Thread",
+      "post": "Thread: The 4 stages of giving a shit (according to Scrapz)",
+      "images": "Character development progression"
+    },
+    {
+      "day": "Friday",
+      "platform": "All",
+      "content_type": "Product Tease",
+      "post": "Coming soon: Wear the transformation. #TheDesignThatChangedEverything",
+      "image": "Flagship t-shirt mockup (partial reveal)"
+    }
+  ],
+  "ongoing_content_themes": [
+    "Character development moments",
+    "Behind-the-scenes creation process",
+    "User-generated content (customers wearing shirts)",
+    "Dark humor relatable content",
+    "Story episode previews and releases",
+    "Merchandise drops and limited editions"
+  ]
+}

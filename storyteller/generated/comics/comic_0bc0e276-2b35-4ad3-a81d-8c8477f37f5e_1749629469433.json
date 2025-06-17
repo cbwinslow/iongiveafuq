@@ -1,0 +1,150 @@
+{
+  "id": "0bc0e276-2b35-4ad3-a81d-8c8477f37f5e",
+  "title": "Relationship Status: It's Complicated (And Doomed)",
+  "timestamp": "2025-06-11T08:11:09.432Z",
+  "format": "six_panel",
+  "style": "indie comic style",
+  "primary_mascot": "rizzo",
+  "supporting_characters": [
+    "buzz",
+    "npc_psychic_madame_zelda"
+  ],
+  "theme": "False hope is the cruelest hope",
+  "type": "relationship_humor",
+  "setup": "Rizzo encounters an ex who wants to \"reconnect\" and responds predictably",
+  "panels": [
+    {
+      "panel_number": 1,
+      "composition": "wide establishing shot",
+      "description": "Opening panel establishing Rizzo in their typical environment: sewers, morgues, abandoned hospitals, graveyards. The scene shows Rizzo encounters an ex who wants to \"reconnect\" and responds predictably. Rizzo displays their characteristic morbidly humorous demeanor.",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "This is either very bad news or very bad news disguised as good news.",
+        "tone": "weak groans, dark humor, death puns, philosophical about suffering",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "character expression and body language",
+      "mood": "sarcastic defiance",
+      "image_prompt": "Comic book panel 1: wide establishing shot, showing Rizzo Opening panel establishing Rizzo in their typical environment: sewers, morgues, abandoned hospitals, graveyards. The scene shows Rizzo encounters an ex who wants to \"reconnect\" and responds predictably. Rizzo displays their characteristic morbidly humorous demeanor.. character expression and body language. Character says: \"This is either very bad news or very bad news disguised as good news.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: sarcastic defiance. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 2,
+      "composition": "medium shot showing action",
+      "description": "Rizzo attempts to deal with the situation using their unique problem-solving approach",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "At least when you expect the worst, you're rarely disappointed.",
+        "tone": "weak groans, dark humor, death puns, philosophical about suffering",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "symbolic objects or props",
+      "mood": "cynical resignation",
+      "image_prompt": "Comic book panel 2: medium shot showing action, showing Rizzo Rizzo attempts to deal with the situation using their unique problem-solving approach. symbolic objects or props. Character says: \"At least when you expect the worst, you're rarely disappointed.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: cynical resignation. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 3,
+      "composition": "reaction shot",
+      "description": "Rizzo provides commentary on the absurdity of their situation",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "I should have stayed in the sewer.",
+        "tone": "weak groans, dark humor, death puns, philosophical about suffering",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "environmental details that reinforce mood",
+      "mood": "cynical resignation",
+      "image_prompt": "Comic book panel 3: reaction shot, showing Rizzo Rizzo provides commentary on the absurdity of their situation. environmental details that reinforce mood. Character says: \"I should have stayed in the sewer.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: cynical resignation. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 4,
+      "composition": "medium shot showing action",
+      "description": "Other characters react to Rizzo's behavior with typical human obliviousness",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "I should have stayed in the sewer.",
+        "tone": "weak groans, dark humor, death puns, philosophical about suffering",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "interaction between characters",
+      "mood": "dark humor",
+      "image_prompt": "Comic book panel 4: medium shot showing action, showing Rizzo Other characters react to Rizzo's behavior with typical human obliviousness. interaction between characters. Character says: \"I should have stayed in the sewer.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: dark humor. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 5,
+      "composition": "medium shot showing action",
+      "description": "The situation escalates as Rizzo encounters the reality of their circumstances",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "I should have stayed in the sewer.",
+        "tone": "weak groans, dark humor, death puns, philosophical about suffering",
+        "balloon_type": "standard_speech"
+      },
+      "visual_focus": "interaction between characters",
+      "mood": "spite-fueled determination",
+      "image_prompt": "Comic book panel 5: medium shot showing action, showing Rizzo The situation escalates as Rizzo encounters the reality of their circumstances. interaction between characters. Character says: \"I should have stayed in the sewer.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: spite-fueled determination. Professional comic book illustration with consistent character design."
+    },
+    {
+      "panel_number": 6,
+      "composition": "zoom out for perspective",
+      "description": "Final panel delivering the punchline: And that's why hope is dangerous.. Rizzo's expression perfectly captures their chronic illness nature as they deliver their trademark cynical wisdom.",
+      "dialogue": {
+        "speaker": "Rizzo",
+        "line": "At least nobody died... this time.",
+        "tone": "weak groans, dark humor, death puns, philosophical about suffering",
+        "balloon_type": "thought_bubble"
+      },
+      "visual_focus": "environmental details that reinforce mood",
+      "mood": "bitter irony",
+      "image_prompt": "Comic book panel 6: zoom out for perspective, showing Rizzo Final panel delivering the punchline: And that's why hope is dangerous.. Rizzo's expression perfectly captures their chronic illness nature as they deliver their trademark cynical wisdom.. environmental details that reinforce mood. Character says: \"At least nobody died... this time.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: bitter irony. Professional comic book illustration with consistent character design."
+    }
+  ],
+  "punchline": "And that's why hope is dangerous.",
+  "visual_notes": {
+    "art_style": "indie comic style",
+    "color_palette": "noir-inspired shadows with selective color",
+    "typography": "mixed digital and hand-drawn text",
+    "panel_borders": "varied panel sizes with creative layouts",
+    "background_treatment": "textured backgrounds suggesting mood",
+    "character_consistency": {
+      "character_models": "Maintain consistent character proportions and features across panels",
+      "expressions": "Exaggerate facial expressions for comic effect while staying true to character",
+      "clothing": "Keep signature clothing items and accessories consistent",
+      "body_language": "Reflect character personalities through posture and gestures",
+      "environmental_consistency": "Maintain lighting and perspective consistency within scenes"
+    }
+  },
+  "image_prompts": [
+    {
+      "type": "full_comic_layout",
+      "prompt": "Complete six_panel comic strip titled \"Relationship Status: It's Complicated (And Doomed)\". Six-panel format for more complex storytelling. Art style: indie comic style. Color palette: noir-inspired shadows with selective color. Shows Rizzo story about False hope is the cruelest hope. Professional comic book quality with consistent character design throughout all panels."
+    },
+    {
+      "type": "panel_1",
+      "prompt": "Comic book panel 1: wide establishing shot, showing Rizzo Opening panel establishing Rizzo in their typical environment: sewers, morgues, abandoned hospitals, graveyards. The scene shows Rizzo encounters an ex who wants to \"reconnect\" and responds predictably. Rizzo displays their characteristic morbidly humorous demeanor.. character expression and body language. Character says: \"This is either very bad news or very bad news disguised as good news.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: sarcastic defiance. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_2",
+      "prompt": "Comic book panel 2: medium shot showing action, showing Rizzo Rizzo attempts to deal with the situation using their unique problem-solving approach. symbolic objects or props. Character says: \"At least when you expect the worst, you're rarely disappointed.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: cynical resignation. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_3",
+      "prompt": "Comic book panel 3: reaction shot, showing Rizzo Rizzo provides commentary on the absurdity of their situation. environmental details that reinforce mood. Character says: \"I should have stayed in the sewer.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: cynical resignation. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_4",
+      "prompt": "Comic book panel 4: medium shot showing action, showing Rizzo Other characters react to Rizzo's behavior with typical human obliviousness. interaction between characters. Character says: \"I should have stayed in the sewer.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: dark humor. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_5",
+      "prompt": "Comic book panel 5: medium shot showing action, showing Rizzo The situation escalates as Rizzo encounters the reality of their circumstances. interaction between characters. Character says: \"I should have stayed in the sewer.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: spite-fueled determination. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "panel_6",
+      "prompt": "Comic book panel 6: zoom out for perspective, showing Rizzo Final panel delivering the punchline: And that's why hope is dangerous.. Rizzo's expression perfectly captures their chronic illness nature as they deliver their trademark cynical wisdom.. environmental details that reinforce mood. Character says: \"At least nobody died... this time.\". Art style: indie comic style, noir-inspired shadows with selective color. Mood: bitter irony. Professional comic book illustration with consistent character design."
+    },
+    {
+      "type": "character_reference",
+      "prompt": "Character reference sheet for Rizzo: multiple views and expressions, gaunt, greenish tint, X's for eyes, skull-and-crossbones bandana, poison bottle, death certificate collection, tiny coffin. Art style: indie comic style. For use in comic book illustration. Professional character design sheet."
+    }
+  ]
+}
