@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
-import dumboImg from "../../../../artwork/mascots/dog_placeholder.png"; // replace with real asset
+import dumboImg from "../../../../artwork/mascots/dog_placeholder.png"; /**
+ * Displays an animated mascot card introducing Dumbo the Dog.
+ *
+ * Renders a spring-animated container with a heading, mascot image, and a humorous message.
+ *
+ * @returns {JSX.Element} The animated Dumbo mascot card component.
+ */
 
 export default function Dumbo() {
   return (
