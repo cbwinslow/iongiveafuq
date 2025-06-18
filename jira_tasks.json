@@ -1,0 +1,9 @@
+[
+  "Fill mascot component placeholders",
+  "Import real mascot artwork",
+  "Build cart & Stripe checkout",
+  "Harden backend & add Postgres schema",
+  "Configure Caddy/Let’s Encrypt",
+  "Add/expand tests, CI, and e2e",
+  "Launch social media and marketing campaigns"
+]
