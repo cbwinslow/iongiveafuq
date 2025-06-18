@@ -3,31 +3,48 @@ on:
   push:
     branches: [ main ]
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+      - name: Run frontend tests
+        working-directory: frontend
+        run: npm test -- --watchAll=false
+      - name: Install backend dependencies
+        working-directory: backend
+        run: npm ci
+      - name: Run backend tests
+        working-directory: backend
+        run: npm test -- --watchAll=false
   build-and-deploy:
     runs-on: ubuntu-latest
+    needs: test
     env:
       REGISTRY: ghcr.io
       IMAGE: ${{ github.repository }}-web
     steps:
       - uses: actions/checkout@v4
-
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - name: Install & build frontend
         working-directory: frontend
         run: |
           npm ci
           npm run build
-
       - name: Build & push Docker image
         run: |
           docker build -t $REGISTRY/$IMAGE:${{ github.sha }} .
           echo ${{ secrets.GHCR_TOKEN }} | docker login $REGISTRY -u ${{ github.actor }} --password-stdin
           docker push $REGISTRY/$IMAGE:${{ github.sha }}
-
       - name: Deploy on DellR720
         uses: appleboy/ssh-action@v0.2.0
         with:

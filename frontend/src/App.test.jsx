@@ -8,4 +8,10 @@ describe('App', () => {
     render(<App />);
     expect(screen.getByText(/Meet\s+Dumbo!/i)).toBeTruthy();
   });
+
+  it('renders Navbar and mascot image', () => {
+    render(<App />);
+    expect(screen.getByText(/iongiveafuq.com/i)).toBeInTheDocument();
+    expect(screen.getByAltText(/Mascot/i)).toBeInTheDocument();
+  });
 });
