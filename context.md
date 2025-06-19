@@ -121,6 +121,19 @@ services:
       - "4000:4000"
     networks: [fuqnet]
 
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: ion
+      POSTGRES_PASSWORD: ionpass
+      POSTGRES_DB: iongiveafuq
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks: [fuqnet]
+
+volumes:
+  db-data:
+
 networks:
   fuqnet:
 ```
@@ -149,7 +162,8 @@ CMD ["nginx", "-g", "daemon off;"]
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "dependencies": {
     "react": "^18.3.0",
@@ -159,9 +173,12 @@ CMD ["nginx", "-g", "daemon off;"]
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.19",
+    "jsdom": "^26.1.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.0",
-    "vite": "^5.2.0"
+    "typescript": "^5.4.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.3"
   }
 }
 ```
@@ -180,7 +197,7 @@ export default defineConfig({
 ### 5.6  `frontend/tailwind.config.js`
 ```js
 export default {
-  content: ['./index.html', './src/**/*.{js,jsx}'],
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
@@ -242,6 +259,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 import Navbar from './components/Navbar';
 import { motion } from 'framer-motion';
 import Dumbo from './components/mascots/Dumbo';
+import ArtworkViewer from './components/viewer/ArtworkViewer';
 
 export default function App() {
   return (
@@ -251,9 +269,12 @@ export default function App() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className="p-8 flex justify-center"
+        className="p-8 flex flex-col items-center"
       >
         <Dumbo />
+        <div className="mt-8 w-full">
+          <ArtworkViewer />
+        </div>
       </motion.main>
     </div>
   );
@@ -334,6 +355,94 @@ app.use(express.json());
 app.get('/api/health', (_req, res) => res.json({ status: 'ok' }));
 
 app.listen(4000, () => console.log('API listening on :4000'));
+```
+
+### 5.17  `backend/db/schema.sql`
+```sql
+CREATE TABLE IF NOT EXISTS artwork (
+  id SERIAL PRIMARY KEY,
+  title TEXT NOT NULL,
+  filename TEXT NOT NULL,
+  tags TEXT[] NOT NULL DEFAULT '{}'
+);
+```
+
+### 5.18  `frontend/tsconfig.json`
+```json
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
+```
+
+### 5.19  `frontend/src/components/viewer/ArtworkViewer.tsx`
+```tsx
+import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
+
+interface ArtworkMeta {
+  id: number;
+  title: string;
+  filename: string;
+  tags: string[];
+}
+
+export default function ArtworkViewer() {
+  const [artworks, setArtworks] = useState<ArtworkMeta[]>([]);
+  const [query, setQuery] = useState('');
+
+  useEffect(() => {
+    fetch(`/api/artwork?search=${encodeURIComponent(query)}`)
+      .then(res => res.json())
+      .then(setArtworks)
+      .catch(() => setArtworks([]));
+  }, [query]);
+
+  return (
+    <div className="p-4" onContextMenu={e => e.preventDefault()}>
+      <input
+        type="text"
+        placeholder="Search artwork..."
+        value={query}
+        onChange={e => setQuery(e.target.value)}
+        className="bg-gray-700 p-2 rounded w-full md:w-1/3"
+      />
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+        {artworks.map(a => (
+          <motion.div
+            key={a.id}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="bg-gray-800 p-4 rounded shadow-lg"
+          >
+            <img
+              src={`/artwork/${a.filename}`}
+              alt={a.title}
+              className="w-full h-auto pointer-events-none select-none"
+              draggable={false}
+            />
+            <h3 className="text-neon-green text-center mt-2">{a.title}</h3>
+          </motion.div>
+        ))}
+      </div>
+    </div>
+  );
+}
+```
+
+### 5.20  `scripts/deploy.sh`
+```sh
+#!/bin/sh
+docker compose up -d --build
 ```
 
 ---

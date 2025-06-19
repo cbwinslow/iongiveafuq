@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS artwork (
+  id SERIAL PRIMARY KEY,
+  title TEXT NOT NULL,
+  filename TEXT NOT NULL,
+  tags TEXT[] NOT NULL DEFAULT '{}'
+);
