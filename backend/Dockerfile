@@ -3,5 +3,6 @@ WORKDIR /app
 COPY package.json package-lock.json* ./
 RUN npm ci
 COPY . .
+RUN npm install pg
 EXPOSE 4000
-CMD ["node", "index.js"]
+CMD ["./start.sh"]

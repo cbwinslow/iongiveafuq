@@ -12,5 +12,18 @@ services:
       - "4000:4000"
     networks: [fuqnet]
 
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: ion
+      POSTGRES_PASSWORD: ionpass
+      POSTGRES_DB: iongiveafuq
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks: [fuqnet]
+
+volumes:
+  db-data:
+
 networks:
   fuqnet:
