@@ -37,6 +37,7 @@ iongiveafuq/
  ├─ .vscode/
  ├─ frontend/   (React app)
  ├─ backend/    (Express API)
+ ├─ artwork/    (raw image assets)
  ├─ docker-compose.yml
  ├─ docs/
  └─ .directory  (source‑of‑truth spec for directory‑builder)
@@ -278,7 +279,7 @@ export default function Navbar() {
 ### 5.13  `frontend/src/components/mascots/Dumbo.jsx`
 ```jsx
 import { motion } from 'framer-motion';
-import dumboImg from '../../assets/mascots/dog_placeholder.png'; // replace with real asset
+import dumboImg from '../../../../artwork/mascots/dog_placeholder.png'; // replace with real asset
 
 export default function Dumbo() {
   return (

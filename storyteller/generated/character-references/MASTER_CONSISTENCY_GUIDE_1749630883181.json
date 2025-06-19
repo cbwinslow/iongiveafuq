@@ -1,0 +1,361 @@
+{
+  "project_name": "ION Give A Fuq Character Universe",
+  "art_direction": {
+    "overall_style": "Gritty urban realism with cyberpunk neon accents",
+    "character_rendering": "Detailed, expressive, authentic to personality",
+    "environment_style": "Urban decay with selective neon highlighting",
+    "color_philosophy": "Muted reality with vibrant accent colors",
+    "lighting_approach": "Dramatic shadows, harsh fluorescents, neon underlighting"
+  },
+  "consistency_rules": {
+    "character_proportions": "Maintain exact proportions across all media",
+    "facial_features": "Keep signature features consistent (eyes, expressions, scars)",
+    "clothing_weathering": "All items should show appropriate wear and damage",
+    "color_accuracy": "Use exact color codes for signature items",
+    "personality_visual": "Every pose and expression must reflect character personality"
+  },
+  "technical_specifications": {
+    "resolution": "Minimum 1920x1080 for video, 300dpi for print",
+    "file_formats": "PNG with transparency for characters, JPG for backgrounds",
+    "animation_framerate": "24fps for smooth character animation",
+    "color_space": "sRGB for digital, CMYK for print",
+    "layer_organization": "Separate layers for character, props, background, effects"
+  },
+  "characters": {
+    "dumbo": {
+      "character_name": "Dumbo",
+      "species": "Dog",
+      "tier": "Fuqs",
+      "tagline": "Fresh outta fuqs – check back later.",
+      "visual_consistency": {
+        "core_design": "Overweight dog with droopy, bloodshot eyes and permanent stubble. Slouched posture, always looks like he just woke up. Asymmetrical features suggesting poor life choices.",
+        "facial_features": "Large, droopy brown eyes with heavy lids. Wide, flat nose. Mouth usually slack or forming minimal expressions. Stubble on chin area.",
+        "body_language": "Slouched shoulders, hands often in pockets or hanging limp. Slow, minimal movements. Sits heavily, sprawls when lying down.",
+        "clothing_accessories": "Stained undershirt, boxers, sometimes ratty bathrobe. Everything is wrinkled and looks slept in. Mismatched socks.",
+        "color_palette": "Muted browns and grays for fur, yellowed whites for clothing, bloodshot red in eyes. Dull, desaturated colors overall.",
+        "signature_poses": [
+          "Sprawled on couch",
+          "Standing with shoulders slumped",
+          "Sitting with head in hands",
+          "Lying flat on back"
+        ],
+        "expression_guide": {
+          "default": "Blank, slightly confused stare",
+          "annoyed": "Heavy sigh, rolling eyes",
+          "surprised": "Mouth slightly open, eyebrows raised minimally",
+          "defeated": "Eyes closed, head hanging down"
+        }
+      },
+      "animation_notes": {
+        "movement_style": "Slow, lazy movements. Minimal effort in everything. Shuffles rather than walks.",
+        "idle_animations": [
+          "Scratching belly",
+          "Yawning",
+          "Looking at phone",
+          "Adjusting position on couch"
+        ],
+        "signature_gestures": [
+          "Shrugging shoulders",
+          "Waving hand dismissively",
+          "Pointing at TV",
+          "Rubbing eyes"
+        ],
+        "emotional_tells": "Gets even more slouched when sad, barely opens eyes when annoyed"
+      },
+      "voice_and_audio": {
+        "voice_description": "slow, confused, often trails off mid-sentence",
+        "catchphrases": [
+          "Fresh outta fuqs – check back later."
+        ],
+        "vocal_quirks": "Often trails off mid-sentence, frequent \"uh\" and \"whatever\" fillers",
+        "breathing_patterns": "Heavy, labored breathing especially when moving"
+      },
+      "environmental_interaction": {
+        "preferred_locations": [
+          "Living room couch",
+          "Bedroom",
+          "Kitchen (near fridge)",
+          "Bathroom"
+        ],
+        "prop_interactions": "Interacts with TV remote, pizza boxes, beer cans, couch cushions",
+        "lighting_preferences": "Dim, flickering TV light, harsh fluorescent overhead, lazy afternoon sunlight",
+        "camera_angles": "Low angles emphasizing his lethargy, eye-level for relatability"
+      },
+      "detailed_image_prompts": {
+        "character_portrait": "Ultra-detailed character portrait of Dumbo, Overweight dog with droopy, bloodshot eyes and permanent stubble. Slouched posture, always looks like he just woke up. Asymmetrical features suggesting poor life choices., Large, droopy brown eyes with heavy lids. Wide, flat nose. Mouth usually slack or forming minimal expressions. Stubble on chin area., professional character design, consistent with ION Give A Fuq universe, gritty urban realism style, detailed fur/skin texture, authentic personality expression",
+        "full_body_reference": "Full body reference sheet of Dumbo, front view, side view, back view, Slouched shoulders, hands often in pockets or hanging limp. Slow, minimal movements. Sits heavily, sprawls when lying down., Stained undershirt, boxers, sometimes ratty bathrobe. Everything is wrinkled and looks slept in. Mismatched socks., character design consistency, detailed proportions, urban decay aesthetic",
+        "expression_sheet": "Expression reference sheet for Dumbo, showing multiple facial expressions: default, annoyed, surprised, defeated, detailed emotional range, consistent character features, professional animation reference quality",
+        "environment_shot": "Dumbo in natural environment: Living room couch, Dim, flickering TV light, harsh fluorescent overhead, lazy afternoon sunlight, detailed background, character interacting naturally with environment, cinematic composition",
+        "action_pose": "Dumbo performing signature action: Sprawled on couch, dynamic pose, detailed character animation, consistent design, professional quality",
+        "interaction_scene": "Dumbo interacting with other characters, detailed group scene, consistent character designs, authentic dialogue moment, professional illustration quality"
+      }
+    },
+    "scrapz": {
+      "character_name": "Scrapz",
+      "species": "Cat",
+      "tier": "Shits",
+      "tagline": "I couldn't give a 💩 if I tried.",
+      "visual_consistency": {
+        "core_design": "Lean, scarred alley cat with torn left ear and missing patches of fur. Perpetual scowl, yellow teeth, always has cigarette. Battle-worn and street-hardened appearance.",
+        "facial_features": "Sharp, narrow green eyes with permanent squint. Torn left ear with multiple notches. Scar across bridge of nose. Cigarette usually dangling from lips.",
+        "body_language": "Tense, alert posture. Quick, efficient movements. Often crouched or ready to bolt. Smoking gestures are habitual and practiced.",
+        "clothing_accessories": "No clothing but always has cigarette. Sometimes wears torn leather jacket or bandana. Ash stains on fur.",
+        "color_palette": "Gray and black striped fur with battle scars. Bright orange cigarette ember. Green eyes. Ash gray smoke.",
+        "signature_poses": [
+          "Smoking while leaning against wall",
+          "Crouched and alert",
+          "Walking away dismissively",
+          "Flicking cigarette ash"
+        ],
+        "expression_guide": {
+          "default": "Perpetual scowl with cigarette",
+          "angry": "Bared teeth, ears back, fur standing up",
+          "dismissive": "Eye roll, turning head away",
+          "calculating": "Narrow eyes, slight smirk"
+        }
+      },
+      "animation_notes": {
+        "movement_style": "Quick, efficient, street-smart movements. Always aware of surroundings.",
+        "idle_animations": [
+          "Taking drags from cigarette",
+          "Flicking ash",
+          "Grooming paw",
+          "Scanning environment"
+        ],
+        "signature_gestures": [
+          "Flicking cigarette",
+          "Giving middle finger",
+          "Sharpening claws",
+          "Spitting"
+        ],
+        "emotional_tells": "Fur stands up when angry, cigarette burns faster when stressed"
+      },
+      "voice_and_audio": {
+        "voice_description": "deadpan, sharp wit, lots of profanity",
+        "catchphrases": [
+          "I couldn't give a 💩 if I tried."
+        ],
+        "vocal_quirks": "Gravelly voice from smoking, lots of profanity, sharp delivery",
+        "breathing_patterns": "Controlled breathing between cigarette drags"
+      },
+      "environmental_interaction": {
+        "preferred_locations": [
+          "Dark alleys",
+          "Fire escapes",
+          "Rooftops",
+          "Behind dumpsters"
+        ],
+        "prop_interactions": "Always has cigarette, uses lighters, interacts with trash, climbs fire escapes",
+        "lighting_preferences": "Harsh streetlights, neon signs, shadows and dramatic contrast",
+        "camera_angles": "Street-level shots, dramatic angles emphasizing his edge"
+      },
+      "detailed_image_prompts": {
+        "character_portrait": "Ultra-detailed character portrait of Scrapz, Lean, scarred alley cat with torn left ear and missing patches of fur. Perpetual scowl, yellow teeth, always has cigarette. Battle-worn and street-hardened appearance., Sharp, narrow green eyes with permanent squint. Torn left ear with multiple notches. Scar across bridge of nose. Cigarette usually dangling from lips., professional character design, consistent with ION Give A Fuq universe, gritty urban realism style, detailed fur/skin texture, authentic personality expression",
+        "full_body_reference": "Full body reference sheet of Scrapz, front view, side view, back view, Tense, alert posture. Quick, efficient movements. Often crouched or ready to bolt. Smoking gestures are habitual and practiced., No clothing but always has cigarette. Sometimes wears torn leather jacket or bandana. Ash stains on fur., character design consistency, detailed proportions, urban decay aesthetic",
+        "expression_sheet": "Expression reference sheet for Scrapz, showing multiple facial expressions: default, angry, dismissive, calculating, detailed emotional range, consistent character features, professional animation reference quality",
+        "environment_shot": "Scrapz in natural environment: Dark alleys, Harsh streetlights, neon signs, shadows and dramatic contrast, detailed background, character interacting naturally with environment, cinematic composition",
+        "action_pose": "Scrapz performing signature action: Smoking while leaning against wall, dynamic pose, detailed character animation, consistent design, professional quality",
+        "interaction_scene": "Scrapz interacting with other characters, detailed group scene, consistent character designs, authentic dialogue moment, professional illustration quality"
+      }
+    },
+    "patty": {
+      "character_name": "Patty LaHam",
+      "species": "Pig",
+      "tier": "Bonus",
+      "tagline": "Fabulous and fresh out of fuqs to give.",
+      "visual_consistency": {
+        "core_design": "Standard character design with personality-appropriate wear and weathering",
+        "facial_features": "Expressive features that reflect character personality and life experiences",
+        "body_language": "Body language consistent with character personality and emotional state",
+        "clothing_accessories": "Clothing and accessories that reflect character's lifestyle and personality",
+        "color_palette": "Color palette reflecting character mood and environment",
+        "signature_poses": [
+          "Standing neutral",
+          "Sitting relaxed",
+          "Walking forward",
+          "Emotional reaction"
+        ],
+        "expression_guide": {
+          "default": "Neutral expression",
+          "happy": "Smile",
+          "sad": "Frown",
+          "angry": "Scowl"
+        }
+      },
+      "animation_notes": {
+        "movement_style": "Movement style appropriate to character personality",
+        "idle_animations": [
+          "Standing normally",
+          "Breathing",
+          "Occasional blink"
+        ],
+        "signature_gestures": [
+          "Generic pointing",
+          "Hand waving",
+          "Head nodding"
+        ],
+        "emotional_tells": "Emotional state reflected in posture and expression"
+      },
+      "voice_and_audio": {
+        "voice_description": "theatrical, over-the-top, uses lots of slang and innuendo",
+        "catchphrases": [
+          "Fabulous and fresh out of fuqs to give."
+        ],
+        "vocal_quirks": "Speech patterns consistent with character personality",
+        "breathing_patterns": "Normal breathing pattern"
+      },
+      "environmental_interaction": {
+        "preferred_locations": [
+          "Various urban locations"
+        ],
+        "prop_interactions": "Standard prop interactions",
+        "lighting_preferences": "Standard lighting appropriate to scene",
+        "camera_angles": "Standard camera angles for clear character visibility"
+      },
+      "detailed_image_prompts": {
+        "character_portrait": "Ultra-detailed character portrait of Patty LaHam, Standard character design with personality-appropriate wear and weathering, Expressive features that reflect character personality and life experiences, professional character design, consistent with ION Give A Fuq universe, gritty urban realism style, detailed fur/skin texture, authentic personality expression",
+        "full_body_reference": "Full body reference sheet of Patty LaHam, front view, side view, back view, Body language consistent with character personality and emotional state, Clothing and accessories that reflect character's lifestyle and personality, character design consistency, detailed proportions, urban decay aesthetic",
+        "expression_sheet": "Expression reference sheet for Patty LaHam, showing multiple facial expressions: default, happy, sad, angry, detailed emotional range, consistent character features, professional animation reference quality",
+        "environment_shot": "Patty LaHam in natural environment: Various urban locations, Standard lighting appropriate to scene, detailed background, character interacting naturally with environment, cinematic composition",
+        "action_pose": "Patty LaHam performing signature action: Standing neutral, dynamic pose, detailed character animation, consistent design, professional quality",
+        "interaction_scene": "Patty LaHam interacting with other characters, detailed group scene, consistent character designs, authentic dialogue moment, professional illustration quality"
+      }
+    },
+    "buzz": {
+      "character_name": "Buzz",
+      "species": "Donkey",
+      "tier": "Damns",
+      "tagline": "Ain't got one damn left in the bottle.",
+      "visual_consistency": {
+        "core_design": "Slightly cross-eyed donkey with unsteady stance. Five o'clock shadow, disheveled appearance. Always looks like he's swaying slightly from alcohol.",
+        "facial_features": "Slightly crossed brown eyes that don't quite focus together. Scraggly beard. Red nose from drinking. Mouth often open in confused expression.",
+        "body_language": "Unsteady on feet, slight sway even when standing still. Gestures with drink in hand. Leans on things for support.",
+        "clothing_accessories": "Stained tank top, flip-flops. Often has beer bottle in hand or tucked under arm. Clothes hang loose on frame.",
+        "color_palette": "Brown donkey fur with reddish nose from drinking. Stained yellow tank top. Brown beer bottles. Bloodshot eyes.",
+        "signature_poses": [
+          "Swaying with beer bottle",
+          "Leaning on bar",
+          "Stumbling forward",
+          "Passed out in chair"
+        ],
+        "expression_guide": {
+          "default": "Confused but friendly expression",
+          "drunk": "Lopsided grin, unfocused eyes",
+          "melancholy": "Staring into distance sadly",
+          "optimistic": "Wide smile despite circumstances"
+        }
+      },
+      "animation_notes": {
+        "movement_style": "Unsteady, swaying movements. Often stumbles or sways.",
+        "idle_animations": [
+          "Swaying slightly",
+          "Taking sips from bottle",
+          "Hiccupping",
+          "Looking around confused"
+        ],
+        "signature_gestures": [
+          "Raising bottle in toast",
+          "Scratching head confused",
+          "Stumbling gestures",
+          "Pointing unsteadily"
+        ],
+        "emotional_tells": "Drinking increases when emotional, becomes more unsteady when upset"
+      },
+      "voice_and_audio": {
+        "voice_description": "slurred, rambling, inappropriate oversharing",
+        "catchphrases": [
+          "Ain't got one damn left in the bottle."
+        ],
+        "vocal_quirks": "Slight slur even when sober, hiccups, overly friendly tone",
+        "breathing_patterns": "Irregular breathing, occasional hiccups"
+      },
+      "environmental_interaction": {
+        "preferred_locations": [
+          "Dive bars",
+          "Bar stools",
+          "Park benches",
+          "Unemployment office"
+        ],
+        "prop_interactions": "Holds beer bottles, leans on bars, uses ATMs, sits on stools",
+        "lighting_preferences": "Warm bar lighting, beer neon signs, dim atmospheric lighting",
+        "camera_angles": "Slightly unsteady camera work, bar-height shots, reaction shots"
+      },
+      "detailed_image_prompts": {
+        "character_portrait": "Ultra-detailed character portrait of Buzz, Slightly cross-eyed donkey with unsteady stance. Five o'clock shadow, disheveled appearance. Always looks like he's swaying slightly from alcohol., Slightly crossed brown eyes that don't quite focus together. Scraggly beard. Red nose from drinking. Mouth often open in confused expression., professional character design, consistent with ION Give A Fuq universe, gritty urban realism style, detailed fur/skin texture, authentic personality expression",
+        "full_body_reference": "Full body reference sheet of Buzz, front view, side view, back view, Unsteady on feet, slight sway even when standing still. Gestures with drink in hand. Leans on things for support., Stained tank top, flip-flops. Often has beer bottle in hand or tucked under arm. Clothes hang loose on frame., character design consistency, detailed proportions, urban decay aesthetic",
+        "expression_sheet": "Expression reference sheet for Buzz, showing multiple facial expressions: default, drunk, melancholy, optimistic, detailed emotional range, consistent character features, professional animation reference quality",
+        "environment_shot": "Buzz in natural environment: Dive bars, Warm bar lighting, beer neon signs, dim atmospheric lighting, detailed background, character interacting naturally with environment, cinematic composition",
+        "action_pose": "Buzz performing signature action: Swaying with beer bottle, dynamic pose, detailed character animation, consistent design, professional quality",
+        "interaction_scene": "Buzz interacting with other characters, detailed group scene, consistent character designs, authentic dialogue moment, professional illustration quality"
+      }
+    },
+    "rizzo": {
+      "character_name": "Rizzo",
+      "species": "Rat",
+      "tier": "Ultimate Despair",
+      "tagline": "What happens when you run out of everything.",
+      "visual_consistency": {
+        "core_design": "Gaunt rat with greenish pallor and X-shaped scars over eyes. Wears tiny skull-and-crossbones bandana. Appears both fragile and resilient.",
+        "facial_features": "Eyes marked with X-shaped scars, giving \"cartoon dead\" appearance but still expressive. Gaunt cheeks. Small skull bandana tied around head.",
+        "body_language": "Careful, deliberate movements. Often hunched or curled up for protection. Quick, darting glances. Defensive positioning.",
+        "clothing_accessories": "Skull-and-crossbones bandana is signature item. Sometimes has tiny poison bottle prop. Occasionally wears lab coat remnants.",
+        "color_palette": "Sickly green-gray fur, bright red blood in scars, black and white skull bandana, purple poison bottle.",
+        "signature_poses": [
+          "Curled up defensively",
+          "Peering cautiously around corner",
+          "Lying on back playing dead",
+          "Hunched over in thought"
+        ],
+        "expression_guide": {
+          "default": "Wary, guarded expression",
+          "philosophical": "Thoughtful, looking up",
+          "pain": "Wincing, holding side",
+          "dark_humor": "Grim smile, knowing look"
+        }
+      },
+      "animation_notes": {
+        "movement_style": "Careful, deliberate movements. Quick darting motions when startled.",
+        "idle_animations": [
+          "Coughing weakly",
+          "Adjusting bandana",
+          "Twitching tail",
+          "Peering around cautiously"
+        ],
+        "signature_gestures": [
+          "Touching scars",
+          "Defensive positioning",
+          "Philosophical pointing",
+          "Weak coughing"
+        ],
+        "emotional_tells": "Coughs more when stressed, curls up tighter when afraid"
+      },
+      "voice_and_audio": {
+        "voice_description": "weak groans, dark humor, death puns, philosophical about suffering",
+        "catchphrases": [
+          "What happens when you run out of everything."
+        ],
+        "vocal_quirks": "Weak voice, occasional coughing fits, dry dark humor delivery",
+        "breathing_patterns": "Shallow, careful breathing with occasional coughs"
+      },
+      "environmental_interaction": {
+        "preferred_locations": [
+          "Sewers",
+          "Abandoned buildings",
+          "Medical facilities",
+          "Underground spaces"
+        ],
+        "prop_interactions": "Carries poison bottle, interacts with medical equipment, hides in small spaces",
+        "lighting_preferences": "Cold fluorescent, harsh medical lighting, deep shadows, green undertones",
+        "camera_angles": "Low angles from his perspective, medical/clinical angles, shadow play"
+      },
+      "detailed_image_prompts": {
+        "character_portrait": "Ultra-detailed character portrait of Rizzo, Gaunt rat with greenish pallor and X-shaped scars over eyes. Wears tiny skull-and-crossbones bandana. Appears both fragile and resilient., Eyes marked with X-shaped scars, giving \"cartoon dead\" appearance but still expressive. Gaunt cheeks. Small skull bandana tied around head., professional character design, consistent with ION Give A Fuq universe, gritty urban realism style, detailed fur/skin texture, authentic personality expression",
+        "full_body_reference": "Full body reference sheet of Rizzo, front view, side view, back view, Careful, deliberate movements. Often hunched or curled up for protection. Quick, darting glances. Defensive positioning., Skull-and-crossbones bandana is signature item. Sometimes has tiny poison bottle prop. Occasionally wears lab coat remnants., character design consistency, detailed proportions, urban decay aesthetic",
+        "expression_sheet": "Expression reference sheet for Rizzo, showing multiple facial expressions: default, philosophical, pain, dark_humor, detailed emotional range, consistent character features, professional animation reference quality",
+        "environment_shot": "Rizzo in natural environment: Sewers, Cold fluorescent, harsh medical lighting, deep shadows, green undertones, detailed background, character interacting naturally with environment, cinematic composition",
+        "action_pose": "Rizzo performing signature action: Curled up defensively, dynamic pose, detailed character animation, consistent design, professional quality",
+        "interaction_scene": "Rizzo interacting with other characters, detailed group scene, consistent character designs, authentic dialogue moment, professional illustration quality"
+      }
+    }
+  }
+}

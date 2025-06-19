@@ -1,0 +1,530 @@
+{
+  "id": "f106852b-d5c5-4978-a135-baad1408cde6",
+  "title": "Buzz: The Morning After Reality Check",
+  "timestamp": "2025-06-11T08:31:58.087Z",
+  "primary_mascot": "buzz",
+  "theme": "The system is rigged",
+  "type": "workplace_comedy",
+  "characters": [
+    "buzz",
+    "dumbo",
+    "scrapz",
+    "npc_social_worker_karen"
+  ],
+  "setting": "Municipal Court",
+  "plot_outline": "Buzz faces a typical day that goes from bad to worse when temptation proves irresistible. What starts as a simple attempt to get their prescription filled becomes a meditation on the system is rigged as Buzz encounters the usual cast of neighborhood characters and discovers that even small victories come with a price.",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "Rock Bottom Has a Basement",
+      "location": "Municipal Court",
+      "characters_present": [
+        "buzz",
+        "dumbo",
+        "scrapz"
+      ],
+      "time_of_day": "evening",
+      "mood": "gallows humor",
+      "action": "Buzz begins their day with the usual routine of avoiding responsibility and managing expectations. The catalyst for today's adventure presents itself in the form of running out of their vice of choice. Despite every instinct screaming \"don't get involved,\" circumstances and poor judgment combine to draw Buzz into the situation.",
+      "dialogue": [
+        {
+          "speaker": "Buzz",
+          "line": "I'm too drunk for this, but not drunk enough.",
+          "tone": "slurred optimism fighting against bitter reality",
+          "subtext": "desperately wants to be proven wrong about people"
+        },
+        {
+          "speaker": "Dumbo",
+          "line": "Can we solve this with minimal effort on my part?",
+          "tone": "defeated resignation with occasional flashes of frustrated energy",
+          "subtext": "revealing more about their pain than intended"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "Trust me, it gets worse from here.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "revealing more about their pain than intended"
+        },
+        {
+          "speaker": "Buzz",
+          "line": "I'm gonna need something stronger than beer.",
+          "tone": "slurred optimism fighting against bitter reality",
+          "subtext": "secretly hoping someone will save them"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Buzz": "cross-eyed, swaying stance, permanent five o'clock shadow, beer bottle collection, stained tank top, flip-flops, showing signs of spiritual emptiness",
+          "Dumbo": "droopy, bloodshot, crusty pizza slice, stained remote control, empty beer cans, showing signs of psychological wear",
+          "Scrapz": "torn ear, ragged fur, perpetual scowl, half-smoked cigarette, ash tray, torn leather jacket, showing signs of chronic exhaustion"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "Harsh fluorescent reality cutting through last night's delusions",
+        "props_and_objects": [
+          "overdue notices",
+          "prescription bottles",
+          "worn photographs"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of Municipal Court during evening, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Buzz and Dumbo and Scrapz in Municipal Court, showing their relationship dynamics, detailed character expressions, gallows humor atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Buzz showing gallows humor, detailed facial expression, dramatic lighting, capturing the emotional weight of The system is rigged, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Buzz in Municipal Court, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Buzz",
+            "line": "I'm too drunk for this, but not drunk enough.",
+            "tone": "slurred optimism fighting against bitter reality",
+            "subtext": "desperately wants to be proven wrong about people"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on Buzz begins their day with the usual routine of avoiding responsibility and managing expectations. T...",
+          "dialogue": {
+            "speaker": "Dumbo",
+            "line": "Can we solve this with minimal effort on my part?",
+            "tone": "defeated resignation with occasional flashes of frustrated energy",
+            "subtext": "revealing more about their pain than intended"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "Trust me, it gets worse from here.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "revealing more about their pain than intended"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 2,
+      "title": "When Bad Gets Worse",
+      "location": "Pawn Shop Paradise",
+      "characters_present": [
+        "buzz",
+        "dumbo",
+        "scrapz"
+      ],
+      "time_of_day": "late night",
+      "mood": "gallows humor",
+      "action": "The situation escalates when a misunderstanding escalates out of control. What seemed like a manageable problem reveals itself to be connected to larger issues involving their own psychological damage. Buzz realizes they're in deeper than anticipated and that their usual strategy of \"ignore it and hope it goes away\" won't work this time.",
+      "dialogue": [
+        {
+          "speaker": "Buzz",
+          "line": "Why do all my problems start with someone saying my name?",
+          "tone": "slurred optimism fighting against bitter reality",
+          "subtext": "secretly hoping someone will save them"
+        },
+        {
+          "speaker": "Dumbo",
+          "line": "I'm starting to regret leaving the house.",
+          "tone": "defeated resignation with occasional flashes of frustrated energy",
+          "subtext": "protecting themselves from further disappointment"
+        },
+        {
+          "speaker": "Buzz",
+          "line": "At least the bar's still open.",
+          "tone": "slurred optimism fighting against bitter reality",
+          "subtext": "testing whether this person can be trusted"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "Where dignity comes to die and rent checks bounce higher than expectations",
+        "character_appearances": {
+          "Buzz": "cross-eyed, swaying stance, permanent five o'clock shadow, beer bottle collection, stained tank top, flip-flops, showing signs of emotional damage",
+          "Karen the Social Worker": "Tired, worn down, but still clinging to whatever dignity remains"
+        },
+        "environmental_details": "Peeling paint, broken promises, and the smell of desperation",
+        "mood_lighting": "The kind of lighting that makes everyone look like they've made poor life choices",
+        "props_and_objects": [
+          "broken promises",
+          "empty bottles",
+          "expired coupons",
+          "overdue notices"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of Pawn Shop Paradise during late night, Where dignity comes to die and rent checks bounce higher than expectations, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Buzz and Dumbo and Scrapz in Pawn Shop Paradise, showing their relationship dynamics, detailed character expressions, gallows humor atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Buzz showing gallows humor, detailed facial expression, dramatic lighting, capturing the emotional weight of The system is rigged, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Buzz in Pawn Shop Paradise, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Buzz",
+            "line": "Why do all my problems start with someone saying my name?",
+            "tone": "slurred optimism fighting against bitter reality",
+            "subtext": "secretly hoping someone will save them"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: Where dignity comes to die and rent checks bounce higher than expectations, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when a misunderstanding escalates out of control. What seemed like a managea...",
+          "dialogue": {
+            "speaker": "Dumbo",
+            "line": "I'm starting to regret leaving the house.",
+            "tone": "defeated resignation with occasional flashes of frustrated energy",
+            "subtext": "protecting themselves from further disappointment"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: Where dignity comes to die and rent checks bounce higher than expectations, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when a misunderstanding escalates out of control. What seemed like a managea...",
+          "dialogue": {
+            "speaker": "Buzz",
+            "line": "At least the bar's still open.",
+            "tone": "slurred optimism fighting against bitter reality",
+            "subtext": "testing whether this person can be trusted"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: Where dignity comes to die and rent checks bounce higher than expectations, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 4,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Narrator",
+            "line": "...",
+            "tone": "omniscient cynicism"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "dramatic angle emphasizing conflict",
+          "image_prompt": "Comic book panel 4: Where dignity comes to die and rent checks bounce higher than expectations, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    },
+    {
+      "scene_number": 3,
+      "title": "Same Shit, Different Day",
+      "location": "The Plasma Donation Center",
+      "characters_present": [
+        "buzz",
+        "npc_social_worker_karen",
+        "dumbo"
+      ],
+      "time_of_day": "late morning",
+      "mood": "existential dread",
+      "action": "The episode concludes with Buzz having learned nothing from their experience but somehow finding themselves in a slightly different variation of the same situation they started in. Victory is redefined as \"not making things significantly worse,\" and the audience is reminded that some problems don't get solved—they just get replaced with new problems.",
+      "dialogue": [
+        {
+          "speaker": "Karen the Social Worker",
+          "line": "Well, this should be interesting.",
+          "tone": "weary sarcasm",
+          "subtext": "desperately wants to be proven wrong about people"
+        },
+        {
+          "speaker": "Dumbo",
+          "line": "I'm starting to regret leaving the house.",
+          "tone": "defeated resignation with occasional flashes of frustrated energy",
+          "subtext": "secretly hoping someone will save them"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "Trust me, it gets worse from here.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "protecting themselves from further disappointment"
+        },
+        {
+          "speaker": "Karen the Social Worker",
+          "line": "Why does this always happen?",
+          "tone": "weary sarcasm",
+          "subtext": "testing whether this person can be trusted"
+        },
+        {
+          "speaker": "Scrapz",
+          "line": "Next time, count me out.",
+          "tone": "sharp cynicism barely masking deeper hurt",
+          "subtext": "revealing more about their pain than intended"
+        }
+      ],
+      "visual_details": {
+        "setting_description": "A place where life happens to people who've stopped trying to control it",
+        "character_appearances": {
+          "Buzz": "cross-eyed, swaying stance, permanent five o'clock shadow, beer bottle collection, stained tank top, flip-flops, showing signs of spiritual emptiness",
+          "Karen the Social Worker": "Tired, worn down, but still clinging to whatever dignity remains",
+          "Dumbo": "droopy, bloodshot, crusty pizza slice, stained remote control, empty beer cans, showing signs of emotional damage"
+        },
+        "environmental_details": "The accumulated weight of poor life choices made manifest",
+        "mood_lighting": "The kind of lighting that makes everyone look like they've made poor life choices",
+        "props_and_objects": [
+          "empty bottles",
+          "expired coupons",
+          "worn photographs"
+        ]
+      },
+      "image_prompts": [
+        {
+          "type": "establishing_shot",
+          "prompt": "Wide establishing shot of The Plasma Donation Center during late morning, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+        },
+        {
+          "type": "character_interaction",
+          "prompt": "Buzz and Karen the Social Worker and Dumbo in The Plasma Donation Center, showing their relationship dynamics, detailed character expressions, existential dread atmosphere, realistic style with dark comedy undertones"
+        },
+        {
+          "type": "emotional_closeup",
+          "prompt": "Close-up shot of Buzz showing existential dread, detailed facial expression, dramatic lighting, capturing the emotional weight of The system is rigged, photorealistic digital art"
+        }
+      ],
+      "comic_panels": [
+        {
+          "panel_number": 1,
+          "description": "Opening panel showing Buzz in The Plasma Donation Center, establishing the scene's mood and setting",
+          "dialogue": {
+            "speaker": "Karen the Social Worker",
+            "line": "Well, this should be interesting.",
+            "tone": "weary sarcasm",
+            "subtext": "desperately wants to be proven wrong about people"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "wide establishing shot",
+          "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Buzz and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 2,
+          "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Buzz having learned nothing from their experience but somehow finding the...",
+          "dialogue": {
+            "speaker": "Dumbo",
+            "line": "I'm starting to regret leaving the house.",
+            "tone": "defeated resignation with occasional flashes of frustrated energy",
+            "subtext": "secretly hoping someone will save them"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "medium shot focusing on characters",
+          "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Buzz and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        },
+        {
+          "panel_number": 3,
+          "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+          "dialogue": {
+            "speaker": "Scrapz",
+            "line": "Trust me, it gets worse from here.",
+            "tone": "sharp cynicism barely masking deeper hurt",
+            "subtext": "protecting themselves from further disappointment"
+          },
+          "visual_style": "detailed comic book art with dark humor elements",
+          "composition": "close-up for emotional impact",
+          "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Buzz and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+        }
+      ]
+    }
+  ],
+  "moral": "The house always wins, especially when you're not playing with a full deck.",
+  "image_prompts": [
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of Municipal Court during evening, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Buzz and Dumbo and Scrapz in Municipal Court, showing their relationship dynamics, detailed character expressions, gallows humor atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Buzz showing gallows humor, detailed facial expression, dramatic lighting, capturing the emotional weight of The system is rigged, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of Pawn Shop Paradise during late night, Where dignity comes to die and rent checks bounce higher than expectations, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Buzz and Dumbo and Scrapz in Pawn Shop Paradise, showing their relationship dynamics, detailed character expressions, gallows humor atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Buzz showing gallows humor, detailed facial expression, dramatic lighting, capturing the emotional weight of The system is rigged, photorealistic digital art"
+    },
+    {
+      "type": "establishing_shot",
+      "prompt": "Wide establishing shot of The Plasma Donation Center during late morning, A place where life happens to people who've stopped trying to control it, cinematic composition, dark humor aesthetic, urban decay, neon lighting accents, professional digital art style"
+    },
+    {
+      "type": "character_interaction",
+      "prompt": "Buzz and Karen the Social Worker and Dumbo in The Plasma Donation Center, showing their relationship dynamics, detailed character expressions, existential dread atmosphere, realistic style with dark comedy undertones"
+    },
+    {
+      "type": "emotional_closeup",
+      "prompt": "Close-up shot of Buzz showing existential dread, detailed facial expression, dramatic lighting, capturing the emotional weight of The system is rigged, photorealistic digital art"
+    }
+  ],
+  "comic_panels": [
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Buzz in Municipal Court, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Buzz",
+        "line": "I'm too drunk for this, but not drunk enough.",
+        "tone": "slurred optimism fighting against bitter reality",
+        "subtext": "desperately wants to be proven wrong about people"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on Buzz begins their day with the usual routine of avoiding responsibility and managing expectations. T...",
+      "dialogue": {
+        "speaker": "Dumbo",
+        "line": "Can we solve this with minimal effort on my part?",
+        "tone": "defeated resignation with occasional flashes of frustrated energy",
+        "subtext": "revealing more about their pain than intended"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Trust me, it gets worse from here.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "revealing more about their pain than intended"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Buzz in Pawn Shop Paradise, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Buzz",
+        "line": "Why do all my problems start with someone saying my name?",
+        "tone": "slurred optimism fighting against bitter reality",
+        "subtext": "secretly hoping someone will save them"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: Where dignity comes to die and rent checks bounce higher than expectations, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when a misunderstanding escalates out of control. What seemed like a managea...",
+      "dialogue": {
+        "speaker": "Dumbo",
+        "line": "I'm starting to regret leaving the house.",
+        "tone": "defeated resignation with occasional flashes of frustrated energy",
+        "subtext": "protecting themselves from further disappointment"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: Where dignity comes to die and rent checks bounce higher than expectations, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Action panel showing character interaction and plot development, focusing on The situation escalates when a misunderstanding escalates out of control. What seemed like a managea...",
+      "dialogue": {
+        "speaker": "Buzz",
+        "line": "At least the bar's still open.",
+        "tone": "slurred optimism fighting against bitter reality",
+        "subtext": "testing whether this person can be trusted"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: Where dignity comes to die and rent checks bounce higher than expectations, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 4,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Narrator",
+        "line": "...",
+        "tone": "omniscient cynicism"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "dramatic angle emphasizing conflict",
+      "image_prompt": "Comic book panel 4: Where dignity comes to die and rent checks bounce higher than expectations, Buzz and other characters, gallows humor atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 1,
+      "description": "Opening panel showing Buzz in The Plasma Donation Center, establishing the scene's mood and setting",
+      "dialogue": {
+        "speaker": "Karen the Social Worker",
+        "line": "Well, this should be interesting.",
+        "tone": "weary sarcasm",
+        "subtext": "desperately wants to be proven wrong about people"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "wide establishing shot",
+      "image_prompt": "Comic book panel 1: A place where life happens to people who've stopped trying to control it, Buzz and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 2,
+      "description": "Action panel showing character interaction and plot development, focusing on The episode concludes with Buzz having learned nothing from their experience but somehow finding the...",
+      "dialogue": {
+        "speaker": "Dumbo",
+        "line": "I'm starting to regret leaving the house.",
+        "tone": "defeated resignation with occasional flashes of frustrated energy",
+        "subtext": "secretly hoping someone will save them"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "medium shot focusing on characters",
+      "image_prompt": "Comic book panel 2: A place where life happens to people who've stopped trying to control it, Buzz and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    },
+    {
+      "panel_number": 3,
+      "description": "Closing panel capturing the resolution or cliffhanger, showing the emotional aftermath of the scene's events",
+      "dialogue": {
+        "speaker": "Scrapz",
+        "line": "Trust me, it gets worse from here.",
+        "tone": "sharp cynicism barely masking deeper hurt",
+        "subtext": "protecting themselves from further disappointment"
+      },
+      "visual_style": "detailed comic book art with dark humor elements",
+      "composition": "close-up for emotional impact",
+      "image_prompt": "Comic book panel 3: A place where life happens to people who've stopped trying to control it, Buzz and other characters, existential dread atmosphere, detailed comic art style, dark humor aesthetic, professional illustration"
+    }
+  ],
+  "setup": "Buzz wakes up to discover he somehow agreed to a job interview while blackout drunk",
+  "continuation": true,
+  "dramatic_focus": false
+}

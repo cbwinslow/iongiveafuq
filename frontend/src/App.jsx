@@ -1,7 +1,7 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import { motion } from 'framer-motion';
-import Dumbo from './components/mascots/Dumbo';
+import React from "react";
+import Navbar from "./components/Navbar";
+import { motion } from "framer-motion";
+import Dumbo from "./components/mascots/Dumbo";
 
 export default function App() {
   return (
