@@ -8,6 +8,11 @@ This document outlines the visual theme, layout framework, and recommended pages
 - **Animations**: subtle Framer Motion or Lottie animations to emphasize interactions without overwhelming the user.
 - **Layout**: responsive design that centers content with generous spacing.
 
+## Accessibility
+- **Color Contrast**: Ensure all text and interactive elements meet WCAG AA contrast ratios (e.g., neon colors on a charcoal background may require adjustments).
+- **Keyboard Navigation**: All interactive elements (e.g., links, buttons) must be navigable and operable via keyboard.
+- **ARIA Roles**: Use appropriate ARIA roles and attributes to enhance screen reader compatibility.
+- **Responsive Design**: Ensure layouts adapt seamlessly to different screen sizes and orientations, including zoom functionality.
 ## Layout Framework
 - **Header / Navbar**: fixed or sticky navigation with links to main sections.
 - **Footer**: includes quick links, social media icons, and contact info.
