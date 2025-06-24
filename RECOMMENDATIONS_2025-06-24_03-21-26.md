@@ -1,0 +1,3 @@
+- Add .env.example for required Cloudflare tokens
+- Run `docker compose pull` before bringing services up
+- Ensure nginx waits for dependent services via `depends_on`

@@ -44,6 +44,11 @@ Use the helper script to run tests and start all services in Docker:
 ```bash
 ./scripts/one_click_deploy.sh
 ```
+Make sure to create a `.env` file first:
+```bash
+cp .env.example .env
+# edit .env and provide your Cloudflare tokens
+```
 
 ## Deployment
 

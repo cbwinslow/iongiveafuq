@@ -23,6 +23,7 @@ npm test --prefix backend
 npm test --prefix frontend
 
 # Build and launch containers
+docker compose pull
 docker compose up -d --build
 
 echo "Deployment complete."
