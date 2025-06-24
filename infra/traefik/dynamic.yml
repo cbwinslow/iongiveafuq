@@ -1,0 +1,12 @@
+http:
+  routers:
+    web:
+      rule: "Host(`iongiveafuq.com`)"
+      service: web
+      entryPoints:
+        - web
+  services:
+    web:
+      loadBalancer:
+        servers:
+          - url: "http://web:80"

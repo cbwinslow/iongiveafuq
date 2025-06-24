@@ -1,0 +1,6 @@
+tunnel: iongiveafuq
+credentials-file: /etc/cloudflared/credentials.json
+ingress:
+  - hostname: iongiveafuq.com
+    service: http://nginx:80
+  - service: http_status:404

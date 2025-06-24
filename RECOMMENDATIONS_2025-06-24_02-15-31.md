@@ -1,0 +1,3 @@
+- Implement automated CI for building and deploying new infrastructure services.
+- Consider using environment variables for database credentials and Cloudflare tokens via `.env`.
+- Add more comprehensive frontend tests for routing and page rendering.
