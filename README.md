@@ -39,6 +39,17 @@ docker compose up -d --build
 # api:  http://localhost:4000
 ```
 
+### One-click deploy
+Use the helper script to run tests and start all services in Docker:
+```bash
+./scripts/one_click_deploy.sh
+```
+Make sure to create a `.env` file first:
+```bash
+cp .env.example .env
+# edit .env and provide your Cloudflare tokens
+```
+
 ## Deployment
 
 CI/CD is handled by GitHub Actions (see `.github/workflows/ci.yml`). On pushes to `main`, the workflow builds the frontend, builds a Docker image and pushes it to GHCR, then SSH deploys to a Dell R720 server running Docker Compose.
