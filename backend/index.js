@@ -12,4 +12,5 @@ app.use("/artwork", express.static(path.join(process.cwd(), "artwork")));
 
 app.get("/api/health", (_req, res) => res.json({ status: "ok" }));
 
-app.listen(4000, () => console.log("API listening on :4000"));
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, () => console.log(`API listening on :${PORT}`));

@@ -1,9 +1,9 @@
 # RECOMMENDATIONS log started
 ## 2025-06-17 12:34:58 UTC
-- Integrate Postgres as a dedicated service for artwork metadata.
-- Store image files under artwork/ with clear naming.
-- Provide search API to query by tags.
-- Use TypeScript for new viewer components.
+- [x] Integrate Postgres as a dedicated service for artwork metadata.
+- [x] Store image files under artwork/ with clear naming.
+- [x] Provide search API to query by tags.
+- [x] Use TypeScript for new viewer components.
 
 ### Storage Evaluation
 - **Filesystem**: simple, cheap, and easy to serve via static middleware; good for large binaries.

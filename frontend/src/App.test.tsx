@@ -8,4 +8,9 @@ describe('App', () => {
     render(<App />);
     expect(screen.getByText(/Meet\s+Dumbo!/i)).toBeTruthy();
   });
+
+  it('shows Store link in navbar', () => {
+    render(<App />);
+    expect(screen.getByText(/Store/i)).toBeTruthy();
+  });
 });

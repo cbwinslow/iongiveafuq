@@ -24,6 +24,9 @@ npm test --prefix frontend
 
 # Build and launch containers
 docker compose pull
+if [ -x backend/scripts/migrate.sh ]; then
+  backend/scripts/migrate.sh
+fi
 docker compose up -d --build
 
 echo "Deployment complete."

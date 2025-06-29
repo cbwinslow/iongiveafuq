@@ -48,6 +48,7 @@ Make sure to create a `.env` file first:
 ```bash
 cp .env.example .env
 # edit .env and provide your Cloudflare tokens
+# you can also tweak PORT and VITE_API_URL if needed
 ```
 
 ## Deployment
@@ -71,3 +72,20 @@ See [`# Mascot Character Reference Guide.md`](#%20Mascot%20Character%20Reference
 ## Further Information
 
 The `context.md` file contains a full copy of the current directory layout and code for use with LLMs. Consult that document for a deeper dive into the project goals and next steps.
+
+## Contributing
+
+We welcome pull requests! To contribute:
+
+1. Fork the repository and create a feature branch.
+2. Install dependencies in both `frontend` and `backend`:
+   ```bash
+   npm install --prefix frontend
+   npm install --prefix backend
+   ```
+3. Run the tests before opening a PR:
+   ```bash
+   npm test --prefix frontend
+   npm test --prefix backend
+   ```
+4. Keep `DIFF_*.md` and `RECOMMENDATIONS_*.md` logs intact and append new versions when documenting changes.
