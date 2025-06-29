@@ -13,6 +13,21 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
+          <Link to="/store" className="hover:text-neon-green">
+            Store
+          </Link>
+        </li>
+        <li>
+          <Link to="/mascots" className="hover:text-neon-green">
+            Mascots
+          </Link>
+        </li>
+        <li>
+          <Link to="/cart" className="hover:text-neon-green">
+            Cart
+          </Link>
+        </li>
+        <li>
           <Link to="/gallery" className="hover:text-neon-green">
             Gallery
           </Link>

@@ -1,5 +1,5 @@
-- Add newline at end of several files (Dockerfiles, workflow yaml, etc.) to avoid concatenated prompts when viewing in shell.
-- Implement remaining mascot React components with real artwork.
-- Provide backend endpoints for products and inventory; integrate a database (PostgreSQL is mentioned).
-- Add basic unit tests for Express routes and React components.
-- Consider using environment variables for ports and API URL.
+- [x] Add newline at end of several files (Dockerfiles, workflow yaml, etc.) to avoid concatenated prompts when viewing in shell.
+- [ ] Implement remaining mascot React components with real artwork.
+- [ ] Provide backend endpoints for products and inventory; integrate a database (PostgreSQL is mentioned).
+- [x] Add basic unit tests for Express routes and React components.
+- [x] Consider using environment variables for ports and API URL.

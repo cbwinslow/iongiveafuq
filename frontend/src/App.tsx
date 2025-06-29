@@ -4,6 +4,9 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 import About from './pages/About';
+import Store from './pages/Store';
+import Mascots from './pages/Mascots';
+import Cart from './pages/Cart';
 
 export default function App() {
   return (
@@ -18,6 +21,9 @@ export default function App() {
         >
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/store" element={<Store />} />
+            <Route path="/mascots" element={<Mascots />} />
+            <Route path="/cart" element={<Cart />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/about" element={<About />} />
           </Routes>

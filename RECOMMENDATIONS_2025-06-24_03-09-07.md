@@ -1,3 +1,3 @@
-- Add .env.example documenting CF_API_TOKEN and CLOUDFLARED_TOKEN for easier setup
-- Consider extending one_click_deploy.sh to run database migrations automatically
-- Add more frontend tests to cover routing
+- [x] Add .env.example documenting CF_API_TOKEN and CLOUDFLARED_TOKEN for easier setup
+- [x] Consider extending one_click_deploy.sh to run database migrations automatically
+- [x] Add more frontend tests to cover routing

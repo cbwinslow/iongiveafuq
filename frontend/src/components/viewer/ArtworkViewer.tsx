@@ -12,8 +12,10 @@ export default function ArtworkViewer() {
   const [artworks, setArtworks] = useState<ArtworkMeta[]>([]);
   const [query, setQuery] = useState('');
 
+  const API_URL = import.meta.env.VITE_API_URL || '';
+
   useEffect(() => {
-    fetch(`/api/artwork?search=${encodeURIComponent(query)}`)
+    fetch(`${API_URL}/api/artwork?search=${encodeURIComponent(query)}`)
       .then(res => res.json())
       .then(setArtworks)
       .catch(() => setArtworks([]));
