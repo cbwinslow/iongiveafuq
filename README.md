@@ -16,6 +16,8 @@ frontend/   React + Vite web app
 context.md  In-depth context with code listing
 ```
 
+See `docs/landing-page.md` for a curated entry point and `docs/site-index.md` to navigate all documentation.
+
 ## Running Locally
 
 ### Frontend dev server
