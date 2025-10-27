@@ -1,0 +1,429 @@
+// This is your Prisma schema file for ION Give A Fuq E-Commerce Platform
+// Learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================================================
+// AUTHENTICATION & USER MANAGEMENT
+// ============================================================================
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  password      String?   // Hashed password for credentials login
+  role          UserRole  @default(USER)
+  
+  // Profile information
+  phone         String?
+  address       Json?     // {street, city, state, zip, country}
+  preferences   Json?     // User preferences and settings
+  
+  // Relationships
+  accounts      Account[]
+  sessions      Session[]
+  orders        Order[]
+  cartItems     CartItem[]
+  favorites     Favorite[]
+  comments      Comment[]
+  
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  @@index([email])
+}
+
+enum UserRole {
+  USER
+  ADMIN
+  SUPERADMIN
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId])
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// ============================================================================
+// E-COMMERCE - PRODUCTS
+// ============================================================================
+
+model Product {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  description String?  @db.Text
+  category    String
+  basePrice   Decimal  @db.Decimal(10, 2)
+  
+  // Product images (array of URLs)
+  images      Json     // ["url1", "url2", "url3"]
+  
+  // Product variants (sizes, colors, etc.)
+  variants    Json?    // [{size: "M", color: "black", sku: "...", price: 29.99, stock: 10}]
+  
+  // Stock and availability
+  stock       Int      @default(0)
+  stockStatus String   @default("in_stock") // in_stock, low_stock, out_of_stock
+  
+  // Flags
+  isActive    Boolean  @default(true)
+  isFeatured  Boolean  @default(false)
+  
+  // Character association
+  character   String?  // dumbo, scrapz, patty, buzz, rizzo
+  
+  // SEO
+  metaTitle       String?
+  metaDescription String?
+  
+  // Relationships
+  orderItems  OrderItem[]
+  cartItems   CartItem[]
+  favorites   Favorite[]
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([slug])
+  @@index([category])
+  @@index([character])
+  @@index([isActive])
+  @@index([isFeatured])
+}
+
+// ============================================================================
+// E-COMMERCE - CART & ORDERS
+// ============================================================================
+
+model CartItem {
+  id        String  @id @default(cuid())
+  userId    String
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  
+  quantity  Int     @default(1)
+  variant   Json?   // Selected variant (size, color, etc.)
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@unique([userId, productId])
+  @@index([userId])
+  @@index([productId])
+}
+
+model Order {
+  id              String      @id @default(cuid())
+  userId          String
+  user            User        @relation(fields: [userId], references: [id])
+  
+  // Payment
+  stripeSessionId String?     @unique
+  stripePaymentId String?
+  amount          Decimal     @db.Decimal(10, 2)
+  currency        String      @default("usd")
+  
+  // Order status
+  status          OrderStatus @default(PENDING)
+  
+  // Shipping
+  shippingAddress Json        // {name, street, city, state, zip, country}
+  trackingNumber  String?
+  
+  // Items
+  items           OrderItem[]
+  
+  // Notes
+  customerNotes   String?     @db.Text
+  adminNotes      String?     @db.Text
+  
+  // Timestamps
+  paidAt          DateTime?
+  shippedAt       DateTime?
+  deliveredAt     DateTime?
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  
+  @@index([userId])
+  @@index([status])
+  @@index([stripeSessionId])
+}
+
+enum OrderStatus {
+  PENDING
+  PAID
+  PROCESSING
+  SHIPPED
+  DELIVERED
+  CANCELLED
+  REFUNDED
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  orderId   String
+  order     Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+  
+  quantity  Int
+  price     Decimal @db.Decimal(10, 2)
+  variant   Json?   // Selected variant
+  
+  @@index([orderId])
+  @@index([productId])
+}
+
+model Favorite {
+  id        String  @id @default(cuid())
+  userId    String
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  
+  createdAt DateTime @default(now())
+  
+  @@unique([userId, productId])
+  @@index([userId])
+}
+
+// ============================================================================
+// CMS - CONTENT MANAGEMENT
+// ============================================================================
+
+model BlogPost {
+  id          String     @id @default(cuid())
+  title       String
+  slug        String     @unique
+  content     String     @db.Text  // Rich text HTML
+  excerpt     String?
+  coverImage  String?
+  
+  // Author
+  author      String
+  authorId    String?
+  
+  // Categorization
+  category    String
+  tags        String[]
+  
+  // SEO
+  metaTitle       String?
+  metaDescription String?
+  
+  // Status
+  status      PostStatus @default(DRAFT)
+  isPublished Boolean    @default(false)
+  isFeatured  Boolean    @default(false)
+  
+  // View count
+  viewCount   Int        @default(0)
+  
+  // Relationships
+  comments    Comment[]
+  
+  // Timestamps
+  publishedAt DateTime?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  
+  @@index([slug])
+  @@index([status])
+  @@index([category])
+  @@index([isPublished])
+}
+
+enum PostStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+model Story {
+  id          String     @id @default(cuid())
+  title       String
+  slug        String     @unique
+  content     String     @db.Text
+  excerpt     String?
+  coverImage  String?
+  
+  // Character association
+  characters  String[]   // Array of character IDs
+  
+  // Story metadata
+  episode     Int?
+  season      Int?
+  arc         String?    // Story arc name
+  
+  // SEO
+  metaTitle       String?
+  metaDescription String?
+  
+  // Status
+  status      PostStatus @default(DRAFT)
+  isPublished Boolean    @default(false)
+  
+  // View count
+  viewCount   Int        @default(0)
+  
+  // Timestamps
+  publishedAt DateTime?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  
+  @@index([slug])
+  @@index([status])
+  @@index([isPublished])
+}
+
+model Page {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  content     String   @db.Text
+  template    String?  // Page template name
+  
+  // SEO
+  metaTitle       String?
+  metaDescription String?
+  
+  // Status
+  isPublished Boolean  @default(false)
+  
+  // Timestamps
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([slug])
+}
+
+model Comment {
+  id        String   @id @default(cuid())
+  content   String   @db.Text
+  
+  // Author
+  authorId  String?
+  author    User?    @relation(fields: [authorId], references: [id], onDelete: SetNull)
+  
+  // Post
+  postId    String
+  post      BlogPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+  
+  // Moderation
+  isApproved Boolean  @default(false)
+  
+  // Timestamps
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  
+  @@index([postId])
+  @@index([authorId])
+}
+
+// ============================================================================
+// MEDIA LIBRARY
+// ============================================================================
+
+model MediaLibrary {
+  id          String   @id @default(cuid())
+  title       String
+  fileUrl     String
+  fileType    String   // image, video, document
+  mimeType    String
+  fileSize    Int      // Size in bytes
+  
+  // Image metadata
+  width       Int?
+  height      Int?
+  thumbnailUrl String?
+  
+  // Categorization
+  altText     String?
+  caption     String?  @db.Text
+  folder      String   @default("general")
+  tags        String[]
+  
+  // Additional metadata
+  metadata    Json?    // Flexible for additional data
+  
+  // Character association
+  character   String?  // dumbo, scrapz, patty, buzz, rizzo
+  
+  // Timestamps
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([fileType])
+  @@index([folder])
+  @@index([character])
+}
+
+// ============================================================================
+// ANALYTICS & TRACKING (Optional)
+// ============================================================================
+
+model PageView {
+  id        String   @id @default(cuid())
+  path      String
+  userId    String?
+  userAgent String?
+  ipAddress String?
+  createdAt DateTime @default(now())
+  
+  @@index([path])
+  @@index([createdAt])
+}
+
+model ProductView {
+  id        String   @id @default(cuid())
+  productId String
+  userId    String?
+  createdAt DateTime @default(now())
+  
+  @@index([productId])
+  @@index([createdAt])
+}
