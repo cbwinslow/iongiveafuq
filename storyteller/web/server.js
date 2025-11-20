@@ -385,12 +385,17 @@ class StorytellingWebServer {
       try {
         const { episodeId } = req.body;
         
-        if (!episodeId) {
-          return res.status(400).json({ error: 'Episode ID required' });
+        if (!episodeId || typeof episodeId !== 'string') {
+          return res.status(400).json({ error: 'Valid episode ID required' });
+        }
+
+        // Validate episodeId to prevent directory traversal
+        if (episodeId.includes('..') || episodeId.includes('/') || episodeId.includes('\\')) {
+          return res.status(400).json({ error: 'Invalid episode ID format' });
         }
 
         // Load episode from file
-        const episodePath = `./generated/episodes/${episodeId}.json`;
+        const episodePath = path.join('./generated/episodes', `${episodeId}.json`);
         if (!await fs.pathExists(episodePath)) {
           return res.status(404).json({ error: 'Episode not found' });
         }
@@ -408,12 +413,17 @@ class StorytellingWebServer {
       try {
         const { comicId } = req.body;
         
-        if (!comicId) {
-          return res.status(400).json({ error: 'Comic ID required' });
+        if (!comicId || typeof comicId !== 'string') {
+          return res.status(400).json({ error: 'Valid comic ID required' });
+        }
+
+        // Validate comicId to prevent directory traversal
+        if (comicId.includes('..') || comicId.includes('/') || comicId.includes('\\')) {
+          return res.status(400).json({ error: 'Invalid comic ID format' });
         }
 
         // Load comic from file
-        const comicPath = `./generated/comics/${comicId}.json`;
+        const comicPath = path.join('./generated/comics', `${comicId}.json`);
         if (!await fs.pathExists(comicPath)) {
           return res.status(404).json({ error: 'Comic not found' });
         }
@@ -489,12 +499,17 @@ class StorytellingWebServer {
       try {
         const { backstoryId } = req.body;
         
-        if (!backstoryId) {
-          return res.status(400).json({ error: 'Backstory ID required' });
+        if (!backstoryId || typeof backstoryId !== 'string') {
+          return res.status(400).json({ error: 'Valid backstory ID required' });
+        }
+
+        // Validate backstoryId to prevent directory traversal
+        if (backstoryId.includes('..') || backstoryId.includes('/') || backstoryId.includes('\\')) {
+          return res.status(400).json({ error: 'Invalid backstory ID format' });
         }
 
         // Load backstory
-        const backstoryPath = `./generated/backstories/${backstoryId}.json`;
+        const backstoryPath = path.join('./generated/backstories', `${backstoryId}.json`);
         if (!await fs.pathExists(backstoryPath)) {
           return res.status(404).json({ error: 'Backstory not found' });
         }
@@ -516,12 +531,17 @@ class StorytellingWebServer {
       try {
         const { episodeId } = req.body;
         
-        if (!episodeId) {
-          return res.status(400).json({ error: 'Episode ID required' });
+        if (!episodeId || typeof episodeId !== 'string') {
+          return res.status(400).json({ error: 'Valid episode ID required' });
+        }
+
+        // Validate episodeId to prevent directory traversal
+        if (episodeId.includes('..') || episodeId.includes('/') || episodeId.includes('\\')) {
+          return res.status(400).json({ error: 'Invalid episode ID format' });
         }
 
         // Load episode
-        const episodePath = `./generated/episodes/${episodeId}.json`;
+        const episodePath = path.join('./generated/episodes', `${episodeId}.json`);
         if (!await fs.pathExists(episodePath)) {
           return res.status(404).json({ error: 'Episode not found' });
         }
@@ -543,12 +563,17 @@ class StorytellingWebServer {
       try {
         const { comicId } = req.body;
         
-        if (!comicId) {
-          return res.status(400).json({ error: 'Comic ID required' });
+        if (!comicId || typeof comicId !== 'string') {
+          return res.status(400).json({ error: 'Valid comic ID required' });
+        }
+
+        // Validate comicId to prevent directory traversal
+        if (comicId.includes('..') || comicId.includes('/') || comicId.includes('\\')) {
+          return res.status(400).json({ error: 'Invalid comic ID format' });
         }
 
         // Load comic
-        const comicPath = `./generated/comics/${comicId}.json`;
+        const comicPath = path.join('./generated/comics', `${comicId}.json`);
         if (!await fs.pathExists(comicPath)) {
           return res.status(404).json({ error: 'Comic not found' });
         }
