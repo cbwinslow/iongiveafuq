@@ -7,6 +7,18 @@
 
 The site embraces a neon cyberpunk aesthetic and uses React, Tailwind CSS and Framer Motion for animations. The backend is a small Express API. Docker Compose ties everything together.
 
+## 🆕 New Features - Complete Comic & Animation System
+
+✨ **Now includes full comic development, character consistency, and e-commerce platform!**
+
+- 🎨 **Character Reference Generator**: 50 consistent images per mascot (250 total)
+- 📚 **Comic Illustration System**: 5 complete storylines with automated illustration
+- 🎬 **Animation Production**: Convert comics to animated cartoons with Gemini Veo 3
+- 🛒 **E-Commerce Shop**: Full t-shirt store with 8 products and shopping cart
+- 🖼️ **Character Gallery**: Browse all 250 reference images with filtering
+
+**Quick Start**: See [QUICK_START.md](QUICK_START.md) to get running in 5 minutes!
+
 ## Repository Layout
 
 ```
@@ -88,6 +100,32 @@ See [`# Mascot Character Reference Guide.md`](#%20Mascot%20Character%20Reference
 
 ## Features
 
+### Content Generation
+* **Character Consistency System** - 50 reference images per mascot
+  * Full body poses, expressions, actions, lighting variations
+  * Character turnarounds and detail shots
+  * Total: 250 reference images across 5 characters
+* **Comic Development** - 5 complete storylines
+  * Automated panel illustration with Gemini Imagen 3
+  * HTML viewers for each comic
+  * Animation-ready scripts
+* **Animation Production** - Gemini Veo 3 integration
+  * Convert comics to animated cartoons
+  * Professional quality (1920x1080, 24fps)
+  * Configurable timing and transitions
+
+### E-Commerce Platform
+* **T-Shirt Shop** (`/shop`) - 8 products with shopping cart
+  * Character-based filtering
+  * Size selection (XS-3XL)
+  * Tier-based pricing ($22.99-$29.99)
+  * Responsive cyberpunk design
+* **Character Gallery** (`/gallery`) - Browse all 250 references
+  * Category filtering
+  * Grid/list view modes
+  * Image modal viewer
+
+### Original Features
 * Animated landing page showcasing Dumbo
 * Navbar with placeholder links
 * Express API health endpoint at `/api/health`
