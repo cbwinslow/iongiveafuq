@@ -7,6 +7,7 @@ A comprehensive dark humor storytelling agent that generates backstories, episod
 - **📖 Backstory Generation**: Deep, detailed character backstories with dark humor and authentic psychological depth
 - **🎬 Episode Creation**: Multi-scene episodes with dialogue, character interactions, and narrative arcs
 - **📰 Comic Strip Generation**: Complete comic scripts with panel layouts, dialogue, and art direction
+- **🎨 Google Gemini Integration**: Image generation with Imagen 3 and video animation with Veo 3
 - **🌐 Web Interface**: User-friendly web app for content generation and management
 - **🎲 Random Generation**: AI-driven content creation with thematic consistency
 - **⚙️ Content Management**: File organization, statistics, and batch operations
@@ -20,7 +21,10 @@ storyteller/
 ├── generators/
 │   ├── backstoryGenerator.js   # Detailed character backstory creation
 │   ├── episodeGenerator.js     # Multi-scene episode generation
-│   └── comicGenerator.js       # Comic strip and panel creation
+│   ├── comicGenerator.js       # Comic strip and panel creation
+│   └── geminiContentGenerator.js # Gemini AI visual content generation
+├── services/
+│   └── geminiService.js        # Google Gemini API integration
 ├── web/
 │   ├── server.js              # Express web server with REST API
 │   └── public/
@@ -48,8 +52,19 @@ storyteller/
 
 3. **Create output directories:**
    ```bash
-   mkdir -p generated/{backstories,episodes,comics}
+   mkdir -p generated/{backstories,episodes,comics,images,videos,gemini-content}
    ```
+
+4. **Configure Google Gemini API (optional):**
+   ```bash
+   # Set your Google API key for Gemini features
+   export GOOGLE_API_KEY=your_api_key_here
+   
+   # Or create a .env file in the project root
+   echo "GOOGLE_API_KEY=your_api_key_here" >> ../.env
+   ```
+   
+   Note: Without an API key, the system runs in mock mode for testing.
 
 ## 🎯 Usage
 
@@ -70,6 +85,11 @@ npm run generate-episode
 
 # Generate comics
 npm run generate-comic
+
+# Run Gemini integration demo
+npm run gemini-demo test
+npm run gemini-demo character-refs
+npm run gemini-demo character-package dumbo
 ```
 
 ### Web Interface
@@ -113,6 +133,18 @@ The web server provides a REST API for programmatic access:
 - `GET /api/content/stats` - Get content statistics
 - `GET /api/content/list` - List all generated content
 - `POST /api/package/generate` - Generate complete content package
+
+#### Google Gemini Integration
+- `GET /api/gemini/status` - Check Gemini API status
+- `POST /api/gemini/image/generate` - Generate image with Imagen 3
+- `POST /api/gemini/video/generate` - Generate video with Veo 3
+- `POST /api/gemini/animate/episode` - Animate an episode
+- `POST /api/gemini/animate/comic` - Animate a comic
+- `POST /api/gemini/generate/character-references` - Generate character reference sheets
+- `POST /api/gemini/generate/character-package` - Generate complete visual package for a character
+- `POST /api/gemini/generate/backstory-images` - Generate images for a backstory
+- `POST /api/gemini/generate/episode-video` - Generate video for an episode
+- `POST /api/gemini/generate/comic-animation` - Generate animated comic
 
 ## 🎨 Character Profiles
 
@@ -247,9 +279,76 @@ Dumbo faces a typical day that goes from bad to worse when his simple plan attra
 - Create new recurring characters and villains
 - Develop location-specific story elements
 
-### API Integration
-The storytelling agent is designed to integrate with:
-- Image generation APIs (for visual content)
+### Google Gemini Integration
+
+The storytelling agent now integrates with Google's Gemini AI for visual and video content generation:
+
+**🎨 Imagen 3 - Image Generation**
+- Generate character reference sheets with consistent designs
+- Create scene illustrations for backstories and episodes
+- Produce comic panel artwork with style consistency
+- Generate environment backgrounds and props
+- Support for various artistic styles and dimensions
+
+**🎬 Veo 3 - Video Generation**
+- Animate episodes into video format
+- Convert comic strips into animated sequences
+- Generate promotional videos for characters
+- Create scene-by-scene video productions
+- Support for cinematic effects and transitions
+
+**Features:**
+- **Character Packages**: Complete visual asset packages including references, expressions, environments, and promo videos
+- **Content Animation**: Automatically convert existing content (episodes, comics) into animated videos
+- **Batch Processing**: Generate multiple images or videos in a single operation
+- **Mock Mode**: Test integration without API key using simulated responses
+- **Flexible Styling**: Control visual style, dimensions, and artistic direction
+
+**Usage Examples:**
+
+```javascript
+// Generate character reference
+const result = await geminiService.generateImage({
+  prompt: 'Dumbo the dog character reference',
+  style: 'character design sheet',
+  width: 1024,
+  height: 1024
+});
+
+// Animate an episode
+const video = await geminiService.animateContent(episode, 'episode');
+
+// Generate complete character package
+const package = await geminiContentGenerator.generateCharacterPackage('dumbo');
+```
+
+**CLI Demo:**
+
+```bash
+# Test Gemini integration
+npm run gemini-demo test
+
+# Generate character references for all mascots
+npm run gemini-demo character-refs
+
+# Create complete visual package for a character
+npm run gemini-demo character-package dumbo
+
+# Generate custom image
+npm run gemini-demo image "Dumbo sitting on couch surrounded by pizza boxes"
+
+# Generate custom video
+npm run gemini-demo video "Dumbo waking up, looking confused at his surroundings"
+```
+
+**API Endpoints:**
+
+All Gemini endpoints are available at `/api/gemini/*`:
+- Check status, generate images/videos, animate content, batch operations
+- See API Endpoints section above for complete list
+
+### Traditional API Integration
+The storytelling agent can also integrate with:
 - Text-to-speech services (for character voices)
 - Content management systems
 - Social media platforms
