@@ -5,6 +5,8 @@ import { fileURLToPath } from 'url';
 import BackstoryGenerator from '../generators/backstoryGenerator.js';
 import EpisodeGenerator from '../generators/episodeGenerator.js';
 import ComicGenerator from '../generators/comicGenerator.js';
+import GeminiContentGenerator from '../generators/geminiContentGenerator.js';
+import geminiService from '../services/geminiService.js';
 import fs from 'fs-extra';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -18,6 +20,8 @@ class StorytellingWebServer {
     this.backstoryGenerator = new BackstoryGenerator();
     this.episodeGenerator = new EpisodeGenerator();
     this.comicGenerator = new ComicGenerator();
+    this.geminiContentGenerator = new GeminiContentGenerator();
+    this.geminiService = geminiService;
     
     this.setupMiddleware();
     this.setupRoutes();
@@ -46,7 +50,7 @@ class StorytellingWebServer {
     });
 
     // Mascot information
-    this.app.get('/api/mascots', (req, res) => {
+    this.app.get('/api/mascots', async (req, res) => {
       const { MASCOTS } = await import('../data/mascots.js');
       res.json(MASCOTS);
     });
@@ -339,6 +343,248 @@ class StorytellingWebServer {
           comic,
           files,
           generated_at: new Date().toISOString()
+        });
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    });
+
+    // Google Gemini integration routes
+    this.app.get('/api/gemini/status', (req, res) => {
+      res.json({
+        enabled: this.geminiService.isEnabled(),
+        models: {
+          imagen: 'imagen-3',
+          veo: 'veo-3'
+        },
+        timestamp: new Date().toISOString()
+      });
+    });
+
+    this.app.post('/api/gemini/image/generate', async (req, res) => {
+      try {
+        const options = req.body || {};
+        const result = await this.geminiService.generateImage(options);
+        res.json(result);
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    });
+
+    this.app.post('/api/gemini/video/generate', async (req, res) => {
+      try {
+        const options = req.body || {};
+        const result = await this.geminiService.generateVideo(options);
+        res.json(result);
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    });
+
+    this.app.post('/api/gemini/animate/episode', async (req, res) => {
+      try {
+        const { episodeId } = req.body;
+        
+        if (!episodeId || typeof episodeId !== 'string') {
+          return res.status(400).json({ error: 'Valid episode ID required' });
+        }
+
+        // Validate episodeId to prevent directory traversal
+        if (episodeId.includes('..') || episodeId.includes('/') || episodeId.includes('\\')) {
+          return res.status(400).json({ error: 'Invalid episode ID format' });
+        }
+
+        // Load episode from file
+        const episodePath = path.join('./generated/episodes', `${episodeId}.json`);
+        if (!await fs.pathExists(episodePath)) {
+          return res.status(404).json({ error: 'Episode not found' });
+        }
+
+        const episode = await fs.readJson(episodePath);
+        const result = await this.geminiService.animateContent(episode, 'episode');
+        
+        res.json(result);
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    });
+
+    this.app.post('/api/gemini/animate/comic', async (req, res) => {
+      try {
+        const { comicId } = req.body;
+        
+        if (!comicId || typeof comicId !== 'string') {
+          return res.status(400).json({ error: 'Valid comic ID required' });
+        }
+
+        // Validate comicId to prevent directory traversal
+        if (comicId.includes('..') || comicId.includes('/') || comicId.includes('\\')) {
+          return res.status(400).json({ error: 'Invalid comic ID format' });
+        }
+
+        // Load comic from file
+        const comicPath = path.join('./generated/comics', `${comicId}.json`);
+        if (!await fs.pathExists(comicPath)) {
+          return res.status(404).json({ error: 'Comic not found' });
+        }
+
+        const comic = await fs.readJson(comicPath);
+        const result = await this.geminiService.animateContent(comic, 'comic');
+        
+        res.json(result);
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    });
+
+    this.app.post('/api/gemini/batch/images', async (req, res) => {
+      try {
+        const { prompts = [] } = req.body;
+        
+        if (!Array.isArray(prompts) || prompts.length === 0) {
+          return res.status(400).json({ error: 'Prompts array required' });
+        }
+
+        const results = [];
+        for (const promptOptions of prompts) {
+          const result = await this.geminiService.generateImage(promptOptions);
+          results.push(result);
+        }
+
+        res.json({
+          success: true,
+          generated: results.length,
+          results,
+          timestamp: new Date().toISOString()
+        });
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    });
+
+    // Gemini content generation routes
+    this.app.post('/api/gemini/generate/character-references', async (req, res) => {
+      try {
+        const results = await this.geminiContentGenerator.generateCharacterReferences();
+        res.json({
+          success: true,
+          results,
+          timestamp: new Date().toISOString()
+        });
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    });
+
+    this.app.post('/api/gemini/generate/character-package', async (req, res) => {
+      try {
+        const { mascot } = req.body;
+        
+        if (!mascot) {
+          return res.status(400).json({ error: 'Mascot parameter required' });
+        }
+
+        const results = await this.geminiContentGenerator.generateCharacterPackage(mascot);
+        res.json({
+          success: true,
+          results,
+          timestamp: new Date().toISOString()
+        });
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    });
+
+    this.app.post('/api/gemini/generate/backstory-images', async (req, res) => {
+      try {
+        const { backstoryId } = req.body;
+        
+        if (!backstoryId || typeof backstoryId !== 'string') {
+          return res.status(400).json({ error: 'Valid backstory ID required' });
+        }
+
+        // Validate backstoryId to prevent directory traversal
+        if (backstoryId.includes('..') || backstoryId.includes('/') || backstoryId.includes('\\')) {
+          return res.status(400).json({ error: 'Invalid backstory ID format' });
+        }
+
+        // Load backstory
+        const backstoryPath = path.join('./generated/backstories', `${backstoryId}.json`);
+        if (!await fs.pathExists(backstoryPath)) {
+          return res.status(404).json({ error: 'Backstory not found' });
+        }
+
+        const backstory = await fs.readJson(backstoryPath);
+        const results = await this.geminiContentGenerator.generateBackstoryImages(backstory);
+        
+        res.json({
+          success: true,
+          results,
+          timestamp: new Date().toISOString()
+        });
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    });
+
+    this.app.post('/api/gemini/generate/episode-video', async (req, res) => {
+      try {
+        const { episodeId } = req.body;
+        
+        if (!episodeId || typeof episodeId !== 'string') {
+          return res.status(400).json({ error: 'Valid episode ID required' });
+        }
+
+        // Validate episodeId to prevent directory traversal
+        if (episodeId.includes('..') || episodeId.includes('/') || episodeId.includes('\\')) {
+          return res.status(400).json({ error: 'Invalid episode ID format' });
+        }
+
+        // Load episode
+        const episodePath = path.join('./generated/episodes', `${episodeId}.json`);
+        if (!await fs.pathExists(episodePath)) {
+          return res.status(404).json({ error: 'Episode not found' });
+        }
+
+        const episode = await fs.readJson(episodePath);
+        const results = await this.geminiContentGenerator.generateEpisodeVideo(episode);
+        
+        res.json({
+          success: true,
+          results,
+          timestamp: new Date().toISOString()
+        });
+      } catch (error) {
+        res.status(500).json({ error: error.message });
+      }
+    });
+
+    this.app.post('/api/gemini/generate/comic-animation', async (req, res) => {
+      try {
+        const { comicId } = req.body;
+        
+        if (!comicId || typeof comicId !== 'string') {
+          return res.status(400).json({ error: 'Valid comic ID required' });
+        }
+
+        // Validate comicId to prevent directory traversal
+        if (comicId.includes('..') || comicId.includes('/') || comicId.includes('\\')) {
+          return res.status(400).json({ error: 'Invalid comic ID format' });
+        }
+
+        // Load comic
+        const comicPath = path.join('./generated/comics', `${comicId}.json`);
+        if (!await fs.pathExists(comicPath)) {
+          return res.status(404).json({ error: 'Comic not found' });
+        }
+
+        const comic = await fs.readJson(comicPath);
+        const results = await this.geminiContentGenerator.animateComic(comic);
+        
+        res.json({
+          success: true,
+          results,
+          timestamp: new Date().toISOString()
         });
       } catch (error) {
         res.status(500).json({ error: error.message });

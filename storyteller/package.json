@@ -9,15 +9,18 @@
     "generate-backstories": "node generators/backstoryGenerator.js",
     "generate-episode": "node generators/episodeGenerator.js",
     "generate-comic": "node generators/comicGenerator.js",
-    "web": "node web/server.js"
+    "web": "node web/server.js",
+    "gemini-demo": "node gemini-demo.js",
+    "test": "node test/gemini.test.js"
   },
   "dependencies": {
-    "express": "^4.19.0",
-    "cors": "^2.8.5",
-    "uuid": "^9.0.0",
-    "fs-extra": "^11.1.1",
+    "@google/generative-ai": "^0.24.1",
     "chalk": "^5.3.0",
-    "inquirer": "^9.2.0"
+    "cors": "^2.8.5",
+    "express": "^4.19.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
