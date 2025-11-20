@@ -9,6 +9,10 @@
     "generate-backstories": "node generators/backstoryGenerator.js",
     "generate-episode": "node generators/episodeGenerator.js",
     "generate-comic": "node generators/comicGenerator.js",
+    "generate-character-refs": "node generate_character_consistency.js",
+    "generate-character-refs-all": "node generate_character_consistency.js all",
+    "generate-comic-illustrations": "node generate_comic_illustrations.js all",
+    "generate-comic-animations": "node generate_comic_illustrations.js all --animate",
     "web": "node web/server.js",
     "gemini-demo": "node gemini-demo.js",
     "test": "node test/gemini.test.js"
