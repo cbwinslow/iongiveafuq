@@ -10,10 +10,11 @@ The site embraces a neon cyberpunk aesthetic and uses React, Tailwind CSS and Fr
 ## Repository Layout
 
 ```
-backend/    Express API service
-frontend/   React + Vite web app
+backend/      Express API service
+frontend/     React + Vite web app
+storyteller/  AI-powered content generation with Google Gemini
 # Mascot Character Reference Guide.md  Lore and art prompts
-context.md  In-depth context with code listing
+context.md    In-depth context with code listing
 ```
 
 See `docs/landing-page.md` for a curated entry point and `docs/site-index.md` to navigate all documentation.
@@ -49,9 +50,31 @@ Use the helper script to run tests and start all services in Docker:
 Make sure to create a `.env` file first:
 ```bash
 cp .env.example .env
-# edit .env and provide your Cloudflare tokens
-# you can also tweak PORT and VITE_API_URL if needed
+# edit .env and provide your tokens:
+# - Cloudflare tokens for deployment
+# - GOOGLE_API_KEY for Gemini features (optional)
+# - PORT and VITE_API_URL if needed
 ```
+
+### Storytelling Agent with Google Gemini
+```bash
+cd storyteller
+npm install
+
+# Test Gemini integration
+npm run gemini-demo test
+
+# Generate character references with Imagen 3
+npm run gemini-demo character-refs
+
+# Create animated content with Veo 3
+npm run gemini-demo character-package dumbo
+
+# Start web interface
+npm run web    # available on http://localhost:3000
+```
+
+See [`storyteller/README.md`](./storyteller/README.md) for complete documentation.
 
 ## Deployment
 
@@ -68,8 +91,14 @@ See [`# Mascot Character Reference Guide.md`](#%20Mascot%20Character%20Reference
 * Animated landing page showcasing Dumbo
 * Navbar with placeholder links
 * Express API health endpoint at `/api/health`
+* **Google Gemini Integration** - AI-powered content generation
+  * Imagen 3 for character artwork and scene illustrations
+  * Veo 3 for video animation and content generation
+  * Complete character asset packages
+  * Episode and comic animation
 * Dockerfiles for production builds of both frontend and backend
 * Example GitHub workflow for building and deploying automatically
+* Comprehensive storytelling agent with dark humor content generation
 
 ## Further Information
 
