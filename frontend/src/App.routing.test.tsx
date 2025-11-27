@@ -5,11 +5,11 @@ import { describe, it, expect } from 'vitest';
 import App from './App';
 
 describe('routing', () => {
-  it('navigates to Store page', () => {
-    render(<App />);
+  it('navigates to Store page', async () => {
     act(() => {
       window.history.pushState({}, '', '/store');
     });
-    expect(screen.getByText(/Grab your fuqs/i)).toBeTruthy();
+    render(<App />);
+    expect(await screen.findByText(/Merch, comics, and collectibles/i)).toBeTruthy();
   });
 });
