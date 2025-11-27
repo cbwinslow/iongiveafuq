@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { searchCatalog, SearchResult } from '../data/catalog';
 
@@ -6,11 +6,21 @@ export default function Search() {
   const [params, setParams] = useSearchParams();
   const [query, setQuery] = useState(params.get('query') ?? '');
   const [results, setResults] = useState<SearchResult[]>(searchCatalog(query));
+  const lastSyncedQueryRef = useRef(query);
 
   useEffect(() => {
     setResults(searchCatalog(query));
     setParams({ query });
+    lastSyncedQueryRef.current = query;
   }, [query, setParams]);
+
+  useEffect(() => {
+    const paramQuery = params.get('query') ?? '';
+    if (paramQuery === lastSyncedQueryRef.current) {
+      return;
+    }
+    setQuery(paramQuery);
+  }, [params]);
 
   return (
     <div className="space-y-6">
